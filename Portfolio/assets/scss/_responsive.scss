@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    #sidebar {
+        background: darken($secondary, 30%);
+        padding-right: 60%;
+        transform: translateX(-100%);
+
+        &.open {
+            transform: translateX(0);
+        }
+
+        .toggle-sidebar {
+            display: flex;
+        }
+        
+        .logo {
+            text-align: left;
+        }
+
+        nav ul li {
+            a {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+
+                span {
+                    display: block;
+                    padding-left: 8px;
+                }
+            }
+
+            > span {
+                display: none;
+            }
+        }
+    }
+
+    main {
+        padding-left: 0;
+        padding-top: 50px;
+    }
+}

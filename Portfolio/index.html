@@ -12,33 +12,54 @@
 </head>
 <body>
     <div id="sidebar">
+        <div class="toggle-sidebar">
+            <i class="las la-bars"></i>
+        </div>
         <div class="logo">
             <img src="assets/images/logo.png" alt="">
         </div>
         <nav>
             <ul>
                 <li>
-                    <a href="#home" class="active"><i class="las la-home"></i></a>
+                    <a href="#home" class="active">
+                        <i class="las la-home"></i>
+                        <span>Home</span>
+                    </a>
                     <span>Home</span>
                 </li>
                 <li>
-                    <a href="#about_me"><i class="las la-address-card"></i></a>
+                    <a href="#about_me">
+                        <i class="las la-address-card"></i>
+                        <span>About Me</span>
+                    </a>
                     <span>About Me</span>
                 </li>
                 <li>
-                    <a href="#my_resume"><i class="las la-file"></i></a>
+                    <a href="#my_resume">
+                        <i class="las la-file"></i>
+                        <span>My Resume</span>
+                    </a>
                     <span>My Resume</span>
                 </li>
                 <li>
-                    <a href="#my_work"><i class="las la-briefcase"></i></a>
+                    <a href="#my_work">
+                        <i class="las la-briefcase"></i>
+                        <span>My Work</span>
+                    </a>
                     <span>My Work</span>
                 </li>
                 <li>
-                    <a href="#testimonial"><i class="las la-comment-alt"></i></a>
+                    <a href="#testimonial">
+                        <i class="las la-comment-alt"></i>
+                        <span>Testimonial</span>
+                    </a>
                     <span>Testimonial</span>
                 </li>
                 <li>
-                    <a href="#contact_me"><i class="las la-envelope"></i></a>
+                    <a href="#contact_me">
+                        <i class="las la-envelope"></i>
+                        <span>Contact Me</span>
+                    </a>
                     <span>Contact Me</span>
                 </li>
             </ul>
@@ -50,7 +71,55 @@
         </div>
     </div>
     <main>
-        <section id="home" class="active">Home</section>
+        <section id="home" class="active"></section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 info">
+                        <img src="assets/images/profile-picture-circle.png" alt="profile picture circle">
+                        <h1><span>I'm</span>Tomek,</h1>
+                        <h2>Developer</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Quisquam, voluptatum. Quisquam, voluptatum.
+                        </p>
+                        <a href="assets/files/Tomasz Wnuk CV.pdf" download>Download Resume</a>
+                        <div class="socials">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="la la-linkedin"></i>
+                                        <span>LinkedIn</span>
+                                    </a>
+                                <li>
+                                    <a href="#">
+                                        <i class="la la-facebook"></i>
+                                        <span>Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="la la-github"></i>
+                                        <span>Github</span>
+                                    </a>
+                                </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="la la-stack-overflow"></i>
+                                            <span>Stack</span>
+                                        </a>
+                                    </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="col-lg-6">
+                            <img src="assets/images/profile-picture-home.png" alt="profile picture home">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <section id="about_me">About</section>
         <section id="my_resume">Resume</section>
         <section id="my_work">Work</section>

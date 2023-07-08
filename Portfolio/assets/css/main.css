@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -39,6 +39,18 @@ main > section.active {
   padding-left: 39px;
   display: flex;
   flex-direction: column;
+  transition: all 0.3s;
+}
+#sidebar .toggle-sidebar {
+  position: absolute;
+  font-size: 30px;
+  width: 45px;
+  height: 45px;
+  background: black;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  right: -45px;
 }
 #sidebar .logo {
   height: 20%;
@@ -60,6 +72,9 @@ main > section.active {
   position: relative;
   margin-bottom: 35px;
 }
+#sidebar nav ul li a {
+  position: relative;
+}
 #sidebar nav ul li a:hover i {
   color: #fff;
 }
@@ -67,23 +82,35 @@ main > section.active {
   opacity: 1;
   left: 30px;
 }
-#sidebar nav ul li a.active:before {
+#sidebar nav ul li a:before {
   content: "";
   position: absolute;
   width: 46px;
   height: 46px;
   border-radius: 50%;
   background: #658DF2;
-  opacity: 0.15;
+  opacity: 0;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0);
+  transition: all 0.3s;
+}
+#sidebar nav ul li a.active:before {
+  opacity: 0.15;
+  transform: translate(-50%, -50%) scale(1);
+}
+#sidebar nav ul li a.active i {
+  color: #658DF2;
+}
+#sidebar nav ul li a span {
+  display: none;
 }
 #sidebar nav ul li a i {
   font-size: 18px;
   color: #B6B7BA;
+  transition: all 0.3s;
 }
-#sidebar nav ul li span {
+#sidebar nav ul li > span {
   position: absolute;
   white-space: nowrap;
   top: -8px;
@@ -137,4 +164,37 @@ main > section.active {
 
 #contact {
   background: black;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    background: black;
+    padding-right: 60%;
+    transform: translateX(-100%);
+  }
+  #sidebar.open {
+    transform: translateX(0);
+  }
+  #sidebar .toggle-sidebar {
+    display: flex;
+  }
+  #sidebar .logo {
+    text-align: left;
+  }
+  #sidebar nav ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  #sidebar nav ul li a span {
+    display: block;
+    padding-left: 8px;
+  }
+  #sidebar nav ul li > span {
+    display: none;
+  }
+  main {
+    padding-left: 0;
+    padding-top: 50px;
+  }
 }/*# sourceMappingURL=main.css.map */
