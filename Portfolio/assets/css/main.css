@@ -39,7 +39,6 @@ main > section.active {
   padding-left: 39px;
   display: flex;
   flex-direction: column;
-  transition: all 0.3s;
 }
 #sidebar .toggle-sidebar {
   position: absolute;
@@ -154,10 +153,6 @@ main > section.active {
   border-radius: 50%;
 }
 
-#home {
-  background: black;
-}
-
 #work {
   background: red;
 }
@@ -169,8 +164,9 @@ main > section.active {
 @media (max-width: 768px) {
   #sidebar {
     background: black;
-    padding-right: 60%;
+    padding-right: 60px;
     transform: translateX(-100%);
+    transition: all 0.3s;
   }
   #sidebar.open {
     transform: translateX(0);
