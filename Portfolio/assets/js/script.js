@@ -27,3 +27,12 @@ new Typed(".field h2", {
     backSpeed: 50,
     loop: true,
 });
+
+
+
+// Meteor shower animation
+for(let i = 0; i < 15; i++) {
+    let meteor = document.createElement("span");
+    meteor.classList = "meteor";
+    document.querySelector("#home .meteor-shower").appendChild(meteor);
+}
