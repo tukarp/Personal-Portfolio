@@ -1,3 +1,4 @@
+// Sidebar active section changer
 let navLinks = document.querySelectorAll("nav ul li a");
 
 // Sidebar active section changer function
@@ -13,7 +14,16 @@ navLinks.forEach((item) => {
 
 
 // Sidebar menu toggle function for mobile
-document.querySelector("#sidebar .toggle-sidebar").click().addEventListener("click", function() {
-    document.querySelector("#sidebar").classList.toggle("open");
+document.querySelector("#sidebar .toggle-sidebar").addEventListener("click", function() {
+    document.querySelector('#sidebar').classList.toggle("open");
+});
 
+
+
+// Typed.js for the header
+new Typed(".field h2", {
+    strings: ["Back-End Developer", "Student"],
+    typeSpeed: 80,
+    backSpeed: 50,
+    loop: true,
 });

@@ -203,9 +203,18 @@ main > section.active {
 #home .info h1 span {
   color: #B6B7BA;
 }
-#home .info h2 {
-  color: #B6B7BA;
+#home .info .field {
+  display: flex;
+  align-items: center;
   margin-bottom: 16px;
+}
+#home .info .field h2 {
+  color: #B6B7BA;
+  margin: 0px;
+}
+#home .info .field span {
+  font-size: 21px;
+  margin-left: 2px;
 }
 #home .info p {
   max-width: 430px;
@@ -245,7 +254,7 @@ main > section.active {
   transition: all 0.3s;
 }
 #home .info .socials ul li a span {
-  color: #1E1E20;
+  color: #808185;
   transition: all 0.3s;
 }
 #home .image {
@@ -254,12 +263,12 @@ main > section.active {
   align-items: center;
   justify-content: flex-end;
 }
-#home .image .img {
+#home .image img {
   border-radius: 8px;
   transition: all 0.3s;
 }
-#home .image .img:hover {
-  filter: saturate(200px) sepia(1);
+#home .image img:hover {
+  filter: saturate(200%) sepia(1);
 }
 
 #work {
