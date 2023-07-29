@@ -57,6 +57,7 @@
     header.custom {
         position: relative;
         text-align: center;
+        margin-bottom: 42px;
     
         &:before {
             content: "";
@@ -96,7 +97,7 @@
                 width: 15px;
                 height: 15px;
                 border-radius: 4px;
-                background: $primary;
+                background: $secondary;
                 transform: rotate(40deg);
             }
 
@@ -106,8 +107,15 @@
                 width: 15px;
                 height: 15px;
                 border-radius: 4px;
-                background: $primary;
+                background: $secondary;
                 transform: rotate(50deg);
+            }
+
+            &.fill {
+                &:before,
+                &:after {
+                    background-color: $primary;
+                }
             }
         }
     }
@@ -118,12 +126,12 @@
             padding-right: 160px;
             .languages {
                 .items {
+                    margin-bottom: 43px;
+
                     .item {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        margin-top: 38px;
-                        margin-bottom: 43px;
 
                         &:not(:last-child) {
                             margin-bottom: 16px;
@@ -145,7 +153,6 @@
 
             .key-skills {
                 .items {
-                    margin-top: 53px;
 
                     .item {
                         display: flex;
@@ -162,7 +169,6 @@
 
         .web-skills {
             .items {
-                margin-top: 42px;
                 margin-left: -20px;
                 margin-right: -20px;
 
@@ -221,6 +227,24 @@
     
                     .year {
                         color: #FF9F76;
+                    }
+                }
+            }
+        }
+
+        .certificates {
+            margin-top: 102px;
+            margin-bottom: 200px;
+
+            .item {
+                .item {
+                    img {
+                        width: 100%;
+                        transition: all 0.3s;
+
+                        &:hover {
+                            transform: scale(1.1);
+                        }
                     }
                 }
             }
