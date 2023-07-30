@@ -5,9 +5,18 @@
 }
 
 @media (max-width: 1199px) {
-    .language-skills .languages-key-skills {
-        padding-right: 12px;
+    #about_me {
+        .language-skills .languages-key-skills {
+            padding-right: 12px;
+        }
     }
+    
+    #my_resume {
+        .experience {
+            margin-top: 100px;
+        }
+    }
+
 }
 
 @media (max-width: 991px) {    
@@ -103,6 +112,38 @@
                     margin-bottom: 16px;
                 }
             }
+        }
+    }
+
+    #my_resume {
+        .items {
+            .item {
+                position: relative;
+
+                .icon {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: -23px;
+                    z-index: 2;
+                    margin-top: 0;
+                    background: rgba($secondary, 75%);
+
+                    &:before {
+                        display: none;
+                    }
+                }
+
+                .box:before {
+                    display: none;
+                }
+            }
+        }
+
+        .education,
+        .experience {
+            padding-right: 12px;
+            padding-left: 12px;
         }
     }
 }
