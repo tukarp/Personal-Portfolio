@@ -1,34 +1,45 @@
+<!-- Portfolio Website -->
+<!-- Made by Tomasz Wnuk -->
+
 <!DOCTYPE html>
 <html lang="en">
+
+
+
+<!-- Head Section -->
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tomasz Wnuk Portfolio</title>
-    <!-- This is a comment -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="icon" type="image.png" href="assets/images/logo.png">
+    <meta charset="UTF-8">                                                                                              <!-- Character encoding for Unicode Transformation Format -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">                                                               <!-- Telling browser to render the page in the highest mode available -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                                              <!-- Telling browser how to control the page's dimensions and scaling -->
+    <title>Tomasz Wnuk Portfolio</title>                                                                                <!-- Title of the page -->
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">   <!-- Importing Line Awesome icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    <!-- Importing Bootstrap 5 -->
+    <link rel="stylesheet" href="Assets/CSS/main.css">                                                                  <!-- Importing Main CSS file -->
 </head>
-<body>
-    <div id="sidebar">
-        <div class="toggle-sidebar">
-            <i class="las la-bars"></i>
-        </div>
-        <div class="logo">
-            <img src="assets/images/logo.svg" alt="">
-        </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#home" class="inner-link">
-                        <i class="las la-home"></i>
-                        <span>Home</span>
-                    </a>
-                    <span>Home</span>
-                </li>
-                <li>
+
+
+
+<!-- Body Section -->
+<body>                                                                                                                  <!-- Body of the page -->
+    <div id="sidebar">                                                                                                  <!-- Sidebar -->
+        <div class="toggle-sidebar">                                                                                    <!-- Toggle Sidebar -->
+            <i class="las la-bars"></i>                                                                                 <!-- Toggle Sidebar Icon -->
+        </div>                                                                                                          <!-- End of the Toggle Sidebar -->
+        <div class="logo">                                                                                              <!-- Website Logo -->
+            <img src="Assets/Images/Logo.svg" alt="">                                                                   <!-- Logo Image -->
+        </div>                                                                                                          <!-- End of the Website Logo -->
+        <nav>                                                                                                           <!-- Navigation of the Sidebar -->
+            <ul>                                                                                                        <!-- Unordered List -->
+                <li>                                                                                                    <!-- Home List Item -->
+                    <a href="#home" class="active inner-link">                                                                 <!-- Home Link -->
+                        <i class="las la-home"></i>                                                                     <!-- Home Icon -->
+                        <span>Home</span>                                                                               <!-- Home Span -->
+                    </a>                                                                                                <!-- Home Link End -->
+                    <span>Home</span>                                                                                   <!-- Home Span -->
+                </li>                                                                                                   <!-- End of the Home List Item -->
+                <li>                                                                                                    <!-- About Me List Item -->
                     <a href="#about_me" class="inner-link">
                         <i class="las la-address-card"></i>
                         <span>About Me</span>
@@ -36,7 +47,7 @@
                     <span>About Me</span>
                 </li>
                 <li>
-                    <a href="#my_resume" class="active inner-link">
+                    <a href="#my_resume" class="inner-link">
                         <i class="las la-file"></i>
                         <span>My Resume</span>
                     </a>
@@ -46,58 +57,61 @@
                     <a href="#my_work" class="inner-link">
                         <i class="las la-briefcase"></i>
                         <span>My Work</span>
-                    </a>
-                    <span>My Work</span>
-                </li>
-                <li>
-                    <a href="#testimonial" class="inner-link">
-                        <i class="las la-comment-alt"></i>
-                        <span>Testimonial</span>
-                    </a>
-                    <span>Testimonial</span>
-                </li>
-                <li>
-                    <a href="#contact_me" class="inner-link">
-                        <i class="las la-envelope"></i>
-                        <span>Contact Me</span>
-                    </a>
-                    <span>Contact Me</span>
-                </li>
-            </ul>
-        </nav>
-        <div class="toggle-mode">
-            <div class="outer">
-                <div class="inner"></div>
-            </div>
-        </div>
-    </div>
-    <main>
-        <section id="home">
-            <div class="meteor-shower"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 info">
-                        <img class="person-circle" src="assets/images/profile-picture-circle.png" alt="person circle">
-                        <h1><span>I'm</span> Tomek,</h1>
+                    </a>                                                                                                                <!-- My Work Section Link -->
+                    <span>My Work</span>                                                                                                <!-- Work Span -->
+                </li>                                                                                                                   <!-- End of the List Item -->
+                <li>                                                                                                                    <!-- Testimonial List Item -->
+                    <a href="#testimonial" class="inner-link">                                                                          <!-- Testimonial Link -->
+                        <i class="las la-comment-alt"></i>                                                                              <!-- Testimonial Icon -->
+                        <span>Testimonial</span>                                                                                        <!-- Testimonial Span -->
+                    </a>                                                                                                                <!-- Testimonial Link -->
+                    <span>Testimonial</span>                                                                                            <!-- Testimonial Span -->
+                </li>                                                                                                                   <!-- End of the Testimonial List Item -->
+                <li>                                                                                                                    <!-- Contact me List Item -->
+                    <a href="#contact_me" class="inner-link">                                                                    <!-- Contact me Link -->
+                        <i class="las la-envelope"></i>                                                                                 <!-- Contact me Icon -->
+                        <span>Contact Me</span>                                                                                         <!-- Contact me Span -->
+                    </a>                                                                                                                <!-- Contact me Link -->
+                    <span>Contact Me</span>                                                                                             <!-- Contact me Span -->
+                </li>                                                                                                                   <!-- End of the List Item -->
+            </ul>                                                                                                                       <!-- End of the Unordered List -->
+        </nav>                                                                                                                          <!-- End of the Navigation -->
+        <div class="toggle-mode">                                                                                                       <!-- Dark Mode Toggle for Sidebar -->
+            <div class="outer">                                                                                                         <!-- Outer Dark Mode Toggle for Sidebar -->
+                <div class="inner"></div>                                                                                               <!-- Inner Dark Mode Toggle for Sidebar -->
+            </div>                                                                                                                      <!-- End of the Outer Dark Mode Toggle for Sidebar -->
+        </div>                                                                                                                          <!-- End of the Dark Mode Toggle for Sidebar -->
+    </div>                                                                                                                              <!-- End of the Sidebar -->
+    <main>                                                                                                                              <!-- Main content of the Home page -->
+        <section id="home" class="active">                                                                                              <!-- Home section -->
+            <div class="meteor-shower"></div>                                                                                           <!-- Meteor shower animation -->
+            <div class="container">                                                                                                     <!-- Container for the Home section -->
+                <div class="row">                                                                                                       <!-- Row for the Home section -->
+                    <div class="col-lg-6 info">                                                                                 <!-- Column for the Home section -->
+                        <header class="has-bg">
+                            <img src="Assets/Images/Header-background.png" alt="header background">
+                            <h1><span>I’m</span> Tomek,</h1>
+                        </header>
                         <div class="field">
                             <h2></h2>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Quisquam, voluptatum. Quisquam, voluptatum.
+                            I am a 3rd year computer science student with a great passion for exploring new technologies.
+                            Apart from my studies, I strive to pursue my own projects and develop my passion further.
+                            I am a fan of fantasy, psychological books, horror films, and evening workouts at the gym.
                         </p>
-                        <a class="btn-custom-blue" href="assets/files/Tomasz Wnuk CV.pdf" download>Download Resume</a>
+                        <a class="btn-custom-blue" href="Assets/Files/Wnuk Tomasz CV.pdf" download>Download CV</a>
                         <div class="socials">
                             <ul>
                                 <li>
                                     <a href="#">
-                                        <i class="lab la-linkedin"></i>
-                                        <span>LinkedIn</span>
+                                        <i class="lab la-linkedin-in"></i>
+                                        <span>Linkedin</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="lab la-facebook"></i>
+                                        <i class="lab la-facebook-f"></i>
                                         <span>Facebook</span>
                                     </a>
                                 </li>
@@ -110,14 +124,14 @@
                                 <li>
                                     <a href="#">
                                         <i class="lab la-stack-overflow"></i>
-                                        <span>StackOverflow</span>
+                                        <span>Stack Overflow</span>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-6 image">
-                        <img src="assets/images/profile-picture-home.png" alt="person home">
+                        <img src="Assets/Images/Home-section-profile-picture-home.png" alt="person home">
                     </div>
                 </div>
             </div>
@@ -125,19 +139,17 @@
         <section id="about_me">
             <div class="container">
                 <div class="row hero">
-                    <div class="col-xl-6 col-lg-4 image">
-                        <img src="assets/images/person-about.png" alt="person about">
+                    <div class="col-xxl-6 col-lg-4 image">
+                        <img src="Assets/Images/About-section-profile-picture.png" alt="person about">
                     </div>
-                    <div class="col-xl-6 col-lg-4 info">
+                    <div class="col-xxl-6 col-lg-8 info">
                         <header class="has-bg">
-                            <img src="assets/images/h1-bg.png" alt="h1 bg">
+                            <img src="Assets/Images/Header-background.png" alt="header background">
                             <h1>About Me</h1>
                         </header>
-                        <h2>Back-End Developer</h2>
+                        <h2>Front-End web developer</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Quisquam, voluptatum. Quisquam, voluptatum. <br>
-                            This is my motto: <br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </p>
                         <div class="items">
                             <div class="container">
@@ -145,7 +157,7 @@
                                     <div class="col-lg-6 ps-0">
                                         <div class="item">
                                             <span class="title">Name:</span>
-                                            <span class="value">Tomek</span>
+                                            <span class="value">Tomasz</span>
                                         </div>
                                         <div class="item">
                                             <span class="title">Age:</span>
@@ -173,14 +185,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="buttons"> 
-                            <a href="assets/files/Tomasz Wnuk CV.pdf" download class="btn-custom-blue">Download Resume</a>
+                        <div class="buttons">
+                            <a href="Assets/Files/Tomasz Wnuk CV.pdf" class="btn-custom-blue" download>Download CV</a>
                             <a href="#contact_me" class="btn-custom-dark inner-link">Contact me</a>
                         </div>
                     </div>
                 </div>
                 <div class="row languages-skills">
-                    <div class="col-xl-6 languages-key-skills">
+                    <div class="col-lg-6 languages-key-skills">
                         <div class="languages">
                             <header class="custom">
                                 <h2>Languages</h2>
@@ -188,7 +200,7 @@
                             <ul class="items">
                                 <li class="item">
                                     <div class="info">
-                                        <h3>Polish</h3>
+                                        <h3>English</h3>
                                         <span class="level">Native</span>
                                     </div>
                                     <div class="rate">
@@ -201,14 +213,14 @@
                                 </li>
                                 <li class="item">
                                     <div class="info">
-                                        <h3>English</h3>
-                                        <span class="level">C1</span>
+                                        <h3>French</h3>
+                                        <span class="level">Conversational</span>
                                     </div>
                                     <div class="rate">
                                         <span class="fill"></span>
                                         <span class="fill"></span>
                                         <span class="fill"></span>
-                                        <span class="fill"></span>
+                                        <span></span>
                                         <span></span>
                                     </div>
                                 </li>
@@ -226,7 +238,7 @@
                                         <span class="fill"></span>
                                         <span class="fill"></span>
                                         <span class="fill"></span>
-                                        <span class="fill"></span>
+                                        <span></span>
                                     </div>
                                 </li>
                                 <li class="item">
@@ -235,8 +247,8 @@
                                         <span class="fill"></span>
                                         <span class="fill"></span>
                                         <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
+                                        <span></span>
+                                        <span></span>
                                     </div>
                                 </li>
                                 <li class="item">
@@ -246,58 +258,58 @@
                                         <span class="fill"></span>
                                         <span class="fill"></span>
                                         <span class="fill"></span>
-                                        <span class="fill"></span>
+                                        <span></span>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-6 web-skills mt-5 mt-lg-0">
-                        <header class="header custom">
-                            <h2>My web skills</h2>
+                    <div class="col-lg-6 web-skills mt-5 mt-lg-0">
+                        <header class="custom">
+                            <h2>My Web Skills</h2>
                         </header>
                         <div class="container">
                             <div class="items row">
                                 <div class="col-xl-4 col-sm-6 px-2">
                                     <div class="item">
-                                        <img src="assets/images/web skills/html5.png" alt="html5">
+                                        <img src="Assets/Images/Skills/HTML5.png" alt="HTML5">
                                         <h3>HTML 5</h3>
-                                        <span class="year">0 years</span>
+                                        <span class="year">0</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 col-sm-6 px-2">
                                     <div class="item">
-                                        <img src="assets/images/web skills/css3.png" alt="css3">
+                                        <img src="Assets/Images/Skills/CSS3.png" alt="CSS3">
                                         <h3>CSS 3</h3>
-                                        <span class="year">0 years</span>
+                                        <span class="year">0</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 col-sm-6 px-2">
                                     <div class="item">
-                                        <img src="assets/images/web skills/bootstrap.png" alt="bootstrap">
+                                        <img src="Assets/Images/Skills/Bootstrap.png" alt="Bootstrap">
                                         <h3>Bootstrap</h3>
-                                        <span class="year">0 years</span>
+                                        <span class="year">0</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 col-sm-6 px-2">
                                     <div class="item">
-                                        <img src="assets/images/web skills/vuejs.png" alt="vuejs">
+                                        <img src="Assets/Images/Skills/Vuejs.png" alt="Vuejs">
                                         <h3>Vue.js</h3>
-                                        <span class="year">0 years</span>
+                                        <span class="year">0</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 col-sm-6 px-2">
                                     <div class="item">
-                                        <img src="assets/images/web skills/js.png" alt="javascript">
-                                        <h3>Javascript</h3>
-                                        <span class="year">0 years</span>
+                                        <img src="Assets/Images/Skills/JavaScript.png" alt="JavaScript">
+                                        <h3>JavaScript</h3>
+                                        <span class="year">0</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-4 col-sm-6 px-2">
                                     <div class="item">
-                                        <img src="assets/images/web skills/jquery.png" alt="jQuery">
+                                        <img src="Assets/Images/Skills/jQuery.png" alt="jQuery">
                                         <h3>jQuery</h3>
-                                        <span class="year">0 years</span>
+                                        <span class="year">0</span>
                                     </div>
                                 </div>
                             </div>
@@ -310,97 +322,87 @@
                     </header>
                     <div class="items row justify-content-center">
                         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 item">
-                            <img src="assets/images/certifications/1.png" alt="certification 1">
+                            <img src="Assets/Images/Certifications/1.png" alt="certification">
                         </div>
                         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 item">
-                            <img src="assets/images/certifications/2.png" alt="certificatiom 2">
+                            <img src="Assets/Images/Certifications/2.png" alt="certification">
                         </div>
                         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 item">
-                            <img src="assets/images/certifications/3.png" alt="certificatiom 3">
+                            <img src="Assets/Images/Certifications/3.png" alt="certification">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="my_resume" class="active">
+        <section id="my_resume">
             <div class="text-center">
                 <header class="has-bg">
-                    <img src="assets/images/h1-bg.png" alt="h1 bg">
-                    <h1>My resume</h1>
+                    <img src="Assets/Images/Header-background.png" alt="header background">
+                    <h1>My Resume</h1>
                 </header>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6 education">
-                            <header class="custom">
-                                <h2>Education</h2>
-                            </header>
-                            <div class="items">
-                                <div class="item first">
-                                    <div class="icon">
-                                        <i class="las la-university"></i>
-                                    </div>
-                                    <div class="box">
-                                        <span class="year">2021-2024</span>
-                                        <h2 class="title">Licencjat</h2>
-                                        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-                                    </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 education">
+                        <header class="custom">
+                            <h2>Education</h2>
+                        </header>
+                        <div class="items">
+                            <div class="item last">
+                                <div class="icon">
+                                    <i class="las la-university"></i>
                                 </div>
-                                <div class="item">
-                                    <div class="icon">
-                                        <i class="las la-university"></i>
-                                    </div>
-                                    <div class="box">
-                                        <span class="year">2021-2024</span>
-                                        <h2 class="title">Szkoła średnia</h2>
-                                        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-                                    </div>
+                                <div class="box">
+                                    <span class="year">2021 - 2024</span>
+                                    <h2 class="title">Bachelor's degree</h2>
+                                    <p>Bmet minim mollit deserunt llamco est sit aliqua</p>
                                 </div>
-                                <div class="item">
-                                    <div class="icon">
-                                        <i class="las la-university"></i>
-                                    </div>
-                                    <div class="box">
-                                        <span class="year">2021-2024</span>
-                                        <h2 class="title">cos tam</h2>
-                                        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-                                    </div>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                    <i class="las la-university"></i>
+                                </div>
+                                <div class="box">
+                                    <span class="year">2018 - 2021</span>
+                                    <h2 class="title">Marie Curie-Skłodowska High School, Lublin</h2>
+                                    <p>Bmet minim mollit deserunt llamco est sit aliqua</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                    <i class="las la-university"></i>
+                                </div>
+                                <div class="box">
+                                    <span class="year">2015 - 2018</span>
+                                    <h2 class="title">Junior High School, Nałęczów</h2>
+                                    <p>Bmet minim mollit deserunt llamco est sit aliqua</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 experience">
-                            <header class="custom">
-                                <h2>Experience</h2>
-                            </header>
-                            <div class="items">
-                                <div class="item first">
-                                    <div class="icon">
-                                        <i class="las la-briefcase"></i>
-                                    </div>
-                                    <div class="box">
-                                        <span class="year">July 2023 - Present</span>
-                                        <h2 class="title">Licencjat</h2>
-                                        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-                                    </div>
+                    </div>
+                    <div class="col-xl-6 experience">
+                        <header class="custom">
+                            <h2>Experience</h2>
+                        </header>
+                        <div class="items">
+                            <div class="item last">
+                                <div class="icon">
+                                    <i class="las la-briefcase"></i>
                                 </div>
-                                <div class="item">
-                                    <div class="icon">
-                                        <i class="las la-briefcase"></i>
-                                    </div>
-                                    <div class="box">
-                                        <span class="year">lipiec 2020</span>
-                                        <h2 class="title">sklep</h2>
-                                        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-                                    </div>
+                                <div class="box">
+                                    <span class="year">July 2023 - September 2023</span>
+                                    <h2 class="title">Intern Software Tester</h2>
+                                    <p>Bmet minim mollit deserunt llamco est sit aliqua</p>
                                 </div>
-                                <div class="item">
-                                    <div class="icon">
-                                        <i class="las la-briefcase"></i>
-                                    </div>
-                                    <div class="box">
-                                        <span class="year"></span>
-                                        <h2 class="title">lorem ipsum</h2>
-                                        <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum</p>
-                                    </div>
+                            </div>
+                            <div class="item">
+                                <div class="icon">
+                                    <i class="las la-briefcase"></i>
+                                </div>
+                                <div class="box">
+                                    <span class="year">July 2020</span>
+                                    <h2 class="title">Cashier</h2>
+                                    <p>Bmet minim mollit deserunt llamco est sit aliqua</p>
                                 </div>
                             </div>
                         </div>
@@ -408,13 +410,316 @@
                 </div>
             </div>
         </section>
-        <section id="my_work">Work</section>
-        <section id="testimonial">Testimonial</section>
-        <section id="contact_me">Contact</section>
+        <section id="my_work">
+            <div class="text-center">
+                <header class="has-bg">
+                    <img src="Assets/Images/Header-background.png" alt="header background">
+                    <h1>My Work</h1>
+                </header>
+            </div>
+            <div class="filters">
+                <button data-group="all" class="active">
+                    <h4>All</h4>
+                </button>
+                <button data-group="Web Developing">
+                    <h4>Web Developing</h4>
+                </button>
+                <button data-group="Video">
+                    <h4>Video</h4>
+                </button>
+                <button data-group="SEO">
+                    <h4>SEO</h4>
+                </button>
+            </div>
+            <div class="container">
+                <div class="row work-items">
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Web Developing", "SEO"]'>
+                        <div 
+                            class="wrap"
+                            data-image="Assets/Images/Works/1.png"
+                            data-title=""
+                            data-description=""
+                            data-client=""
+                            data-completed=""
+                            data-skills=""
+                            data-project-link="#"
+                        >
+                            <img src="Assets/Images/Works/1.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Web Developing", "Video"]'>
+                        <div 
+                            class="wrap"
+                            data-image="Assets/Images/Works/2.png"
+                            data-title="2. "
+                            data-description="2. "
+                            data-client="2. "
+                            data-completed="2. "
+                            data-skills="2. "
+                            data-project-link="#2"
+                        >
+                            <img src="Assets/Images/Works/2.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Video", "SEO"]'>
+                        <div 
+                            class="wrap"
+                            data-image="Assets/Images/Works/3.png"
+                            data-title=""
+                            data-description=""
+                            data-client=""
+                            data-completed=""
+                            data-skills=""
+                            data-project-link="#"
+                        >
+                            <img src="Assets/Images/Works/3.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Video"]'>
+                        <div 
+                            class="wrap"
+                            data-image="Assets/Images/Works/4.png"
+                            data-title=""
+                            data-description=""
+                            data-client=""
+                            data-completed=""
+                            data-skills=""
+                            data-project-link="#"
+                        >
+                            <img src="Assets/Images/Works/4.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Web Developing", "SEO"]'>
+                        <div 
+                            class="wrap"
+                            data-image="Assets/Images/Works/5.png"
+                            data-title=""
+                            data-description=""
+                            data-client=""
+                            data-completed=""
+                            data-skills=""
+                            data-project-link="#"
+                        >
+                            <img src="Assets/Images/Works/5.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["SEO"]'>
+                        <div 
+                            class="wrap"
+                            data-image="Assets/Images/Works/6.png"
+                            data-title=""
+                            data-description=""
+                            data-client=""
+                            data-completed=""
+                            data-skills=""
+                            data-project-link="#"
+                        >
+                            <img src="Assets/Images/Works/6.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["SEO"]'>
+                        <div 
+                            class="wrap"
+                            data-image="Assets/Images/Works/7.png"
+                            data-title=""
+                            data-description=""
+                            data-client=""
+                            data-completed=""
+                            data-skills=""
+                            data-project-link="#"
+                        >
+                            <img src="Assets/Images/Works/7.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Web Developing"]'>
+                        <div 
+                            class="wrap"
+                            data-image="Assets/Images/Works/8.png"
+                            data-title=""
+                            data-description=""
+                            data-client=""
+                            data-completed=""
+                            data-skills=""
+                            data-project-link="#"
+                        >
+                            <img src="Assets/Images/Works/8.png" alt="work">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Web Developing"]'>
+                        <div 
+                            class="wrap"
+                            data-image="Assets/Images/Works/9.png"
+                            data-title=""
+                            data-description=""
+                            data-client=""
+                            data-completed=""
+                            data-skills=""
+                            data-project-link="#"
+                        >
+                            <img src="Assets/Images/Works/9.png" alt="work">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonial">
+            <div class="text-center">
+                <header class="has-bg">
+                    <img src="Assets/Images/Header-background.png" alt="header background">
+                    <h1>Testimonial</h1>
+                </header>
+            </div>
+            <section class="main-section">
+                <div class="images">
+                    <img src="Assets/Images/Testimonials/1.png" alt="testimonial" class="active">
+                    <img src="Assets/Images/Testimonials/2.png" alt="testimonial">
+                </div>
+                <div class="comments">
+                    <div class="item active"">
+                        <div class="box">
+                            <p>
+                                <span>&lsquo;&lsquo;</span>
+                                1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                <span>&rsquo;&rsquo;</span>
+                            </p>
+                        </div>
+                        <div class="writer">
+                            <span class="name">John Doe,</span>
+                            <span class="field">CEO of company</span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="box">
+                            <p>
+                                <span>&lsquo;&lsquo;</span>
+                                2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                <span>&rsquo;&rsquo;</span>
+                            </p>
+                        </div>
+                        <div class="writer">
+                            <span class="name">2. John Doe,</span>
+                            <span class="field">CEO of company</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section id="contact_me">
+            <div class="text-center">
+                <header class="has-bg">
+                    <img src="Assets/Images/Header-background.png" alt="header background">
+                    <h1>Contact Me</h1>
+                </header>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 form">
+                        <form>
+                            <div class="form-item">
+                                <label>Name</label>
+                                <input type="text" name="name">
+                            </div>
+                            <div class="form-item">
+                                <label>Email</label>
+                                <input type="email" name="email">
+                            </div>
+                            <div class="form-item">
+                                <label>Subject</label>
+                                <input type="text" name="subject">
+                            </div>
+                            <div class="form-item">
+                                <label>Message</label>
+                                <textarea name="message"></textarea>
+                            </div>
+                            <div class="text-end">
+                                <button type="submit" class="btn-custom-dark">Send message</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 info">
+                        <div class="item">
+                            <i class="las la-phone"></i>
+                            <div class="text">
+                                <span class="title">Phone number:</span>
+                                <a href="tel:+123456789">+48 123456789</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <i class="las la-envelope"></i>
+                            <div class="text">
+                                <span class="title">Email:</span>
+                                <a href="mailto:tomasz.wnuk.biznes@gmail.com">tomasz.wnuk.biznes@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <i class="las la-map-marker-alt"></i>
+                            <div class="text">
+                                <span class="title">Location:</span>
+                                <p>Lublin</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="assets/js/script.js"></script>
+
+    <div class="modal fade" id="workModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="modal-close-button" data-bs-dismiss="modal" aria-label="Close">
+                        <i class="las la-times"></i>
+                    </button>
+                    <img src="" alt="work">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-7 left">
+                                <h2 class="title"></h2>
+                                <p class="description"></p>
+                            </div>
+                            <div class="col-lg-5 right">
+                                <div class="client mb-3">
+                                    <i class="las la-user-alt"></i>
+                                    <span class="title">Client:</span>
+                                    <span class="value"></span>
+                                </div>
+                                <div class="completed mb-3">
+                                    <i class="lar la-calendar-check"></i>
+                                    <span class="title">Completed:</span>
+                                    <span class="value"></span>
+                                </div>
+                                <div class="skills">
+                                    <i class="las la-flask"></i>
+                                    <span class="title">Skills:</span>
+                                    <span class="value"></span>
+                                </div>
+                                <div class="project-link">
+                                    <i class="las la-link"></i>
+                                    <a href="">Project link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Shuffle/6.0.0/shuffle.min.js"
+        integrity="sha512-fN+YeX/572qBnWu5Axj90DDyKjSNUfvR+8OaFkz27xnr+QE50vZHefJ+bplRrM284a8cJgMLxEipmKshf8vrug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="Assets/JavaScript/Script.js"></script>
 </body>
+<!-- End of Body Section -->
+
+
+
 </html>
+<!-- End of Index file -->

@@ -1,8 +1,8 @@
 #my_resume {
     padding-bottom: 115px;
-    background-image: url("../images/background-shape.png");
+    background-image: url(../Images/Background-shape.png);
     background-repeat: no-repeat;
-    background-position: 40vw 375px;
+    background-position: 40vw 374px;
 
     header.has-bg {
         margin-bottom: 64px;
@@ -16,10 +16,13 @@
                 margin-bottom: 42px;
             }
 
-            &.first {
-                .icon i, .box, .title {
+            &.last {
+
+                .icon i,
+                .box .title {
                     color: $primary;
                 }
+
             }
 
             &:hover {
@@ -40,7 +43,6 @@
                     }
                 }
             }
-            
 
             .icon {
                 position: relative;
@@ -63,13 +65,14 @@
                     height: 126px;
                     background: $secondary;
                     top: 82px;
+                    transition: all 0.3s;
                 }
             }
 
             .box {
                 position: relative;
                 padding: 32px;
-                background: rgba($secondary, 75%);
+                background: rgba($secondary, 0.75);
                 border-radius: 8px;
                 text-align: left;
                 z-index: 1;
@@ -79,7 +82,7 @@
                 &:before {
                     content: "";
                     position: absolute;
-                    border-right: 9px solid rgba($secondary, 75%);
+                    border-right: 9px solid rgba($secondary, 0.75);
                     border-top: 9px solid transparent;
                     border-bottom: 9px solid transparent;
                     left: -9px;
@@ -89,10 +92,10 @@
                 &:after {
                     content: "";
                     position: absolute;
-                    width: 0%;
+                    width: 0;
                     height: 100%;
-                    left: 0px;
-                    top: 0px;
+                    left: 0;
+                    top: 0;
                     border-radius: 8px;
                     background: rgba(darken($primary, 40%), 0.4);
                     z-index: -1;
@@ -115,7 +118,6 @@
                     font-weight: 400;
                     color: $gray;
                     max-width: 345px;
-
                 }
             }
         }

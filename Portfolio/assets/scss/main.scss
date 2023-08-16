@@ -1,18 +1,25 @@
-@import "./reset";
-@import "./colors";
-@import "./fonts";
-@import "./typography";
+// Importing all the stylesheets
 
-@import "./structure";
-@import "./buttons";
+// Importing basic styles and variables
+@import "./Reset";          // Reset Styles
+@import "./Colors";         // Colors Styles
+@import "./Fonts";          // Fonts Styles
+@import "./Typography";     // Typography Styles
 
-@import "./sidebar";
+// Importing all the components
+@import "./Structure";      // Structure Styles
+@import "./Buttons";        // Buttons Styles
 
-@import "./home";
-@import "./about";
-@import "./resume";
-@import "./work";
-@import "./testimonial";
-@import "./contact"; 
+// Importing sidebar
+@import "./Sidebar";        // Sidebar Styles
 
-@import "./responsive";
+// Importing all the sections
+@import "./Home";           // Home Styles
+@import "./About-me";       // About Styles
+@import "./My-resume";      // Resume Styles
+@import "./My-work";        // Work Styles
+@import "./Testimonial";    // Testimonial Styles
+@import "./Contact-me";     // Contact Styles
+
+// Importing all the responsive styles
+@import "./Responsive-mode";    // Responsive Styles
