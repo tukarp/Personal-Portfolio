@@ -20,7 +20,7 @@
 
                 .icon i,
                 .box .title {
-                    color: $primary;
+                    color: $primaryColor;
                 }
 
             }
@@ -28,14 +28,14 @@
             &:hover {
                 .icon,
                 .icon:before {
-                    background: rgba(darken($primary, 40%), 0.4);
+                    background: rgba(darken($primaryColor, 40%), 0.4);
                 }
 
                 .box {
                     background: transparent;
 
                     &:before {
-                        border-right-color: rgba(darken($primary, 40%), 0.4);
+                        border-right-color: rgba(darken($primaryColor, 40%), 0.4);
                     }
 
                     &:after {
@@ -63,7 +63,7 @@
                     position: absolute;
                     width: 1px;
                     height: 126px;
-                    background: $secondary;
+                    background: $secondaryColor;
                     top: 82px;
                     transition: all 0.3s;
                 }
@@ -72,7 +72,7 @@
             .box {
                 position: relative;
                 padding: 32px;
-                background: rgba($secondary, 0.75);
+                background: rgba($secondaryColor, 0.75);
                 border-radius: 8px;
                 text-align: left;
                 z-index: 1;
@@ -82,7 +82,7 @@
                 &:before {
                     content: "";
                     position: absolute;
-                    border-right: 9px solid rgba($secondary, 0.75);
+                    border-right: 9px solid rgba($secondaryColor, 0.75);
                     border-top: 9px solid transparent;
                     border-bottom: 9px solid transparent;
                     left: -9px;
@@ -97,7 +97,7 @@
                     left: 0;
                     top: 0;
                     border-radius: 8px;
-                    background: rgba(darken($primary, 40%), 0.4);
+                    background: rgba(darken($primaryColor, 40%), 0.4);
                     z-index: -1;
                     transition: all 0.3s;
                 }
@@ -116,7 +116,7 @@
                 p {
                     font-size: 18px;
                     font-weight: 400;
-                    color: $gray;
+                    color: $grayColor;
                     max-width: 345px;
                 }
             }

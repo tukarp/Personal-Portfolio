@@ -16,7 +16,7 @@
         font-size: 30px;
         width: 45px;
         height: 45px;
-        background: darken($secondary, 30%);
+        background: darken($secondaryColor, 30%);
         display: none;
         justify-content: center;
         align-items: center;
@@ -64,7 +64,7 @@
                         width: 46px;
                         height: 46px;
                         border-radius: 50%;
-                        background: $primary;
+                        background: $primaryColor;
                         opacity: 0;
                         top: 50%;
                         left: 50%;
@@ -79,7 +79,7 @@
                         }
 
                         i {
-                            color: $primary;
+                            color: $primaryColor;
                         }
                     }
 
@@ -89,7 +89,7 @@
 
                     i {
                         font-size: 18px;
-                        color: $gray;
+                        color: $grayColor;
                         transition: all 0.3s;
                     }
                 }
@@ -100,7 +100,7 @@
                     top: -8px;
                     left: 20px;
                     padding: 7px 13px;
-                    background: rgba($secondary, 0.75);
+                    background: rgba($secondaryColor, 0.75);
                     border-radius: 6px;
                     opacity: 0;
                     transition: all 0.3s;
@@ -118,14 +118,14 @@
         .outer {
             width: 24px;
             height: 35px;
-            background: $secondary;
+            background: $secondaryColor;
             border-radius: 24px;
 
             .inner {
                 position: relative;
                 width: 14px;
                 height: 14px;
-                background: $primary;
+                background: $primaryColor;
                 border-radius: 50%;
                 margin-right: auto;
                 margin-left: auto;
@@ -136,7 +136,7 @@
                     content: "";
                     width: 14px;
                     height: 14px;
-                    background: $secondary;
+                    background: $secondaryColor;
                     top: -4px;
                     left: 3px;
                     border-radius: 50%;

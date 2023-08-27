@@ -4,7 +4,7 @@
     background: #262F48;
     padding: 10px 52px;
     text-decoration: none;
-    color: $primary;
+    color: $primaryColor;
     border-radius: 8px;
     z-index: 1;
     overflow: hidden;
@@ -16,7 +16,7 @@
         position: absolute;
         width: 100px;
         height: 100px;
-        background: $primary;
+        background: $primaryColor;
         opacity: 0.3;
         border-radius: 50%;
         top: 50%;
@@ -37,5 +37,5 @@
 
 .btn-custom-dark {
     @extend .btn-custom-blue;
-    background: $secondary;
+    background: $secondaryColor;
 }

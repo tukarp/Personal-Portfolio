@@ -48,14 +48,14 @@
 
                     .box {
                         position: relative;
-                        background: rgba($secondary, 0.75);
+                        background: rgba($secondaryColor, 0.75);
                         padding: 32px;
                         border-radius: 8px;
 
                         &:before {
                             content: "";
                             position: absolute;
-                            border-bottom: 9px solid rgba($secondary, 0.75);
+                            border-bottom: 9px solid rgba($secondaryColor, 0.75);
                             border-left: 9px solid transparent;
                             border-right: 9px solid transparent;
                             top: -9px;
@@ -73,7 +73,7 @@
 
                             span {
                                 font-size: 86px;
-                                color: $primary;
+                                color: $primaryColor;
                                 line-height: 0;
                                 vertical-align: -33px;
                             }
@@ -86,7 +86,7 @@
                         animation: scaleUp 1s;
 
                         span.field {
-                            color: $secondary_gray;
+                            color: $secondaryGrayColor;
                         }
                     }
                 }

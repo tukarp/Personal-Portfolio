@@ -30,7 +30,7 @@
                     position: absolute;
                     height: 2px;
                     width: 100%;
-                    background: $secondary_gray;
+                    background: $secondaryGrayColor;
                     bottom: 0;
                     left: 0;
                 }
@@ -49,7 +49,7 @@
                 label {
                     position: absolute;
                     top: 17px;
-                    color: $secondary_gray;
+                    color: $secondaryGrayColor;
                     transition:all 0.3s;
                 }
 
@@ -79,7 +79,7 @@
 
                 &:hover {
                     i {
-                        background: $primary;
+                        background: $primaryColor;
                     }
                 }
 
@@ -99,7 +99,7 @@
 
                 .text {
                     .title {
-                        color: $gray;
+                        color: $grayColor;
                     }
 
                     a {

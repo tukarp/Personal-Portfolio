@@ -1,7 +1,8 @@
 #home {
+    padding-bottom: 115px;
     background-image: url(../Images/Background-shape.png);
     background-repeat: no-repeat;
-    background-position: 40vw -24px;
+    background-position: 30vw 50px;
 
     header.has-bg {
         margin-bottom: 32px;
@@ -18,7 +19,7 @@
             margin-bottom: 24px;
 
             span {
-                color: $gray;
+                color: $grayColor;
             }
         }
 
@@ -28,7 +29,7 @@
             margin-bottom: 16px;
 
             h2 {
-                color: $gray;
+                color: $grayColor;
                 margin: 0;
             }
 
@@ -64,7 +65,7 @@
                         transition: all 0.3s;
 
                         &:hover {
-                            background: $secondary;
+                            background: $secondaryColor;
                             border-radius: 6px;
 
                             span,
@@ -76,12 +77,12 @@
                         i {
                             font-size: 18px;
                             margin-right: 8px;
-                            color: $gray;
+                            color: $grayColor;
                             transition: all 0.3s;
                         }
 
                         span {
-                            color: $secondary_gray;
+                            color: $secondaryGrayColor;
                             transition: all 0.3s;
                         }
                     }
