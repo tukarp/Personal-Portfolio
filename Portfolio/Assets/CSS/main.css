@@ -368,10 +368,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 72vh;
-  left: 27vw;
-  animation: meteor 7835ms linear infinite;
-  animation-delay: 1273ms;
+  top: 42vh;
+  left: 19vw;
+  animation: meteor 5748ms linear infinite;
+  animation-delay: 3046ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -379,10 +379,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 16vh;
-  left: 13vw;
-  animation: meteor 4895ms linear infinite;
-  animation-delay: 2132ms;
+  top: 65vh;
+  left: 14vw;
+  animation: meteor 5021ms linear infinite;
+  animation-delay: 3631ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -390,10 +390,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 39vh;
-  left: 28vw;
-  animation: meteor 3131ms linear infinite;
-  animation-delay: 4426ms;
+  top: 29vh;
+  left: 73vw;
+  animation: meteor 6294ms linear infinite;
+  animation-delay: 3029ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -401,10 +401,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 23vh;
-  left: 15vw;
-  animation: meteor 4123ms linear infinite;
-  animation-delay: 2828ms;
+  top: 31vh;
+  left: 63vw;
+  animation: meteor 3317ms linear infinite;
+  animation-delay: 1787ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -412,10 +412,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 73vh;
-  left: 32vw;
-  animation: meteor 5175ms linear infinite;
-  animation-delay: 3813ms;
+  top: 31vh;
+  left: 7vw;
+  animation: meteor 5097ms linear infinite;
+  animation-delay: 433ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -423,10 +423,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 46vh;
-  left: 1vw;
-  animation: meteor 6198ms linear infinite;
-  animation-delay: 1859ms;
+  top: 3vh;
+  left: 65vw;
+  animation: meteor 5718ms linear infinite;
+  animation-delay: 1946ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -434,10 +434,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 64vh;
-  left: 70vw;
-  animation: meteor 7409ms linear infinite;
-  animation-delay: 614ms;
+  top: 30vh;
+  left: 60vw;
+  animation: meteor 6807ms linear infinite;
+  animation-delay: 2504ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -445,10 +445,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 44vh;
-  left: 77vw;
-  animation: meteor 4826ms linear infinite;
-  animation-delay: 1780ms;
+  top: 64vh;
+  left: 26vw;
+  animation: meteor 4780ms linear infinite;
+  animation-delay: 282ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -456,10 +456,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 1vh;
-  left: 60vw;
-  animation: meteor 7501ms linear infinite;
-  animation-delay: 275ms;
+  top: 80vh;
+  left: 22vw;
+  animation: meteor 7793ms linear infinite;
+  animation-delay: 2700ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -467,10 +467,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 63vh;
-  left: 16vw;
-  animation: meteor 3126ms linear infinite;
-  animation-delay: 863ms;
+  top: 31vh;
+  left: 13vw;
+  animation: meteor 4055ms linear infinite;
+  animation-delay: 3508ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -478,10 +478,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 59vh;
-  left: 46vw;
-  animation: meteor 3167ms linear infinite;
-  animation-delay: 4531ms;
+  top: 5vh;
+  left: 76vw;
+  animation: meteor 6317ms linear infinite;
+  animation-delay: 2905ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -489,10 +489,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 67vh;
-  left: 39vw;
-  animation: meteor 6753ms linear infinite;
-  animation-delay: 1519ms;
+  top: 75vh;
+  left: 58vw;
+  animation: meteor 3977ms linear infinite;
+  animation-delay: 639ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -500,10 +500,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 41vh;
-  left: 33vw;
-  animation: meteor 7114ms linear infinite;
-  animation-delay: 2558ms;
+  top: 23vh;
+  left: 30vw;
+  animation: meteor 5118ms linear infinite;
+  animation-delay: 1571ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -511,10 +511,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 16vh;
-  left: 6vw;
-  animation: meteor 6818ms linear infinite;
-  animation-delay: 2805ms;
+  top: 35vh;
+  left: 4vw;
+  animation: meteor 7963ms linear infinite;
+  animation-delay: 1815ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -522,10 +522,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 48vh;
-  left: 14vw;
-  animation: meteor 4120ms linear infinite;
-  animation-delay: 3427ms;
+  top: 40vh;
+  left: 42vw;
+  animation: meteor 3756ms linear infinite;
+  animation-delay: 1207ms;
 }
 
 @keyframes meteor {
@@ -622,43 +622,54 @@ main > section header.custom h2 {
 #about_me .rate span.fill:before, #about_me .rate span.fill:after {
   background: #658DF2;
 }
-#about_me .skills-and-laguages {
+#about_me .row .skills,
+#about_me .row .languages-outer {
   margin-top: 126px;
 }
-#about_me .skills-and-laguages .languages-and-key-skills {
+#about_me .row .skills .key-skills,
+#about_me .row .skills .languages,
+#about_me .row .languages-outer .key-skills,
+#about_me .row .languages-outer .languages {
   padding-right: 160px;
 }
-#about_me .skills-and-laguages .languages-and-key-skills .languages .items {
+#about_me .row .skills .key-skills .items,
+#about_me .row .skills .languages .items,
+#about_me .row .languages-outer .key-skills .items,
+#about_me .row .languages-outer .languages .items {
   margin-bottom: 43px;
 }
-#about_me .skills-and-laguages .languages-and-key-skills .languages .items .item {
+#about_me .row .skills .key-skills .items .item,
+#about_me .row .skills .languages .items .item,
+#about_me .row .languages-outer .key-skills .items .item,
+#about_me .row .languages-outer .languages .items .item {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 43px;
 }
-#about_me .skills-and-laguages .languages-and-key-skills .languages .items .item:not(:last-child) {
+#about_me .row .skills .key-skills .items .item:not(:last-child),
+#about_me .row .skills .languages .items .item:not(:last-child),
+#about_me .row .languages-outer .key-skills .items .item:not(:last-child),
+#about_me .row .languages-outer .languages .items .item:not(:last-child) {
   margin-bottom: 16px;
 }
-#about_me .skills-and-laguages .languages-and-key-skills .languages .items .item .info h3 {
+#about_me .row .skills .key-skills .items .item .info h3,
+#about_me .row .skills .languages .items .item .info h3,
+#about_me .row .languages-outer .key-skills .items .item .info h3,
+#about_me .row .languages-outer .languages .items .item .info h3 {
   margin-bottom: 4px;
 }
-#about_me .skills-and-laguages .languages-and-key-skills .languages .items .item .info .level {
+#about_me .row .skills .key-skills .items .item .info .level,
+#about_me .row .skills .languages .items .item .info .level,
+#about_me .row .languages-outer .key-skills .items .item .info .level,
+#about_me .row .languages-outer .languages .items .item .info .level {
   color: #B6B7BA;
 }
-#about_me .skills-and-laguages .languages-and-key-skills .key-skills .items .item {
-  margin-bottom: 43px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#about_me .skills-and-laguages .languages-and-key-skills .key-skills .items .item:not(:last-child) {
-  margin-bottom: 32px;
-}
-#about_me .skills-and-laguages .programming-skills .items {
+#about_me .row .programming-skills .items {
   margin-left: -20px;
   margin-right: -20px;
 }
-#about_me .skills-and-laguages .programming-skills .items .item {
+#about_me .row .programming-skills .items .item {
   position: relative;
   text-align: center;
   padding: 32px 8px;
@@ -668,10 +679,10 @@ main > section header.custom h2 {
   z-index: 1;
   overflow: hidden;
 }
-#about_me .skills-and-laguages .programming-skills .items .item:hover:before, #about_me .skills-and-laguages .programming-skills .items .item:hover:after {
+#about_me .row .programming-skills .items .item:hover:before, #about_me .row .programming-skills .items .item:hover:after {
   transform: translate(0, 0);
 }
-#about_me .skills-and-laguages .programming-skills .items .item:before {
+#about_me .row .programming-skills .items .item:before {
   position: absolute;
   content: "";
   width: 100%;
@@ -684,7 +695,7 @@ main > section header.custom h2 {
   transform: translate(100%, -100%);
   transition: all 0.6s;
 }
-#about_me .skills-and-laguages .programming-skills .items .item:after {
+#about_me .row .programming-skills .items .item:after {
   position: absolute;
   content: "";
   width: 100%;
@@ -697,14 +708,17 @@ main > section header.custom h2 {
   transform: translate(-100%, 100%);
   transition: all 0.6s;
 }
-#about_me .skills-and-laguages .programming-skills .items .item img {
+#about_me .row .programming-skills .items .item img {
   margin-bottom: 21px;
 }
-#about_me .skills-and-laguages .programming-skills .items .item h3 {
+#about_me .row .programming-skills .items .item h3 {
   margin-bottom: 8px;
 }
-#about_me .skills-and-laguages .programming-skills .items .item .year {
-  color: #FF9F76;
+#about_me .row .programming-skills .items .item .rate {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #about_me .certificates {
   margin-top: 120px;

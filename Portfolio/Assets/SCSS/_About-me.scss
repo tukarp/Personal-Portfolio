@@ -110,13 +110,15 @@
         }
     }
 
-    .skills-and-laguages {
-        margin-top: 126px;
+    .row {
+        .skills,
+        .languages-outer {
+            margin-top: 126px;
 
-        .languages-and-key-skills {
-            padding-right: 160px;
-
+            .key-skills,
             .languages {
+                padding-right: 160px;
+
                 .items {
                     margin-bottom: 43px;
 
@@ -124,6 +126,7 @@
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
+                        margin-bottom: 43px;
 
                         &:not(:last-child) {
                             margin-bottom: 16px;
@@ -141,23 +144,11 @@
                     }
                 }
             }
-
-            .key-skills {
-                .items {
-                    .item {
-                        margin-bottom: 43px;
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
-
-                        &:not(:last-child) {
-                            margin-bottom: 32px;
-                        }
-                    }
-                }
-            }
         }
+    }
 
+
+    .row {
         .programming-skills {
             .items {
                 margin-left: -20px;
@@ -217,8 +208,11 @@
                         margin-bottom: 8px;
                     }
 
-                    .year {
-                        color: #FF9F76;
+                    .rate {
+                        margin-top: 16px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                     }
                 }
             }
