@@ -6,8 +6,10 @@
 
 @media (max-width: 1199px) {
     #about_me {
-        .languages-skills .languages-key-skills {
-            padding-right: 12px;
+        .languages .key-skills {
+            .item {
+                padding-right: 12px;
+            }
         }
     }
 
@@ -49,6 +51,16 @@
         .container {
             .info {
                 margin-top: 80px;
+            }
+        }
+    }
+
+    #about_me {
+        .row {
+            .key-skills, .languages {
+                margin-top: 0px;
+                padding-right: 0px;
+                margin-bottom: 0px;
             }
         }
     }
@@ -136,6 +148,10 @@
                     margin-bottom: 16px;
                 }
             }
+        }
+
+        .h3 {
+            padding-right: 12px;
         }
     }
 
