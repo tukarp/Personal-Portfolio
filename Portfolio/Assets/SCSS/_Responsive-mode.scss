@@ -13,10 +13,6 @@
         }
 
         .hero {
-            .info {
-                padding-left: 50px;
-            }
-
             .container {
                 padding-bottom: -40px;
                 margin-bottom: -40px;
@@ -78,6 +74,12 @@
     }
 
     #about_me {
+        .image {
+            img {
+                margin-left: 0px;
+            }
+        }
+
         .row {
             .key-skills, .languages {
                 margin-top: 0px;

@@ -1,9 +1,19 @@
 #about_me {
     background-image: url(../Images/Graphics/Background-shape.png);
     background-repeat: no-repeat;
-    background-position: 60vw 50vh;
+    background-position: 35vw 800px;
     min-height: 100vh;
     
+    .custom {
+        h2 {
+            i {
+                margin-right: -5px;
+                margin-left: 20px;
+                font-size: 30px;
+            }
+        }
+    }
+
     .hero {
         .image {
             img {
@@ -78,10 +88,6 @@
                 margin-right: 12px;
             }
 
-            &:last-child {
-                margin-right: 12px;
-            }
-
             &:before {
                 position: absolute;
                 content: "";
@@ -120,10 +126,16 @@
     }
 
     .row {
+        .key-skills {
+            padding-right: 16px;
+        }
+
+        .languages {
+            padding-left: 16px;
+        }
+
         .key-skills, .languages {
             margin-top: 126px;
-            padding-left: 32px;
-            padding-right: 32px;
             margin-bottom: 126px;
 
             .items {
@@ -163,7 +175,7 @@
                     position: relative;
                     text-align: center;
                     padding: 32px 8px;
-                    background: $secondaryColor;
+                    background: lighten($secondaryColor, 1.5%);
                     margin-bottom: 16px;
                     border-radius: 8px;
                     z-index: 1;
