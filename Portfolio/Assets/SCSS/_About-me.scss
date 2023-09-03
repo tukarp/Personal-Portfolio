@@ -1,7 +1,7 @@
 #about_me {
-    background-image: url(../Images/Background-shape.png);
+    background-image: url(../Images/Graphics/Background-shape.png);
     background-repeat: no-repeat;
-    background-position: 35vw 800px;
+    background-position: 36vw 800px;
     min-height: 100vh;
     
     .hero {
@@ -21,7 +21,6 @@
             header {
                 margin-bottom: 32px;
                 margin-top: 32px;
-                
             }
 
             h2 {
@@ -37,6 +36,7 @@
             .items {
                 margin-top: 30px;
                 margin-bottom: 48px;
+                font-size: 16px;
 
                 .item {
                     display: flex;
@@ -45,6 +45,11 @@
                     .value {
                         color: $grayColor;
                         margin-left: 4px;
+                    }
+
+                    i {
+                        margin-top: 4px;
+                        margin-right: 10px;
                     }
                 }
             }
