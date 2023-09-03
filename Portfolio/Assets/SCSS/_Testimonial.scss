@@ -1,7 +1,7 @@
 #testimonial {
     background-image: url(../Images/Graphics/Background-shape.png);
     background-repeat: no-repeat;
-    background-position: 60vw 374px;
+    background-position: 60vw 40vh;
     min-height: 100vh;
 
     .main-section {
@@ -87,6 +87,18 @@
 
                         span.field {
                             color: $secondaryGrayColor;
+
+                            span.quotes {
+                                font-family: 'Playfair Display', serif;
+                                color: $primaryColor;
+                                font-size: 32px;
+                                line-height: 0;
+                                vertical-align: -6px;
+                            }
+
+                            span.company-name {
+                                color: $whiteColor;
+                            }
                         }
                     }
                 }

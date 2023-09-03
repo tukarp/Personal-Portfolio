@@ -33,14 +33,14 @@
         <nav>                                                                                                           <!-- Navigation of the Sidebar -->
             <ul>                                                                                                        <!-- Unordered List -->
                 <li>                                                                                                    <!-- Home List Item -->
-                    <a href="#home" class="active inner-link">                                                                 <!-- Home Link -->
+                    <a href="#home" class="inner-link">                                                                 <!-- Home Link -->
                         <i class="las la-home"></i>                                                                     <!-- Home Icon -->
                         <span>Home</span>                                                                               <!-- Home Span -->
                     </a>                                                                                                <!-- Home Link End -->
                     <span>Home</span>                                                                                   <!-- Home Span -->
                 </li>                                                                                                   <!-- End of the Home List Item -->
                 <li>                                                                                                    <!-- About Me List Item -->
-                    <a href="#about_me" class="inner-link">
+                    <a href="#about_me" class="active inner-link">
                         <i class="las la-address-card"></i>
                         <span>About Me</span>
                     </a>
@@ -83,7 +83,7 @@
         </div>                                                                                                                          <!-- End of the Dark Mode Toggle for Sidebar -->
     </div>                                                                                                                              <!-- End of the Sidebar -->
     <main>                                                                                                                              <!-- Main content of the Home page -->
-        <section id="home" class="active">                                                                                              <!-- Home section -->
+        <section id="home">                                                                                              <!-- Home section -->
             <div class="meteor-shower"></div>                                                                                           <!-- Meteor shower animation -->
             <div class="container">                                                                                                     <!-- Container for the Home section -->
                 <div class="row">                                                                                                       <!-- Row for the Home section -->
@@ -96,9 +96,9 @@
                             <h2></h2>
                         </div>
                         <p>
-                            I am a 3rd year computer science student with a great passion for exploring new technologies.
-                            Apart from my studies, I strive to pursue my own projects and develop my passion further.
-                            I am a fan of fantasy, psychological books, horror films, and evening workouts at the gym.
+                            I am Third year Computer Science Student at Marie Curie-Skłodowska University in Lublin with a great passion for exploring new technologies.
+                            After hours strive to pursue my own projects and develop my passions further.
+                            In my freetime I love to play video games, read psychological books, play basketball and workout at the gym.
                         </p>
                         <a class="btn-custom-blue" href="Assets/Files/Wnuk Tomasz CV.pdf" download>Download CV</a>
                         <div class="socials">
@@ -136,13 +136,13 @@
                 </div>
             </div>
         </section>
-        <section id="about_me">
+        <section id="about_me" class="active">
             <div class="container">
                 <div class="row hero">
-                    <div class="col-xxl-6 col-lg-4 image">
+                    <div class="col-xxl-6 col-lg-6 image">
                         <img src="Assets/Images/Graphics/About-section-profile-picture.png" alt="person about">
                     </div>
-                    <div class="col-xxl-6 col-lg-8 info">
+                    <div class="col-xxl-6 col-lg-6 info">
                         <header class="has-bg">
                             <img src="Assets/Images/Graphics/Header-background.png" alt="header background">
                             <h1>About Me</h1>
@@ -197,8 +197,67 @@
                         </div>
                     </div>
                 </div>
-                <div class="row languages-skills">
-                    <div class="col-lg-6 languages-key-skills">
+                <div class="row">
+                    <div class="col-lg-6 skills mt-5 mt-lg-0">
+                        <div class="key-skills">
+                            <header class="custom">
+                                <h2>Key Skills</h2>
+                            </header>
+                            <ul class="items">
+                                <li class="item">
+                                    <h3>Attention to Detail</h3>
+                                    <div class="rate">
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <h3>Communication</h3>
+                                    <div class="rate">
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <h3>Conscientious</h3>
+                                    <div class="rate">
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="half-fill"></span>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <h3>Team Working</h3>
+                                    <div class="rate">
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span></span>
+                                    </div>
+                                </li>
+                                <li class="item">
+                                    <h3>Problem Solving</h3>
+                                    <div class="rate">
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="fill"></span>
+                                        <span class="half-fill"></span>
+                                        <span></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 languages-outer mt-5 mt-lg-0">
                         <div class="languages">
                             <header class="custom">
                                 <h2>Languages</h2>
@@ -206,7 +265,7 @@
                             <ul class="items">
                                 <li class="item">
                                     <div class="info">
-                                        <h3>English</h3>
+                                        <h3>Polish</h3>
                                         <span class="level">Native</span>
                                     </div>
                                     <div class="rate">
@@ -219,103 +278,95 @@
                                 </li>
                                 <li class="item">
                                     <div class="info">
-                                        <h3>French</h3>
-                                        <span class="level">Conversational</span>
+                                        <h3>English</h3>
+                                        <span class="level">Advanced (C1)</span>
                                     </div>
                                     <div class="rate">
                                         <span class="fill"></span>
                                         <span class="fill"></span>
                                         <span class="fill"></span>
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="key-skills">
-                            <header class="custom">
-                                <h2>Key Skills</h2>
-                            </header>
-                            <ul class="items">
-                                <li class="item">
-                                    <h3>Problem Solving</h3>
-                                    <div class="rate">
                                         <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span></span>
-                                    </div>
-                                </li>
-                                <li class="item">
-                                    <h3>Team working</h3>
-                                    <div class="rate">
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span></span>
-                                        <span></span>
-                                    </div>
-                                </li>
-                                <li class="item">
-                                    <h3>Communication</h3>
-                                    <div class="rate">
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span class="fill"></span>
-                                        <span></span>
+                                        <span class="half-fill"></span>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 web-skills mt-5 mt-lg-0">
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 programming-skills mt-5 mt-lg-0">
                         <header class="custom">
-                            <h2>My Web Skills</h2>
+                            <h2>Programming Skills</h2>
                         </header>
-                        <div class="container">
-                            <div class="items row">
-                                <div class="col-xl-4 col-sm-6 px-2">
-                                    <div class="item">
-                                        <img src="Assets/Images/Skills/HTML5.png" alt="HTML5">
-                                        <h3>HTML 5</h3>
-                                        <span class="year">0</span>
+                    </div>
+                    <div class="col-lg-6 programming-skills mt-5 mt-lg-0">
+                        <div class="experienced-in">
+                            <header class="custom">
+                                <h2>I'm experienced in</h2>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 programming-skills mt-5 mt-lg-0">
+                        <div class="moderate-skill">
+                            <header class="custom">
+                                <h2>I have moderate skill in</h2>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 programming-skills mt-5 mt-lg-0">
+                        <div class="understand-essentials">
+                            <header class="custom">
+                                <h2>I understand the essentials of</h2>
+                            </header>
+                            <div class="container">
+                                <div class="items row">
+                                    <div class="col-xl-4 col-sm-6 px-2">
+                                        <div class="item">
+                                            <img src="Assets/Images/Skills/HTML5.png" alt="HTML5">
+                                            <h3>HTML 5</h3>
+                                            <span class="year">0</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-4 col-sm-6 px-2">
-                                    <div class="item">
-                                        <img src="Assets/Images/Skills/CSS3.png" alt="CSS3">
-                                        <h3>CSS 3</h3>
-                                        <span class="year">0</span>
+                                    <div class="col-xl-4 col-sm-6 px-2">
+                                        <div class="item">
+                                            <img src="Assets/Images/Skills/CSS3.png" alt="CSS3">
+                                            <h3>CSS 3</h3>
+                                            <div class="rate">
+                                                <span class="fill"></span>
+                                                <span class="fill"></span>
+                                                <span class="fill"></span>
+                                                <span class="fill"></span>
+                                                <span class="half-fill"></span>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-4 col-sm-6 px-2">
-                                    <div class="item">
-                                        <img src="Assets/Images/Skills/Bootstrap.png" alt="Bootstrap">
-                                        <h3>Bootstrap</h3>
-                                        <span class="year">0</span>
+                                    <div class="col-xl-4 col-sm-6 px-2">
+                                        <div class="item">
+                                            <img src="Assets/Images/Skills/Bootstrap.png" alt="Bootstrap">
+                                            <h3>Bootstrap</h3>
+                                            <span class="year">0</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-4 col-sm-6 px-2">
-                                    <div class="item">
-                                        <img src="Assets/Images/Skills/Vuejs.png" alt="Vuejs">
-                                        <h3>Vue.js</h3>
-                                        <span class="year">0</span>
+                                    <div class="col-xl-4 col-sm-6 px-2">
+                                        <div class="item">
+                                            <img src="Assets/Images/Skills/Vuejs.png" alt="Vuejs">
+                                            <h3>Vue.js</h3>
+                                            <span class="year">0</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-4 col-sm-6 px-2">
-                                    <div class="item">
-                                        <img src="Assets/Images/Skills/JavaScript.png" alt="JavaScript">
-                                        <h3>JavaScript</h3>
-                                        <span class="year">0</span>
+                                    <div class="col-xl-4 col-sm-6 px-2">
+                                        <div class="item">
+                                            <img src="Assets/Images/Skills/JavaScript.png" alt="JavaScript">
+                                            <h3>JavaScript</h3>
+                                            <span class="year">0</span>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="col-xl-4 col-sm-6 px-2">
-                                    <div class="item">
-                                        <img src="Assets/Images/Skills/jQuery.png" alt="jQuery">
-                                        <h3>jQuery</h3>
-                                        <span class="year">0</span>
+                                    <div class="col-xl-4 col-sm-6 px-2">
+                                        <div class="item">
+                                            <img src="Assets/Images/Skills/jQuery.png" alt="jQuery">
+                                            <h3>jQuery</h3>
+                                            <span class="year">0</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -586,35 +637,23 @@
             <section class="main-section">
                 <div class="images">
                     <img src="Assets/Images/Testimonials/1.png" alt="testimonial" class="active">
-                    <img src="Assets/Images/Testimonials/2.png" alt="testimonial">
                 </div>
                 <div class="comments">
-                    <div class="item active"">
+                    <div class="item active">
                         <div class="box">
                             <p>
                                 <span>&lsquo;&lsquo;</span>
-                                1. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                Kocham Tomka &hearts;
                                 <span>&rsquo;&rsquo;</span>
                             </p>
                         </div>
                         <div class="writer">
-                            <span class="name">John Doe,</span>
-                            <span class="field">CEO of company</span>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="box">
-                            <p>
-                                <span>&lsquo;&lsquo;</span>
-                                2. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
-                                <span>&rsquo;&rsquo;</span>
-                            </p>
-                        </div>
-                        <div class="writer">
-                            <span class="name">2. John Doe,</span>
-                            <span class="field">CEO of company</span>
+                            <span class="name">Olaf Tkaczyk,</span>
+                            <span class="field">Founder & Web Developer at 
+                                <span class="quotes">&lsquo;&lsquo;</span>
+                                <span class="company-name">Strona Jak z Bajki</span>
+                                <span class="quotes">&rsquo;&rsquo;</span>
+                            </span>
                         </div>
                     </div>
                 </div>
