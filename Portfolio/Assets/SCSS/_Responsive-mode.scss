@@ -11,6 +11,28 @@
                 padding-right: 12px;
             }
         }
+
+        .hero {
+            .info {
+                padding-left: 50px;
+            }
+
+            .container {
+                padding-bottom: -40px;
+                margin-bottom: -40px;
+            }
+
+            .buttons {
+                a:first-child {
+                    margin-top: 16px
+                }
+
+                a:last-child {
+                    margin-top: 16px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
     }
 
     #my_resume {
@@ -115,8 +137,8 @@
         padding-left: 0;
 
         > section header.has-bg img {
-            left: -13px;
-            top: -4px;
+            left: -65px;
+            top: 2px;
         }
     }
 
