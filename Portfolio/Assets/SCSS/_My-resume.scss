@@ -8,6 +8,18 @@
         margin-bottom: 64px;
     }
 
+    .education, .experience {
+        .custom {
+            h2 {
+                i {
+                    margin-left: 20px;
+                    margin-right: -5px;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+
     .items {
         .item {
             display: flex;
