@@ -48,14 +48,14 @@
 
                     .box {
                         position: relative;
-                        background: rgba($secondaryColor, 0.75);
+                        background: lighten($secondaryColor, 1.5%);
                         padding: 32px;
                         border-radius: 8px;
 
                         &:before {
                             content: "";
                             position: absolute;
-                            border-bottom: 9px solid rgba($secondaryColor, 0.75);
+                            border-bottom: 9px solid lighten($secondaryColor, 1.5%);
                             border-left: 9px solid transparent;
                             border-right: 9px solid transparent;
                             top: -9px;
