@@ -86,7 +86,7 @@
     <main>                                                                                                                              <!-- Main content of the Home page -->
         <section id="home" class="active">                                                                                              <!-- Home section -->
             <div class="meteor-shower"></div>                                                                                           <!-- Meteor shower animation -->
-            <div class="container">                                                                                                     <!-- Container for the Home section -->
+            <div class="container slide-in">                                                                                                     <!-- Container for the Home section -->
                 <div class="row">                                                                                                       <!-- Row for the Home section -->
                     <div class="col-lg-6 info">                                                                                 <!-- Column for the Home section -->
                         <header class="has-bg">
@@ -138,7 +138,7 @@
             </div>
         </section>
         <section id="about_me">
-            <div class="container">
+            <div class="container slide-in">
                 <div class="row hero">
                     <div class="col-xxl-6 col-lg-6 image">
                         <img src="Assets/Images/Graphics/About-section-profile-picture.png" alt="person about">
@@ -854,7 +854,7 @@
                     <h1>My Resume</h1>
                 </header>
             </div>
-            <div class="container">
+            <div class="container slide-in">
                 <div class="row">
                     <div class="col-xl-6 education">
                         <header class="custom">
@@ -943,142 +943,103 @@
                 <button data-group="all" class="active">
                     <h4>All</h4>
                 </button>
-                <button data-group="Web Developing">
-                    <h4>Web Developing</h4>
+                <button data-group="Java">
+                    <h4>Java</h4>
                 </button>
-                <button data-group="Video">
-                    <h4>Video</h4>
+                <button data-group="Python">
+                    <h4>Python</h4>
                 </button>
-                <button data-group="SEO">
-                    <h4>SEO</h4>
+                <button data-group="Desktop Application">
+                    <h4>Desktop Application</h4>
+                </button>
+                <button data-group="Web Development">
+                    <h4>Web Development</h4>
+                </button>
+                <button data-group="Game Development">
+                    <h4>Game Development</h4>
+                </button>
+                <button data-group="Other">
+                    <h4>Other</h4>
                 </button>
             </div>
-            <div class="container">
+            <div class="container slide-in">
                 <div class="row work-items">
-                    <div class="col-sm-6 col-lg-4 item" data-groups='["Web Developing", "SEO"]'>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Java", "Desktop Application"]'>
                         <div 
                             class="wrap"
                             data-image="Assets/Images/Works/1.png"
-                            data-title=""
-                            data-description=""
-                            data-client=""
-                            data-completed=""
-                            data-skills=""
-                            data-project-link="#"
+                            data-title="Java Chat Application"
+                            data-description="This repository contains my Java implementation of Chat Application. This project was primarily developed during my Object Oriented Programming classes in 2022, with subsequent updates, code changes and finalization completed by me. It features Server, JavaFX Desktop Application and JavaFX Graphical User Interface."
+                            data-completed="May 19, 2023"
+                            data-skills="Java 17, JavaFX, Desktop Application"
+                            data-project-link="#1 https://github.com/tukarp/Java-Chat-Application"
                         >
                             <img src="Assets/Images/Works/1.png" alt="work">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 item" data-groups='["Web Developing", "Video"]'>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Java", "Other"]'>
                         <div 
                             class="wrap"
                             data-image="Assets/Images/Works/2.png"
-                            data-title="2. "
-                            data-description="2. "
-                            data-client="2. "
-                            data-completed="2. "
-                            data-skills="2. "
-                            data-project-link="#2"
+                            data-title="Java Shell"
+                            data-description="This repository contains my Java implementation of Shell application. This project was primarily developed during my Object Oriented Programming classes in 2022, with subsequent updates, code changes, new commands and finalization completed by me."
+                            data-completed="June 27, 2023"
+                            data-skills="Java"
+                            data-project-link="https://github.com/tukarp/Java-Shell"
                         >
                             <img src="Assets/Images/Works/2.png" alt="work">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 item" data-groups='["Video", "SEO"]'>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Java", "Game Development"]'>
                         <div 
                             class="wrap"
                             data-image="Assets/Images/Works/3.png"
-                            data-title=""
-                            data-description=""
-                            data-client=""
-                            data-completed=""
-                            data-skills=""
-                            data-project-link="#"
+                            data-title="Java Breakout"
+                            data-description="This repository contains my Java implementation of classic arcade game, Breakout. This project was primarily developed during my Object Oriented Programming classes in 2022, with subsequent updates, code changes and finalization completed by me. I later updated this project to feature Random Brick Colors."
+                            data-completed="June 27, 2023"
+                            data-skills="Java 17, JavaFX, Game Development"
+                            data-project-link="https://github.com/tukarp/Java-Breakout"
                         >
                             <img src="Assets/Images/Works/3.png" alt="work">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 item" data-groups='["Video"]'>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Python", "Game Development"]'>
                         <div 
                             class="wrap"
                             data-image="Assets/Images/Works/4.png"
-                            data-title=""
-                            data-description=""
-                            data-client=""
-                            data-completed=""
-                            data-skills=""
-                            data-project-link="#"
+                            data-title="Python Hangman"
+                            data-description="This repository contains my Python implementation of the classic word-guessing game, Hangman. I created this project in fall of 2022 as part of my journey to learn programming in Python. I later updated this project to feature Word Categories, Object Oriented Programming and Graphical User Interface."
+                            data-completed="June 26, 2023"
+                            data-skills="Python 3, Game Development"
+                            data-project-link="https://github.com/tukarp/Python-Hangman"
                         >
                             <img src="Assets/Images/Works/4.png" alt="work">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 item" data-groups='["Web Developing", "SEO"]'>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Python", "Game Development"]'>
                         <div 
                             class="wrap"
                             data-image="Assets/Images/Works/5.png"
-                            data-title=""
-                            data-description=""
-                            data-client=""
-                            data-completed=""
-                            data-skills=""
-                            data-project-link="#"
+                            data-title="Python Tic-Tac-Toe"
+                            data-description="This repository contains my Python implementation of the classic Paper-and-Pencil game, Tic-Tac-Toe. This project was primarily developed during my Python Programming classes in 2023, with subsequent updates, code changes and finalization completed by me. I later updated this project to feature Graphical User Interface."
+                            data-completed="June 26, 2023"
+                            data-skills="Python 3, Game Development"
+                            data-project-link="#https://github.com/tukarp/Python-Tic-Tac-Toe"
                         >
                             <img src="Assets/Images/Works/5.png" alt="work">
                         </div>
                     </div>
-                    <div class="col-sm-6 col-lg-4 item" data-groups='["SEO"]'>
+                    <div class="col-sm-6 col-lg-4 item" data-groups='["Other", "Game Development"]'>
                         <div 
                             class="wrap"
                             data-image="Assets/Images/Works/6.png"
-                            data-title=""
-                            data-description=""
-                            data-client=""
-                            data-completed=""
-                            data-skills=""
-                            data-project-link="#"
+                            data-title="Rust Snake"
+                            data-description="Simple Snake game made in Rust."
+                            data-completed="May 5, 2023"
+                            data-skills="Rust, Desktop Application"
+                            data-project-link="https://github.com/tukarp/Rust-Snake"
                         >
                             <img src="Assets/Images/Works/6.png" alt="work">
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 item" data-groups='["SEO"]'>
-                        <div 
-                            class="wrap"
-                            data-image="Assets/Images/Works/7.png"
-                            data-title=""
-                            data-description=""
-                            data-client=""
-                            data-completed=""
-                            data-skills=""
-                            data-project-link="#"
-                        >
-                            <img src="Assets/Images/Works/7.png" alt="work">
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 item" data-groups='["Web Developing"]'>
-                        <div 
-                            class="wrap"
-                            data-image="Assets/Images/Works/8.png"
-                            data-title=""
-                            data-description=""
-                            data-client=""
-                            data-completed=""
-                            data-skills=""
-                            data-project-link="#"
-                        >
-                            <img src="Assets/Images/Works/8.png" alt="work">
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 item" data-groups='["Web Developing"]'>
-                        <div 
-                            class="wrap"
-                            data-image="Assets/Images/Works/9.png"
-                            data-title=""
-                            data-description=""
-                            data-client=""
-                            data-completed=""
-                            data-skills=""
-                            data-project-link="#"
-                        >
-                            <img src="Assets/Images/Works/9.png" alt="work">
                         </div>
                     </div>
                 </div>
@@ -1090,11 +1051,8 @@
                     <img src="Assets/Images/Graphics/Header-background.png" alt="header background">
                     <h1>Testimonial</h1>
                 </header>
-                <header>
-                    In Works...
-                </header>
             </div>
-            <section class="main-section">
+            <section class="main-section slide-in">
                 <div class="images">
                     <img src="Assets/Images/Testimonials/1.png" alt="testimonial" class="active">
                 </div>
@@ -1126,7 +1084,7 @@
                     <h1>Contact Me</h1>
                 </header>
             </div>
-            <div class="container">
+            <div class="container slide-in">
                 <div class="row">
                     <div class="col-lg-6 form">
                         <form>
@@ -1163,7 +1121,7 @@
                             <i class="las la-phone"></i>
                             <div class="text">
                                 <span class="title">Phone number</span>
-                                <a href="tel:+123 456 789">+48&nbsp;***&nbsp;***&nbsp;***</a>
+                                <a href="tel:+48 123 456 789">+48&nbsp;***&nbsp;***&nbsp;***</a>
                             </div>
                         </div>
                         <div class="item">
@@ -1187,7 +1145,7 @@
                         <i class="las la-times"></i>
                     </button>
                     <img src="" alt="work">
-                    <div class="container-fluid">
+                    <div class="container-fluid slide-in">
                         <div class="row">
                             <div class="col-lg-7 left">
                                 <h2 class="title"></h2>
@@ -1196,21 +1154,21 @@
                             <div class="col-lg-5 right">
                                 <div class="client mb-3">
                                     <i class="las la-user-alt"></i>
-                                    <span class="title">Client:</span>
+                                    <span class="title">Client: </span>
                                     <span class="value"></span>
                                 </div>
                                 <div class="completed mb-3">
                                     <i class="lar la-calendar-check"></i>
-                                    <span class="title">Completed:</span>
+                                    <span class="title">Completed: </span>
                                     <span class="value"></span>
                                 </div>
                                 <div class="skills">
                                     <i class="las la-flask"></i>
-                                    <span class="title">Skills:</span>
+                                    <span class="title">Skills: </span>
                                     <span class="value"></span>
                                 </div>
                                 <div class="project-link">
-                                    <i class="las la-link"></i>
+                                    <i class="lab la-github"></i>
                                     <a href="">Project link</a>
                                 </div>
                             </div>

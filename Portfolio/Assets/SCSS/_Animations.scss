@@ -1,0 +1,40 @@
+@keyframes meteor {
+    0% {
+        transform: translate(300px, -300px);
+        opacity: 1;
+    }
+
+    15% {
+        transform: translate(-300px, 300px);
+        opacity: 0;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateX(-50%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
+@keyframes scaleUp {
+    0% {
+        transform: scale(0) rotate(20deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.slide-in {
+    animation: slideIn 0.5s ease-in-out forwards;
+}
+
+.scaleUp {
+    animation: slideIn 1s ease-in-out forwards;
+}
