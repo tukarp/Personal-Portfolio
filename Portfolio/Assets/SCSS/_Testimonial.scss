@@ -69,7 +69,7 @@
                             font-weight: 700;
                             line-height: 42px;
                             max-width: 710px;
-                            animation: scaleUp 1s;
+                            animation: scaleUp 1.25s;
 
                             span {
                                 font-size: 86px;
@@ -83,7 +83,7 @@
                     .writer {
                         margin-top: 32px;
                         margin-bottom: 16px;
-                        animation: scaleUp 1s;
+                        animation: scaleUp 1.25s;
 
                         span.field {
                             color: $secondaryGrayColor;
