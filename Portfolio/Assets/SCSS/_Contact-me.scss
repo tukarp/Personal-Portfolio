@@ -5,7 +5,9 @@
     min-height: 100vh;
 
     .container {
-        margin-top: 100px;
+        .text-center {
+            padding-bottom: 100px;
+        }
 
         .form {
             padding-right: 69px;
