@@ -1,4 +1,6 @@
 #my_work {
+    margin-bottom: 100px;
+
     &.blur {
         filter: blur(2px);
     }
@@ -117,7 +119,6 @@
                         background: darken($primaryColor, 40%);
                     }
                 }
-
 
                 img {
                     width: 100%;

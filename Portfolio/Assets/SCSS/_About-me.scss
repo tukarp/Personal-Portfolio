@@ -1,4 +1,5 @@
 #about_me {
+    margin-bottom: 175px;
     background-image: url(../Images/Graphics/Background-shape.png);
     background-repeat: no-repeat;
     background-position: 68vw 63vh;
@@ -194,7 +195,7 @@
                     position: relative;
                     text-align: center;
                     padding: 32px 8px;
-                    background: rgba($secondaryColor, 0.75);
+                    background: lighten($secondaryColor, 4%);
                     margin-bottom: 16px;
                     border-radius: 8px;
                     z-index: 1;
@@ -255,10 +256,10 @@
     }
 
     .certificates {
-        margin-top: 35px;
-        margin-bottom: 200px;
+        margin-top: 64px;
 
         .items {
+            padding-top: 25px;
             .item {
                 img {
                     width: 100%;
