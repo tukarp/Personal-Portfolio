@@ -64,11 +64,6 @@
         }
     }
 
-    .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-button {
-        right: 10px;
-        top: 10px;
-    }
-
     #about_me {
         .hero {
             .image {
@@ -80,6 +75,17 @@
                 padding-left: 0px;
             }
         }
+    }
+
+    #my_resume {
+        .experience {
+            padding-left: 12px;
+        }
+    }
+
+    .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-button {
+        right: 10px;
+        top: 10px;
     }
 
     #contact_me {
