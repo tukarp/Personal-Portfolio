@@ -141,28 +141,21 @@ contactFromItems.forEach((item) => {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    const form = document.querySelector("#contact-form");
+document.addEventListener("DOMContentLoaded", function() {
+    var nameInput = document.querySelector('input[name="name"]');
+    var subjectInput = document.querySelector('input[name="subject"]');
+    var messageInput = document.querySelector('textarea[name="message"]');
+    var emailLink = document.getElementById('emailLink');
 
-    form.addEventListener("submit", function (e) {
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
         e.preventDefault();
 
-        const formData = new FormData(form);
+        var name = nameInput.value;
+        var subject = subjectInput.value;
+        var message = messageInput.value;
+        var mailtoLink = "mailto:tomasz.wnuk.biznes@gmail.com?subject=" + encodeURIComponent(name + '\n' + subject) + "&body=" + encodeURIComponent(message);
+        emailLink.href = mailtoLink;
 
-        fetch("/send-email", {
-            method: "POST",
-            body: formData,
-        })
-        .then((response) => {
-            if (response.ok) {
-                console.log("Email sent successfully!");
-                form.reset();
-            } else {
-                console.error("Email sending failed.");
-            }
-        })
-        .catch((error) => {
-            console.error("Fetch error:", error);
-        });
-    });
+        emailLink.click();
+    })
 });
