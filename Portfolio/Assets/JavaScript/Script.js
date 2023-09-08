@@ -106,7 +106,6 @@ workModalElement.addEventListener('hide.bs.modal', function (event) {
 
 
 
-
 let testimonialImages = document.querySelectorAll('#testimonial .images img');
 
 testimonialImages.forEach((item, index) => {
@@ -124,7 +123,6 @@ testimonialImages.forEach((item, index) => {
 
 
 
-
 let contactFromItems = document.querySelectorAll('#contact_me .form input, #contact_me .form textarea');
 
 contactFromItems.forEach((item) => {
@@ -138,24 +136,3 @@ contactFromItems.forEach((item) => {
         }
     })
 })
-
-
-
-document.addEventListener("DOMContentLoaded", function() {
-    var nameInput = document.querySelector('input[name="name"]');
-    var subjectInput = document.querySelector('input[name="subject"]');
-    var messageInput = document.querySelector('textarea[name="message"]');
-    var emailLink = document.getElementById('emailLink');
-
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-        e.preventDefault();
-
-        var name = nameInput.value;
-        var subject = subjectInput.value;
-        var message = messageInput.value;
-        var mailtoLink = "mailto:tomasz.wnuk.biznes@gmail.com?subject=" + encodeURIComponent(name + '\n' + subject) + "&body=" + encodeURIComponent(message);
-        emailLink.href = mailtoLink;
-
-        emailLink.click();
-    })
-});
