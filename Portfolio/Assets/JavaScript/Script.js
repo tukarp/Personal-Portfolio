@@ -138,3 +138,31 @@ contactFromItems.forEach((item) => {
         }
     })
 })
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.querySelector("#contact-form");
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const formData = new FormData(form);
+
+        fetch("/send-email", {
+            method: "POST",
+            body: formData,
+        })
+        .then((response) => {
+            if (response.ok) {
+                console.log("Email sent successfully!");
+                form.reset();
+            } else {
+                console.error("Email sending failed.");
+            }
+        })
+        .catch((error) => {
+            console.error("Fetch error:", error);
+        });
+    });
+});

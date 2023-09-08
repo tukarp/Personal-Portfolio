@@ -41,7 +41,7 @@
                     <span>Home</span>                                                                                   <!-- Home Span -->
                 </li>                                                                                                   <!-- End of the Home List Item -->
                 <li>                                                                                                    <!-- About Me List Item -->
-                    <a href="#about_me" class=" inner-link">
+                    <a href="#about_me" class="inner-link">
                         <i class="las la-address-card"></i>
                         <span>About Me</span>
                     </a>
@@ -1096,14 +1096,10 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6 form">
-                            <form>
+                            <form id="contact-form" action="/send-email" method="POST">
                                 <div class="form-item">
                                     <label>Name</label>
                                     <input type="text" name="name">
-                                </div>
-                                <div class="form-item">
-                                    <label>Email</label>
-                                    <input type="email" name="email">
                                 </div>
                                 <div class="form-item">
                                     <label>Subject</label>
@@ -1197,6 +1193,7 @@
         integrity="sha512-fN+YeX/572qBnWu5Axj90DDyKjSNUfvR+8OaFkz27xnr+QE50vZHefJ+bplRrM284a8cJgMLxEipmKshf8vrug=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="Assets/JavaScript/Script.js"></script>
+    <script src="Assets/JavaScript/Email.js"></script>
 </body>
 <!-- End of Body Section -->
 
