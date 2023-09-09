@@ -1,50 +1,65 @@
+/* Styles for the Home section */
+
 #home {
+    /* Set a background image with specific properties */
     background-image: url(../Images/Graphics/Background-shape.png);
     background-repeat: no-repeat;
     background-position: 30vw 50px;
 
+    /* Styles for the header with class 'has-bg' */
     header.has-bg {
         margin-bottom: 32px;
     }
 
+    /* Styles for the information section */
     .info {
         padding-top: 280px;
 
+        /* Styles for the circular profile image */
         img.person-circle {
             margin-bottom: 24px;
         }
 
+        /* Styles for the main heading */
         h1 {
             margin-bottom: 24px;
 
+            /* Styles for the gray-colored span within the heading */
             span {
                 color: $grayColor;
             }
         }
 
+        /* Styles for individual field items */
         .field {
             display: flex;
             align-items: center;
             margin-bottom: 16px;
 
+            /* Styles for the field title */
             h2 {
                 color: $grayColor;
                 margin: 0;
             }
 
+            /* Styles for the field value */
             span {
                 font-size: 21px;
                 margin-left: 2px;
             }
         }
 
+        /* Styles for paragraph text */
         p {
             max-width: 430px;
             margin-bottom: 74px;
         }
 
+        /* Styles for social media links section */
         .socials {
             margin-top: 130px;
+
+            /* Styles for the list of social media links */
             ul {
                 display: flex;
                 flex-wrap: wrap;
@@ -52,9 +67,11 @@
                 margin: 0;
                 padding: 0;
 
+                /* Styles for individual social media items */
                 li {
                     margin-right: 8px;
 
+                    /* Styles for social media link anchors */
                     a {
                         display: flex;
                         align-items: center;
@@ -62,16 +79,19 @@
                         padding: 9px 11px;
                         transition: all 0.3s;
 
+                        /* Hover styles for social media links */
                         &:hover {
                             background: $secondaryColor;
                             border-radius: 6px;
 
+                            /* Color changes on hover */
                             span,
                             i {
                                 color: #fff;
                             }
                         }
 
+                        /* Styles for the social media icon */
                         i {
                             font-size: 18px;
                             margin-right: 8px;
@@ -79,6 +99,7 @@
                             transition: all 0.3s;
                         }
 
+                        /* Styles for the social media link text */
                         span {
                             color: $secondaryGrayColor;
                             transition: all 0.3s;
@@ -89,23 +110,27 @@
         }
     }
 
+    /* Styles for the image section */
     .image {
         height: 100vh;
         display: flex;
         align-items: center;
         justify-content: flex-end;
 
+        /* Styles for the image within the section */
         img {
             border-radius: 8px;
             max-width: 100%;
             transition: all 0.3s;
 
+            /* Hover effect on the image */
             &:hover {
                 filter: saturate(200%) sepia(1);
             }
         }
     }
 
+    /* Styles for the meteor shower animation */
     .meteor-shower {
         position: absolute;
         width: 100%;
@@ -115,6 +140,7 @@
         overflow: hidden;
         z-index: -1;
 
+        /* Loop to create multiple meteor elements with random properties */
         @for $i from 1 through 15 {
             .meteor:nth-child(#{$i}) {
                 position: absolute;
@@ -128,6 +154,5 @@
                 animation-delay: #{random(5000) + 'ms'};
             }
         }
-
     }
 }

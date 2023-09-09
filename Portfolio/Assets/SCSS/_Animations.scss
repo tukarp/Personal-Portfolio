@@ -1,3 +1,6 @@
+/* CSS Animations using Keyframes */
+
+/* Animation for the "meteor" effect */
 @keyframes meteor {
     0% {
         transform: translate(300px, -300px);
@@ -10,6 +13,7 @@
     }
 }
 
+/* Animation for the "slideIn" effect */
 @keyframes slideIn {
     0% {
       transform: translateX(-50%);
@@ -21,6 +25,7 @@
     }
 }
 
+/* Animation for the "scaleUp" effect */
 @keyframes scaleUp {
     0% {
         transform: scale(0) rotate(20deg);
@@ -31,10 +36,12 @@
     }
 }
 
+/* CSS class to apply the "slideIn" animation */
 .slide-in {
     animation: slideIn 0.5s ease-in-out forwards;
 }
 
+/* CSS class to apply the "scaleUp" animation */
 .scaleUp {
     animation: slideIn 1s ease-in-out forwards;
 }

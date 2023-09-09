@@ -1,10 +1,13 @@
+/* Styles for the Testimonial section */
 #testimonial {
     background-image: url(../Images/Graphics/Background-shape.png);
     background-repeat: no-repeat;
     background-position: 60vw 40vh;
     min-height: 100vh;
 
+    /* Styles for the main section within the Testimonial section */
     .main-section {
+        /* Styles for the images of individuals */
         .images {
             display: flex;
             flex-wrap: wrap;
@@ -13,6 +16,7 @@
             margin-top: 100px;
             margin-bottom: 6px;
 
+            /* Styles for individual image elements */
             img {
                 width: 68px;
                 height: 68px;
@@ -24,11 +28,13 @@
                 margin-bottom: 16px;
                 transition: opacity 0.3s, filter 0.3s;
 
+                /* Hover effect for images */
                 &:hover {
                     opacity: 1;
                     filter: saturate(150%) sepia(0.5);
                 }
 
+                /* Styles for the active image */
                 &.active {
                     width: 90px;
                     height: 90px;
@@ -37,21 +43,26 @@
             }
         }
 
+        /* Styles for the comments section */
         .comments { 
             text-align: center;
 
+            /* Styles for individual comment items */
             .item {
                 display: none;
 
+                /* Styles for active comment items */
                 &.active {
                     display: inline-block;
 
+                    /* Styles for the comment box */
                     .box {
                         position: relative;
                         background: lighten($secondaryColor, 4%);
                         padding: 32px;
                         border-radius: 8px;
 
+                        /* Styles for the triangle shape above the comment box */
                         &:before {
                             content: "";
                             position: absolute;
@@ -63,6 +74,7 @@
                             transform: translateX(-50%);
                         }
 
+                        /* Styles for the comment text */
                         p {
                             font-family: 'Playfair Display', serif;
                             font-size: 24px;
@@ -71,6 +83,7 @@
                             max-width: 710px;
                             animation: scaleUp 1.25s;
 
+                            /* Styles for a special span within the comment text */
                             span {
                                 font-size: 86px;
                                 color: $primaryColor;
@@ -80,14 +93,17 @@
                         }
                     }
 
+                    /* Styles for the writer information */
                     .writer {
                         margin-top: 32px;
                         margin-bottom: 16px;
                         animation: scaleUp 1.25s;
 
+                        /* Styles for individual fields in the writer information */
                         span.field {
                             color: $secondaryGrayColor;
 
+                            /* Styles for quotes span within the writer information */
                             span.quotes {
                                 font-family: 'Playfair Display', serif;
                                 color: $primaryColor;
@@ -96,6 +112,7 @@
                                 vertical-align: -6px;
                             }
 
+                            /* Styles for the company name within the writer information */
                             span.company-name {
                                 color: $whiteColor;
                             }

@@ -1,3 +1,6 @@
+/* Styles for custom buttons */
+
+/* Styles for the blue custom button */
 .btn-custom-blue {
     display: inline-block;
     position: relative;
@@ -11,6 +14,7 @@
     border: none;
     transition: all 0.3s;
 
+    /* Pseudo-element to create a circular background effect */
     &:before {
         content: "";
         position: absolute;
@@ -26,16 +30,19 @@
         transition: all 0.3s;
     }
 
+    /* Hover state styles for the button */
     &:hover {
         color: #fff;
 
+        /* Scale up the circular background on hover */
         &:before {
             transform: translate(-50%, -50%) scale(3);
         }
     }
 }
 
+/* Styles for the dark custom button that extends the blue button */
 .btn-custom-dark {
-    @extend .btn-custom-blue;
-    background: $secondaryColor;
+    @extend .btn-custom-blue; /* Extend the styles from .btn-custom-blue */
+    background: $secondaryColor; /* Change the background color for the dark button */
 }

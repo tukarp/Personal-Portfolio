@@ -1,16 +1,24 @@
+/* Styles for the My Resume section */
+
 #my_resume {
     margin-bottom: 125px;
+    /* Set a background image with specific properties */
     background-image: url(../Images/Graphics/Background-shape.png);
     background-repeat: no-repeat;
     background-position: 42vw 31vh;
 
+    /* Styles for the header with class 'has-bg' */
     header.has-bg {
         margin-bottom: 64px;
     }
 
+    /* Styles for the education and experience sections */
     .education, .experience {
+        /* Styles for the "custom" class within education and experience */
         .custom {
+            /* Styles for the "h2" element within "custom" */
             h2 {
+                /* Styles for the "i" element within "h2" */
                 i {
                     margin-left: 20px;
                     margin-right: -5px;
@@ -20,23 +28,27 @@
         }
     }
 
+    /* Styles for the items within education and experience */
     .items {
+        /* Styles for individual item elements */
         .item {
             display: flex;
 
+            /* Margin between items, except for the last one */
             &:not(:last-child) {
                 margin-bottom: 42px;
             }
 
+            /* Styles for the last item */
             &.last {
-
+                /* Color changes for specific elements */
                 .icon i,
                 .box .title {
                     color: $primaryColor;
                 }
-
             }
 
+            /* Hover styles for items */
             &:hover {
                 .icon,
                 .icon:before {
@@ -46,6 +58,7 @@
                 .box {
                     background: transparent;
 
+                    /* Styles for box elements before and after */
                     &:before {
                         border-right-color: rgba(darken($primaryColor, 40%), 0.4);
                     }
@@ -56,6 +69,7 @@
                 }
             }
 
+            /* Styles for the icon within an item */
             .icon {
                 position: relative;
                 display: flex;
@@ -70,6 +84,7 @@
                 margin-top: 23px;
                 transition: all 0.3s;
 
+                /* Styles for a line before the icon */
                 &:before {
                     content: "";
                     position: absolute;
@@ -81,6 +96,7 @@
                 }
             }
 
+            /* Styles for the box within an item */
             .box {
                 position: relative;
                 padding: 32px;
@@ -91,6 +107,7 @@
                 flex-grow: 1;
                 transition: all 0.3s;
 
+                /* Styles for elements before and after the box */
                 &:before {
                     content: "";
                     position: absolute;
@@ -114,6 +131,7 @@
                     transition: all 0.3s;
                 }
 
+                /* Styles for the year, title, and description within the box */
                 .year {
                     display: inline-block;
                     font-size: 18px;
@@ -135,10 +153,12 @@
         }
     }
 
+    /* Styles for the education section */
     .education {
         padding-right: 34px;
     }
 
+    /* Styles for the experience section */
     .experience {
         padding-left: 34px;
     }

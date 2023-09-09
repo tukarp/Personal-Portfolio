@@ -1,30 +1,36 @@
+/* Media query for screens with a minimum width of 1400px */
 @media (min-width: 1400px) {
     .container {
-        max-width: 1200px;
+        max-width: 1200px; /* Set max-width for the container */
     }
 }
 
+/* Media query for screens with a maximum width of 1199px */
 @media (max-width: 1199px) {
+    /* Styles for the About Me section */
     #about_me {
+        /* Adjust styles for elements within the "languages" and "key-skills" sections */
         .languages .key-skills {
             .item {
                 padding-right: 12px;
             }
         }
 
+        /* Styles for the hero section */
         .hero {
             .info {
                 padding-left: 48px;
             }
 
             .container {
-                padding-bottom: -40px;
-                margin-bottom: -40px;
+                padding-bottom: -40px; /* Negative padding for container */
+                margin-bottom: -40px; /* Negative margin for container */
             }
 
+            /* Styles for buttons within the hero section */
             .buttons {
                 a:first-child {
-                    margin-top: 16px
+                    margin-top: 16px;
                 }
 
                 a:last-child {
@@ -35,18 +41,23 @@
         }
     }
 
+    /* Styles for the My Resume section */
     #my_resume {
+        /* Adjust margin for the .experience section */
         .experience {
             margin-top: 100px;
         }
     }
 
+    /* Styles for the Contact Me section */
     #contact_me {
         .container {
+            /* Adjust padding for the .form section */
             .form {
                 padding-right: 12px;
             }
 
+            /* Adjust padding for the .info section */
             .info {
                 padding-left: 12px;
             }
@@ -54,8 +65,11 @@
     }
 }
 
+/* Media query for screens with a maximum width of 991px */
 @media (max-width: 991px) {
+    /* Styles for the Home section */
     #home {
+        /* Adjust styles for the .image section */
         .image {
             justify-content: flex-start;
             height: unset;
@@ -64,36 +78,45 @@
         }
     }
 
+    /* Styles for the About Me section */
     #about_me {
         .hero {
+            /* Adjust styles for the .image section */
             .image {
                 img {
                     margin-left: -10px;
                 }
             }
+
+            /* Adjust padding for the .info section */
             .info {
                 padding-left: 0px;
             }
         }
     }
 
+    /* Styles for the My Resume section */
     #my_resume {
         .experience {
             padding-left: 12px;
         }
     }
 
+    /* Styles for the work modal */
     .modal#workModal .modal-dialog .modal-content .modal-body {
+        /* Adjust padding for the .right section */
         .right {
             padding-left: 0px;
         }
 
+        /* Adjust position for the close button in the modal */
         .modal-close-button {
             right: 10px;
             top: 10px;
         }
     }
 
+    /* Styles for the Contact Me section */
     #contact_me {
         .container {
             .info {
@@ -119,21 +142,26 @@
     }
 }
 
+/* Media query for screens with a maximum width of 767px */
 @media (max-width: 767px) {
+    /* Styles for the Sidebar section */
     #sidebar {
         background: darken($secondaryColor, 30%);
         padding-right: 60px;
         transform: translateX(-100%);
         transition: all 0.3s;
 
+        /* Styles for the sidebar when it's open */
         &.open {
             transform: translateX(0);
         }
 
+        /* Styles for the toggle-sidebar section */
         .toggle-sidebar {
             display: flex;
         }
 
+        /* Styles for the logo section */
         .logo {
             text-align: left;
         }
@@ -150,12 +178,13 @@
                 }
             }
 
-            >span {
+            > span {
                 display: none;
             }
         }
     }
 
+    /* Styles for heading elements */
     h1 {
         font-size: 36px;
     }
@@ -167,18 +196,21 @@
     main {
         padding-left: 0;
 
+        /* Adjust styles for the header image within a section with a background */
         > section header.has-bg img {
             left: -65px;
             top: 2px;
         }
     }
 
+    /* Styles for the Home section */
     #home {
         background-image: unset;
 
         .info {
             padding-top: 80px;
 
+            /* Adjust styles for the .socials section */
             .socials {
                 margin-top: 70px;
 
@@ -189,6 +221,7 @@
         }
     }
 
+    /* Styles for the About Me section */
     #about_me {
         .hero .info .buttons {
             flex-direction: column;
@@ -203,6 +236,7 @@
             }
         }
 
+        /* Adjust styles for the .key-skills and .languages sections */
         .key-skills, .languages {
             .items {
                 .item {
@@ -214,6 +248,7 @@
         }
     }
 
+    /* Styles for the My Resume section */
     #my_resume {
         .items {
             .item {
@@ -239,6 +274,7 @@
             }
         }
 
+        /* Adjust padding for the .education and .experience sections */
         .education,
         .experience {
             padding-right: 12px;
@@ -246,16 +282,20 @@
         }
     }
 
+    /* Styles for the work modal with id "workModal" */
     .modal#workModal {
         .modal-dialog .modal-content .modal-body {
+            /* Adjust height for images within the modal */
             img {
                 height: unset;
             }
 
+            /* Adjust padding for the left content within the modal */
             .left {
                 padding-right: 0;
             }
 
+            /* Adjust padding and margin for the right content within the modal */
             .right {
                 padding-left: 0;
                 padding-top: 32px;

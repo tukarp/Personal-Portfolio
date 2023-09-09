@@ -1,15 +1,20 @@
+/* Styles for the My Work section */
+
 #my_work {
     margin-bottom: 100px;
 
+    /* Apply a blur filter when the section has the "blur" class */
     &.blur {
         filter: blur(2px);
     }
 
+    /* Styles for the filter buttons section */
     .filters {
         text-align: center;
         margin-top: 81px;
         margin-bottom: 55px;
 
+        /* Styles for filter buttons */
         button {
             background: transparent;
             color: $secondaryGrayColor;
@@ -19,6 +24,7 @@
             margin-left: 8px;
             margin-bottom: 16px;
 
+            /* Styles for the active filter button */
             &.active {
                 color: #fff;
                 background: $secondaryColor;
@@ -27,24 +33,31 @@
         }
     }
 
+    /* Styles for the work items section */
     .work-items {
+        /* Styles for individual work item elements */
         .item {
             margin-bottom: 24px;
 
+            /* Styles for the item container */
             .wrap {
                 position: relative;
                 overflow: hidden;
 
+                /* Hover effect on work items */
                 &:hover {
+                    /* Styles for the "before" pseudo-element */
                     &:before {
                         transform: rotate(0deg);
                     }
 
+                    /* Styles for the "after" pseudo-element */
                     &:after {
                         transform: translate(-50%, -50%) rotate(0deg);
                     }
                 }
 
+                /* Styles for the "before" pseudo-element */
                 &:before {
                     content: "";
                     position: absolute;
@@ -59,6 +72,7 @@
                     transition: all 0.3s;
                 }
 
+                /* Styles for the "after" pseudo-element */
                 &:after {
                     content: "View";
                     position: absolute;
@@ -80,6 +94,7 @@
                     transition: all 0.3s;
                 }
 
+                /* Styles for the work item image */
                 img {
                     width: 100%;
                     opacity: 0.5;
@@ -91,6 +106,7 @@
     }
 }
 
+/* Styles for the work modal */
 .modal#workModal {
     .modal-dialog {
         max-width: 863px;
@@ -103,6 +119,7 @@
                 padding: 0;
                 position: static;
 
+                /* Styles for the close button in the modal */
                 .modal-close-button {
                     position: absolute;
                     right: -23px;
@@ -120,6 +137,7 @@
                     }
                 }
 
+                /* Styles for images within the modal */
                 img {
                     width: 100%;
                     height: 532px;
@@ -127,6 +145,7 @@
                     border-radius: 8px;
                 }
 
+                /* Styles for the left content within the modal */
                 .left {
                     padding-left: 0;
                     padding-right: 32px;
@@ -141,6 +160,7 @@
                     }
                 }
 
+                /* Styles for the right content within the modal */
                 .right {
                     padding-right: 0;
                     padding-left: 32px;
@@ -151,19 +171,23 @@
                         margin-right: 2px;
                     }
 
+                    /* Styles for value text */
                     .value {
                         color: $grayColor;
                     }
 
+                    /* Styles for project links */
                     .project-link {
                         margin-top: 16px;
 
+                        /* Styles for links and icons */
                         a,
                         i {
                             color: $primaryColor;
                             text-decoration: none;
                         }
 
+                        /* Hover effect on links */
                         a:hover {
                             text-decoration: underline;
                         }

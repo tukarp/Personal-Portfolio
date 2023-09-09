@@ -1,89 +1,118 @@
+/* Reset styles for all elements */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0; /* Reset margins to zero */
+  padding: 0; /* Reset padding to zero */
+  box-sizing: border-box; /* Use border-box box-sizing for consistent sizing */
 }
 
+/* Reset styles for unordered lists */
 ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+  margin: 0; /* Reset margin for unordered lists */
+  padding: 0; /* Reset padding for unordered lists */
+  list-style: none; /* Remove list markers (bullet points) */
 }
 
+/* Reset styles for heading and paragraph elements */
 h1, h2, h3, h4, h5, h6, p {
-  margin: 0;
-  padding: 0;
+  margin: 0; /* Reset margin for headings and paragraphs */
+  padding: 0; /* Reset padding for headings and paragraphs */
 }
 
+/* Color Variables */
+/* Primary brand color */
+/* Secondary background color */
+/* Overall background color */
+/* Standard gray text color */
+/* Secondary gray color */
+/* White color for elements */
+/* Fonts */
+/* Import the 'Playfair Display' font family with various styles and weights */
+/* Import the 'Ubuntu' font family with various styles and weights */
+/* Typography styles */
+/* Define font family for various heading elements */
 h1, h2, h4, h5, h6 {
   font-family: "Playfair Display", serif;
 }
 
+/* Styles for h1 elements */
 h1 {
   font-size: 48px;
   font-weight: 700;
 }
 
+/* Styles for h2 elements */
 h2 {
   font-size: 24px;
   font-weight: 700;
 }
 
+/* Styles for h3 elements */
 h3 {
   font-family: "Ubuntu", sans-serif;
   font-size: 18px;
   font-weight: 400;
 }
 
+/* Styles for h4 elements */
 h4 {
   font-size: 20px;
   font-weight: 700;
 }
 
+/* Styles for paragraph elements */
 p {
   line-height: 175%;
 }
 
+/* Body styles */
 body {
   background: #0f0f0f;
   font-family: "Ubuntu", sans-serif;
 }
 
+/* Apply white text color to all elements */
 * {
   color: #fff;
 }
 
+/* Styles for the Main content area */
 main {
-  padding-left: 102px;
+  padding-left: 102px; /* Add left padding to the main content */
 }
 main > section {
-  display: none;
+  display: none; /* Initially hide all sections */
   padding-right: 32px;
   padding-left: 32px;
+  /* Add top padding to sections other than "home" */
 }
 main > section:not(#home) {
   padding-top: 64px;
 }
 main > section.active {
-  display: block;
+  display: block; /* Display active section */
+  /* Styles for sections with a background image header */
+  /* Styles for custom section headers */
 }
-main > section header.has-bg {
+main > section.active header.has-bg {
   position: relative;
   display: inline-flex;
+  /* Position the header image */
 }
-main > section header.has-bg img {
+main > section.active header.has-bg img {
   position: absolute;
   top: 15px;
   left: -72px;
 }
-main > section header.custom {
+main > section.active header.custom {
   position: relative;
   text-align: center;
   margin-bottom: 42px;
+  /* Styles for the underline element */
+  /* Styles for the section title */
 }
-main > section header.custom:before {
+main > section.active header.custom:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -94,12 +123,14 @@ main > section header.custom:before {
   transform: translateY(-50%);
   z-index: -1;
 }
-main > section header.custom h2 {
+main > section.active header.custom h2 {
   display: inline-block;
   padding: 0 24px;
   background: #0f0f0f;
 }
 
+/* Styles for custom buttons */
+/* Styles for the blue custom button */
 .btn-custom-blue, .btn-custom-dark {
   display: inline-block;
   position: relative;
@@ -112,6 +143,8 @@ main > section header.custom h2 {
   overflow: hidden;
   border: none;
   transition: all 0.3s;
+  /* Pseudo-element to create a circular background effect */
+  /* Hover state styles for the button */
 }
 .btn-custom-blue:before, .btn-custom-dark:before {
   content: "";
@@ -129,15 +162,19 @@ main > section header.custom h2 {
 }
 .btn-custom-blue:hover, .btn-custom-dark:hover {
   color: #fff;
+  /* Scale up the circular background on hover */
 }
 .btn-custom-blue:hover:before, .btn-custom-dark:hover:before {
   transform: translate(-50%, -50%) scale(3);
 }
 
+/* Styles for the dark custom button that extends the blue button */
 .btn-custom-dark {
-  background: #1E1E20;
+  /* Extend the styles from .btn-custom-blue */
+  background: #1E1E20; /* Change the background color for the dark button */
 }
 
+/* Styles for the Sidebar */
 #sidebar {
   position: fixed;
   height: 100vh;
@@ -146,6 +183,11 @@ main > section header.custom h2 {
   display: flex;
   flex-direction: column;
   z-index: 10;
+  /* Apply a blur filter when the sidebar has the "blur" class */
+  /* Styles for the toggle sidebar button */
+  /* Styles for the logo section within the sidebar */
+  /* Styles for the navigation section within the sidebar */
+  /* Styles for the toggle mode section within the sidebar */
 }
 #sidebar.blur {
   filter: blur(2px);
@@ -180,9 +222,13 @@ main > section header.custom h2 {
 #sidebar nav ul li {
   position: relative;
   margin-bottom: 35px;
+  /* Styles for navigation links */
 }
 #sidebar nav ul li a {
   position: relative;
+  /* Hover effect on navigation links */
+  /* Styles for the "before" pseudo-element */
+  /* Styles for active navigation links */
 }
 #sidebar nav ul li a:hover i {
   color: #fff;
@@ -235,12 +281,14 @@ main > section header.custom h2 {
   display: flex;
   align-items: flex-end;
   padding-bottom: 62px;
+  /* Styles for the outer mode toggle button */
 }
 #sidebar .toggle-mode .outer {
   width: 24px;
   height: 35px;
   background: #1E1E20;
   border-radius: 24px;
+  /* Styles for the inner mode toggle button */
 }
 #sidebar .toggle-mode .outer .inner {
   position: relative;
@@ -251,6 +299,7 @@ main > section header.custom h2 {
   margin-right: auto;
   margin-left: auto;
   margin-top: 16px;
+  /* Styles for the before pseudo-element of the inner button */
 }
 #sidebar .toggle-mode .outer .inner:before {
   position: absolute;
@@ -263,22 +312,34 @@ main > section header.custom h2 {
   border-radius: 50%;
 }
 
+/* Styles for the Home section */
 #home {
+  /* Set a background image with specific properties */
   background-image: url(../Images/Graphics/Background-shape.png);
   background-repeat: no-repeat;
   background-position: 30vw 50px;
+  /* Styles for the header with class 'has-bg' */
+  /* Styles for the information section */
+  /* Styles for the image section */
+  /* Styles for the meteor shower animation */
 }
 #home header.has-bg {
   margin-bottom: 32px;
 }
 #home .info {
   padding-top: 280px;
+  /* Styles for the circular profile image */
+  /* Styles for the main heading */
+  /* Styles for individual field items */
+  /* Styles for paragraph text */
+  /* Styles for social media links section */
 }
 #home .info img.person-circle {
   margin-bottom: 24px;
 }
 #home .info h1 {
   margin-bottom: 24px;
+  /* Styles for the gray-colored span within the heading */
 }
 #home .info h1 span {
   color: #B6B7BA;
@@ -287,6 +348,8 @@ main > section header.custom h2 {
   display: flex;
   align-items: center;
   margin-bottom: 16px;
+  /* Styles for the field title */
+  /* Styles for the field value */
 }
 #home .info .field h2 {
   color: #B6B7BA;
@@ -302,6 +365,7 @@ main > section header.custom h2 {
 }
 #home .info .socials {
   margin-top: 130px;
+  /* Styles for the list of social media links */
 }
 #home .info .socials ul {
   display: flex;
@@ -309,9 +373,11 @@ main > section header.custom h2 {
   list-style: none;
   margin: 0;
   padding: 0;
+  /* Styles for individual social media items */
 }
 #home .info .socials ul li {
   margin-right: 8px;
+  /* Styles for social media link anchors */
 }
 #home .info .socials ul li a {
   display: flex;
@@ -319,10 +385,14 @@ main > section header.custom h2 {
   text-decoration: none;
   padding: 9px 11px;
   transition: all 0.3s;
+  /* Hover styles for social media links */
+  /* Styles for the social media icon */
+  /* Styles for the social media link text */
 }
 #home .info .socials ul li a:hover {
   background: #1E1E20;
   border-radius: 6px;
+  /* Color changes on hover */
 }
 #home .info .socials ul li a:hover span,
 #home .info .socials ul li a:hover i {
@@ -343,11 +413,13 @@ main > section header.custom h2 {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  /* Styles for the image within the section */
 }
 #home .image img {
   border-radius: 8px;
   max-width: 100%;
   transition: all 0.3s;
+  /* Hover effect on the image */
 }
 #home .image img:hover {
   filter: saturate(200%) sepia(1);
@@ -360,6 +432,7 @@ main > section header.custom h2 {
   top: 0;
   overflow: hidden;
   z-index: -1;
+  /* Loop to create multiple meteor elements with random properties */
 }
 #home .meteor-shower .meteor:nth-child(1) {
   position: absolute;
@@ -367,10 +440,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 57vh;
-  left: 58vw;
-  animation: meteor 4557ms linear infinite;
-  animation-delay: 2292ms;
+  top: 59vh;
+  left: 8vw;
+  animation: meteor 6769ms linear infinite;
+  animation-delay: 3537ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -378,10 +451,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 66vh;
-  left: 39vw;
-  animation: meteor 7275ms linear infinite;
-  animation-delay: 2362ms;
+  top: 69vh;
+  left: 22vw;
+  animation: meteor 3102ms linear infinite;
+  animation-delay: 2089ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -389,10 +462,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 13vh;
-  left: 70vw;
-  animation: meteor 3340ms linear infinite;
-  animation-delay: 2727ms;
+  top: 65vh;
+  left: 47vw;
+  animation: meteor 3380ms linear infinite;
+  animation-delay: 3178ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -400,10 +473,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 17vh;
-  left: 51vw;
-  animation: meteor 4243ms linear infinite;
-  animation-delay: 2626ms;
+  top: 12vh;
+  left: 22vw;
+  animation: meteor 4223ms linear infinite;
+  animation-delay: 4010ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -411,10 +484,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 15vh;
-  left: 4vw;
-  animation: meteor 7445ms linear infinite;
-  animation-delay: 2710ms;
+  top: 29vh;
+  left: 38vw;
+  animation: meteor 6285ms linear infinite;
+  animation-delay: 557ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -422,10 +495,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 59vh;
-  left: 8vw;
-  animation: meteor 4314ms linear infinite;
-  animation-delay: 3763ms;
+  top: 24vh;
+  left: 20vw;
+  animation: meteor 5229ms linear infinite;
+  animation-delay: 336ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -433,10 +506,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 15vh;
-  left: 7vw;
-  animation: meteor 7445ms linear infinite;
-  animation-delay: 3795ms;
+  top: 51vh;
+  left: 28vw;
+  animation: meteor 6314ms linear infinite;
+  animation-delay: 375ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -444,10 +517,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 70vh;
-  left: 75vw;
-  animation: meteor 6272ms linear infinite;
-  animation-delay: 485ms;
+  top: 69vh;
+  left: 11vw;
+  animation: meteor 4338ms linear infinite;
+  animation-delay: 1230ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -455,10 +528,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 57vh;
-  left: 9vw;
-  animation: meteor 6164ms linear infinite;
-  animation-delay: 4848ms;
+  top: 5vh;
+  left: 64vw;
+  animation: meteor 6249ms linear infinite;
+  animation-delay: 2168ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -466,10 +539,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 59vh;
-  left: 49vw;
-  animation: meteor 4676ms linear infinite;
-  animation-delay: 4725ms;
+  top: 9vh;
+  left: 77vw;
+  animation: meteor 5751ms linear infinite;
+  animation-delay: 478ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -477,10 +550,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 61vh;
-  left: 33vw;
-  animation: meteor 3536ms linear infinite;
-  animation-delay: 1887ms;
+  top: 40vh;
+  left: 9vw;
+  animation: meteor 5464ms linear infinite;
+  animation-delay: 2880ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -488,10 +561,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 36vh;
-  left: 49vw;
-  animation: meteor 3570ms linear infinite;
-  animation-delay: 4381ms;
+  top: 12vh;
+  left: 16vw;
+  animation: meteor 6589ms linear infinite;
+  animation-delay: 3141ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -499,10 +572,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 49vh;
-  left: 53vw;
-  animation: meteor 7020ms linear infinite;
-  animation-delay: 123ms;
+  top: 26vh;
+  left: 31vw;
+  animation: meteor 4279ms linear infinite;
+  animation-delay: 4860ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -510,10 +583,10 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 28vh;
-  left: 32vw;
-  animation: meteor 3860ms linear infinite;
-  animation-delay: 1411ms;
+  top: 74vh;
+  left: 1vw;
+  animation: meteor 6845ms linear infinite;
+  animation-delay: 3306ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -521,46 +594,73 @@ main > section header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 26vh;
-  left: 39vw;
-  animation: meteor 4213ms linear infinite;
-  animation-delay: 334ms;
+  top: 51vh;
+  left: 45vw;
+  animation: meteor 6949ms linear infinite;
+  animation-delay: 4473ms;
 }
 
+/* Styles for the About Me section */
 #about_me {
+  /* Add a bottom margin to create space between sections */
   margin-bottom: 175px;
+  /* Set a background image and configure its properties */
   background-image: url(../Images/Graphics/Background-shape.png);
   background-repeat: no-repeat;
   background-position: 68vw 63vh;
+  /* Ensure a minimum height to fill the viewport */
   min-height: 100vh;
+  /* Styles for various subsections within About Me */
+  /* Styles for elements with class .custom within certain sections */
+  /* Styles for elements with class .custom within .back-end and .front-end sections */
+  /* Styles for the .hero section */
+  /* Styles for the rating stars section */
+  /* Styles for rows within the About Me section */
+  /* Styles for programming skills, operating systems, tools, and code editors sections */
+  /* Styles for the certificates section */
 }
 #about_me .key-skills .custom h2 i, #about_me .languages .custom h2 i, #about_me .programming-skills .custom h2 i, #about_me .tech-stack .custom h2 i, #about_me .operating-systems .custom h2 i, #about_me .tools .custom h2 i, #about_me .code-editors .custom h2 i, #about_me .certificates .custom h2 i {
+  /* Adjust margins and font size for nested icons */
   margin-left: 20px;
   margin-right: -5px;
   font-size: 30px;
 }
 #about_me .back-end .custom h2 i, #about_me .front-end .custom h2 i {
+  /* Adjust margins and font size for nested icons */
   margin-left: 0px;
   margin-right: 15px;
   font-size: 30px;
 }
+#about_me .hero {
+  /* Styles for the image within .hero */
+  /* Styles for the information within .hero */
+}
 #about_me .hero .image img {
+  /* Add border radius and transition effect for images */
   border-radius: 8px;
   max-width: 100%;
   transition: all 0.3s;
+  /* Apply a filter effect on hover */
 }
 #about_me .hero .image img:hover {
   filter: saturate(200%) sepia(1);
 }
+#about_me .hero .info {
+  /* Styles for items within .items */
+  /* Styles for buttons within .buttons */
+}
 #about_me .hero .info header {
+  /* Add margins to the header for spacing */
   margin-bottom: 48px;
   margin-top: 32px;
 }
 #about_me .hero .info h2 {
+  /* Set color and margin for h2 elements */
   color: #B6B7BA;
   margin-bottom: 16px;
 }
 #about_me .hero .info p {
+  /* Define maximum width and color for paragraphs */
   max-width: 560px;
   color: #B6B7BA;
 }
@@ -568,10 +668,12 @@ main > section header.custom h2 {
   margin-top: 30px;
   margin-bottom: 48px;
   font-size: 16px;
+  /* Styles for individual items within .items */
 }
 #about_me .hero .info .items .item {
   display: flex;
   margin-bottom: 16px;
+  /* Styles for the value and icon within .item */
 }
 #about_me .hero .info .items .item .value {
   color: #B6B7BA;
@@ -584,18 +686,24 @@ main > section header.custom h2 {
 #about_me .hero .info .buttons {
   display: inline-flex;
   flex-wrap: wrap;
+  /* Add margin to the first child of .buttons */
 }
 #about_me .hero .info .buttons a:first-child {
   margin-right: 24px;
 }
 #about_me .rate {
   display: flex;
+  /* Styles for individual star elements */
 }
 #about_me .rate span {
   position: relative;
   display: flex;
   width: 15px;
   height: 15px;
+  /* Add right margin to separate stars */
+  /* Star shapes with before and after pseudo-elements */
+  /* Styles for half-filled stars */
+  /* Styles for fully-filled stars */
 }
 #about_me .rate span:not(:last-child) {
   margin-right: 12px;
@@ -627,6 +735,13 @@ main > section header.custom h2 {
 #about_me .rate span.fill:before, #about_me .rate span.fill:after {
   background: #658DF2;
 }
+#about_me .row {
+  /* Add spacing to the top and bottom of rows */
+  margin-top: 25px;
+  margin-bottom: 25px;
+  /* Styles for key skills and languages sections */
+  /* Styles for skills and languages sections */
+}
 #about_me .row .key-skills {
   padding-right: 16px;
 }
@@ -636,15 +751,19 @@ main > section header.custom h2 {
 #about_me .row .skills .key-skills, #about_me .row .skills .languages, #about_me .row .languages-outer .key-skills, #about_me .row .languages-outer .languages {
   margin-top: 64px;
   margin-bottom: 50px;
+  /* Styles for items within skills and languages sections */
 }
 #about_me .row .skills .key-skills .items, #about_me .row .skills .languages .items, #about_me .row .languages-outer .key-skills .items, #about_me .row .languages-outer .languages .items {
   margin-bottom: 43px;
+  /* Styles for individual items */
 }
 #about_me .row .skills .key-skills .items .item, #about_me .row .skills .languages .items .item, #about_me .row .languages-outer .key-skills .items .item, #about_me .row .languages-outer .languages .items .item {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 43px;
+  /* Add margin to separate items */
+  /* Styles for item information */
 }
 #about_me .row .skills .key-skills .items .item:not(:last-child), #about_me .row .skills .languages .items .item:not(:last-child), #about_me .row .languages-outer .key-skills .items .item:not(:last-child), #about_me .row .languages-outer .languages .items .item:not(:last-child) {
   margin-bottom: 32px;
@@ -655,15 +774,13 @@ main > section header.custom h2 {
 #about_me .row .skills .key-skills .items .item .info .level, #about_me .row .skills .languages .items .item .info .level, #about_me .row .languages-outer .key-skills .items .item .info .level, #about_me .row .languages-outer .languages .items .item .info .level {
   color: #B6B7BA;
 }
-#about_me .row {
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-#about_me .row .programming-skills .items, #about_me .row .operating-systems .items, #about_me .row .tools .items, #about_me .row .code-editors .items, #about_me .row .back-end .items, #about_me .row .front-end .items {
+#about_me .programming-skills .items, #about_me .operating-systems .items, #about_me .tools .items, #about_me .code-editors .items, #about_me .back-end .items, #about_me .front-end .items {
+  /* Negative margins to create spacing between items */
   margin-left: -20px;
   margin-right: -20px;
+  /* Styles for individual items */
 }
-#about_me .row .programming-skills .items .item, #about_me .row .operating-systems .items .item, #about_me .row .tools .items .item, #about_me .row .code-editors .items .item, #about_me .row .back-end .items .item, #about_me .row .front-end .items .item {
+#about_me .programming-skills .items .item, #about_me .operating-systems .items .item, #about_me .tools .items .item, #about_me .code-editors .items .item, #about_me .back-end .items .item, #about_me .front-end .items .item {
   position: relative;
   text-align: center;
   padding: 32px 8px;
@@ -672,11 +789,14 @@ main > section header.custom h2 {
   border-radius: 8px;
   z-index: 1;
   overflow: hidden;
+  /* Hover effect to reveal pseudo-elements */
+  /* Styles for before and after pseudo-elements */
+  /* Styles for images, headings, and rating elements */
 }
-#about_me .row .programming-skills .items .item:hover:before, #about_me .row .programming-skills .items .item:hover:after, #about_me .row .operating-systems .items .item:hover:before, #about_me .row .operating-systems .items .item:hover:after, #about_me .row .tools .items .item:hover:before, #about_me .row .tools .items .item:hover:after, #about_me .row .code-editors .items .item:hover:before, #about_me .row .code-editors .items .item:hover:after, #about_me .row .back-end .items .item:hover:before, #about_me .row .back-end .items .item:hover:after, #about_me .row .front-end .items .item:hover:before, #about_me .row .front-end .items .item:hover:after {
+#about_me .programming-skills .items .item:hover:before, #about_me .programming-skills .items .item:hover:after, #about_me .operating-systems .items .item:hover:before, #about_me .operating-systems .items .item:hover:after, #about_me .tools .items .item:hover:before, #about_me .tools .items .item:hover:after, #about_me .code-editors .items .item:hover:before, #about_me .code-editors .items .item:hover:after, #about_me .back-end .items .item:hover:before, #about_me .back-end .items .item:hover:after, #about_me .front-end .items .item:hover:before, #about_me .front-end .items .item:hover:after {
   transform: translate(0, 0);
 }
-#about_me .row .programming-skills .items .item:before, #about_me .row .operating-systems .items .item:before, #about_me .row .tools .items .item:before, #about_me .row .code-editors .items .item:before, #about_me .row .back-end .items .item:before, #about_me .row .front-end .items .item:before {
+#about_me .programming-skills .items .item:before, #about_me .operating-systems .items .item:before, #about_me .tools .items .item:before, #about_me .code-editors .items .item:before, #about_me .back-end .items .item:before, #about_me .front-end .items .item:before {
   position: absolute;
   content: "";
   width: 100%;
@@ -689,7 +809,7 @@ main > section header.custom h2 {
   transform: translate(100%, -100%);
   transition: all 0.6s;
 }
-#about_me .row .programming-skills .items .item:after, #about_me .row .operating-systems .items .item:after, #about_me .row .tools .items .item:after, #about_me .row .code-editors .items .item:after, #about_me .row .back-end .items .item:after, #about_me .row .front-end .items .item:after {
+#about_me .programming-skills .items .item:after, #about_me .operating-systems .items .item:after, #about_me .tools .items .item:after, #about_me .code-editors .items .item:after, #about_me .back-end .items .item:after, #about_me .front-end .items .item:after {
   position: absolute;
   content: "";
   width: 100%;
@@ -702,14 +822,14 @@ main > section header.custom h2 {
   transform: translate(-100%, 100%);
   transition: all 0.6s;
 }
-#about_me .row .programming-skills .items .item img, #about_me .row .operating-systems .items .item img, #about_me .row .tools .items .item img, #about_me .row .code-editors .items .item img, #about_me .row .back-end .items .item img, #about_me .row .front-end .items .item img {
+#about_me .programming-skills .items .item img, #about_me .operating-systems .items .item img, #about_me .tools .items .item img, #about_me .code-editors .items .item img, #about_me .back-end .items .item img, #about_me .front-end .items .item img {
   margin-bottom: 21px;
 }
-#about_me .row .programming-skills .items .item h3, #about_me .row .operating-systems .items .item h3, #about_me .row .tools .items .item h3, #about_me .row .code-editors .items .item h3, #about_me .row .back-end .items .item h3, #about_me .row .front-end .items .item h3 {
+#about_me .programming-skills .items .item h3, #about_me .operating-systems .items .item h3, #about_me .tools .items .item h3, #about_me .code-editors .items .item h3, #about_me .back-end .items .item h3, #about_me .front-end .items .item h3 {
   margin-right: 10px;
   margin-bottom: 8px;
 }
-#about_me .row .programming-skills .items .item .rate, #about_me .row .operating-systems .items .item .rate, #about_me .row .tools .items .item .rate, #about_me .row .code-editors .items .item .rate, #about_me .row .back-end .items .item .rate, #about_me .row .front-end .items .item .rate {
+#about_me .programming-skills .items .item .rate, #about_me .operating-systems .items .item .rate, #about_me .tools .items .item .rate, #about_me .code-editors .items .item .rate, #about_me .back-end .items .item .rate, #about_me .front-end .items .item .rate {
   margin-top: 16px;
   display: flex;
   justify-content: center;
@@ -717,6 +837,7 @@ main > section header.custom h2 {
 }
 #about_me .certificates {
   margin-top: 64px;
+  /* Styles for items within certificates section */
 }
 #about_me .certificates .items {
   padding-top: 25px;
@@ -724,30 +845,58 @@ main > section header.custom h2 {
 #about_me .certificates .items .item img {
   width: 100%;
   transition: all 0.3s;
+  /* Hover effect to scale the image */
 }
 #about_me .certificates .items .item img:hover {
   transform: scale(1.1);
 }
 
+/* Styles for the My Resume section */
 #my_resume {
   margin-bottom: 125px;
+  /* Set a background image with specific properties */
   background-image: url(../Images/Graphics/Background-shape.png);
   background-repeat: no-repeat;
   background-position: 42vw 31vh;
+  /* Styles for the header with class 'has-bg' */
+  /* Styles for the education and experience sections */
+  /* Styles for the items within education and experience */
+  /* Styles for the education section */
+  /* Styles for the experience section */
 }
 #my_resume header.has-bg {
   margin-bottom: 64px;
+}
+#my_resume .education, #my_resume .experience {
+  /* Styles for the "custom" class within education and experience */
+}
+#my_resume .education .custom, #my_resume .experience .custom {
+  /* Styles for the "h2" element within "custom" */
+}
+#my_resume .education .custom h2, #my_resume .experience .custom h2 {
+  /* Styles for the "i" element within "h2" */
 }
 #my_resume .education .custom h2 i, #my_resume .experience .custom h2 i {
   margin-left: 20px;
   margin-right: -5px;
   font-size: 30px;
 }
+#my_resume .items {
+  /* Styles for individual item elements */
+}
 #my_resume .items .item {
   display: flex;
+  /* Margin between items, except for the last one */
+  /* Styles for the last item */
+  /* Hover styles for items */
+  /* Styles for the icon within an item */
+  /* Styles for the box within an item */
 }
 #my_resume .items .item:not(:last-child) {
   margin-bottom: 42px;
+}
+#my_resume .items .item.last {
+  /* Color changes for specific elements */
 }
 #my_resume .items .item.last .icon i,
 #my_resume .items .item.last .box .title {
@@ -759,6 +908,7 @@ main > section header.custom h2 {
 }
 #my_resume .items .item:hover .box {
   background: transparent;
+  /* Styles for box elements before and after */
 }
 #my_resume .items .item:hover .box:before {
   border-right-color: rgba(11, 44, 128, 0.4);
@@ -779,6 +929,7 @@ main > section header.custom h2 {
   margin-right: 46px;
   margin-top: 23px;
   transition: all 0.3s;
+  /* Styles for a line before the icon */
 }
 #my_resume .items .item .icon:before {
   content: "";
@@ -798,6 +949,8 @@ main > section header.custom h2 {
   z-index: 1;
   flex-grow: 1;
   transition: all 0.3s;
+  /* Styles for elements before and after the box */
+  /* Styles for the year, title, and description within the box */
 }
 #my_resume .items .item .box:before {
   content: "";
@@ -842,8 +995,12 @@ main > section header.custom h2 {
   padding-left: 34px;
 }
 
+/* Styles for the My Work section */
 #my_work {
   margin-bottom: 100px;
+  /* Apply a blur filter when the section has the "blur" class */
+  /* Styles for the filter buttons section */
+  /* Styles for the work items section */
 }
 #my_work.blur {
   filter: blur(2px);
@@ -852,6 +1009,7 @@ main > section header.custom h2 {
   text-align: center;
   margin-top: 81px;
   margin-bottom: 55px;
+  /* Styles for filter buttons */
 }
 #my_work .filters button {
   background: transparent;
@@ -861,18 +1019,31 @@ main > section header.custom h2 {
   margin-right: 8px;
   margin-left: 8px;
   margin-bottom: 16px;
+  /* Styles for the active filter button */
 }
 #my_work .filters button.active {
   color: #fff;
   background: #1E1E20;
   border-radius: 8px;
 }
+#my_work .work-items {
+  /* Styles for individual work item elements */
+}
 #my_work .work-items .item {
   margin-bottom: 24px;
+  /* Styles for the item container */
 }
 #my_work .work-items .item .wrap {
   position: relative;
   overflow: hidden;
+  /* Hover effect on work items */
+  /* Styles for the "before" pseudo-element */
+  /* Styles for the "after" pseudo-element */
+  /* Styles for the work item image */
+}
+#my_work .work-items .item .wrap:hover {
+  /* Styles for the "before" pseudo-element */
+  /* Styles for the "after" pseudo-element */
 }
 #my_work .work-items .item .wrap:hover:before {
   transform: rotate(0deg);
@@ -920,6 +1091,7 @@ main > section header.custom h2 {
   cursor: pointer;
 }
 
+/* Styles for the work modal */
 .modal#workModal .modal-dialog {
   max-width: 863px;
 }
@@ -930,6 +1102,10 @@ main > section header.custom h2 {
 .modal#workModal .modal-dialog .modal-content .modal-body {
   padding: 0;
   position: static;
+  /* Styles for the close button in the modal */
+  /* Styles for images within the modal */
+  /* Styles for the left content within the modal */
+  /* Styles for the right content within the modal */
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .modal-close-button {
   position: absolute;
@@ -968,6 +1144,8 @@ main > section header.custom h2 {
   padding-right: 0;
   padding-left: 32px;
   padding-top: 75px;
+  /* Styles for value text */
+  /* Styles for project links */
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right i {
   font-size: 18px;
@@ -978,6 +1156,8 @@ main > section header.custom h2 {
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link {
   margin-top: 16px;
+  /* Styles for links and icons */
+  /* Hover effect on links */
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a,
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link i {
@@ -988,11 +1168,17 @@ main > section header.custom h2 {
   text-decoration: underline;
 }
 
+/* Styles for the Testimonial section */
 #testimonial {
   background-image: url(../Images/Graphics/Background-shape.png);
   background-repeat: no-repeat;
   background-position: 60vw 40vh;
   min-height: 100vh;
+  /* Styles for the main section within the Testimonial section */
+}
+#testimonial .main-section {
+  /* Styles for the images of individuals */
+  /* Styles for the comments section */
 }
 #testimonial .main-section .images {
   display: flex;
@@ -1001,6 +1187,7 @@ main > section header.custom h2 {
   align-items: center;
   margin-top: 100px;
   margin-bottom: 6px;
+  /* Styles for individual image elements */
 }
 #testimonial .main-section .images img {
   width: 68px;
@@ -1012,6 +1199,8 @@ main > section header.custom h2 {
   cursor: pointer;
   margin-bottom: 16px;
   transition: opacity 0.3s, filter 0.3s;
+  /* Hover effect for images */
+  /* Styles for the active image */
 }
 #testimonial .main-section .images img:hover {
   opacity: 1;
@@ -1024,18 +1213,24 @@ main > section header.custom h2 {
 }
 #testimonial .main-section .comments {
   text-align: center;
+  /* Styles for individual comment items */
 }
 #testimonial .main-section .comments .item {
   display: none;
+  /* Styles for active comment items */
 }
 #testimonial .main-section .comments .item.active {
   display: inline-block;
+  /* Styles for the comment box */
+  /* Styles for the writer information */
 }
 #testimonial .main-section .comments .item.active .box {
   position: relative;
   background: #28282b;
   padding: 32px;
   border-radius: 8px;
+  /* Styles for the triangle shape above the comment box */
+  /* Styles for the comment text */
 }
 #testimonial .main-section .comments .item.active .box:before {
   content: "";
@@ -1054,6 +1249,7 @@ main > section header.custom h2 {
   line-height: 42px;
   max-width: 710px;
   animation: scaleUp 1.25s;
+  /* Styles for a special span within the comment text */
 }
 #testimonial .main-section .comments .item.active .box p span {
   font-size: 86px;
@@ -1065,9 +1261,12 @@ main > section header.custom h2 {
   margin-top: 32px;
   margin-bottom: 16px;
   animation: scaleUp 1.25s;
+  /* Styles for individual fields in the writer information */
 }
 #testimonial .main-section .comments .item.active .writer span.field {
   color: #808185;
+  /* Styles for quotes span within the writer information */
+  /* Styles for the company name within the writer information */
 }
 #testimonial .main-section .comments .item.active .writer span.field span.quotes {
   font-family: "Playfair Display", serif;
@@ -1080,21 +1279,36 @@ main > section header.custom h2 {
   color: #FFFFFF;
 }
 
+/* Styles for the Contact Me section */
 #contact_me {
+  /* Set a background image with specific properties */
   background-image: url(../Images/Graphics/Background-shape.png);
   background-repeat: no-repeat;
   background-position: 53vw 574px;
   min-height: 100vh;
+  /* Styles for the container within Contact Me */
+}
+#contact_me .container {
+  /* Center-align text content */
+  /* Styles for the contact form */
+  /* Styles for contact information */
 }
 #contact_me .container .text-center {
   padding-bottom: 100px;
 }
 #contact_me .container .form {
   padding-right: 69px;
+  /* Styles for form items */
 }
 #contact_me .container .form .form-item {
   position: relative;
   margin-bottom: 32px;
+  /* Focus state styles */
+  /* Styles for form item lines */
+  /* Styles for form item lines (on focus) */
+  /* Styles for form item labels */
+  /* Styles for input and textarea elements */
+  /* Styles for textarea */
 }
 #contact_me .container .form .form-item.focus label {
   top: -3px;
@@ -1143,11 +1357,15 @@ main > section header.custom h2 {
 #contact_me .container .info {
   padding-top: 32px;
   padding-left: 69px;
+  /* Styles for individual contact items */
 }
 #contact_me .container .info .item {
   display: flex;
   align-items: center;
   margin-bottom: 32px;
+  /* Hover effect for contact items */
+  /* Styles for contact icons */
+  /* Styles for contact text content */
 }
 #contact_me .container .info .item:hover i {
   background: #658DF2;
@@ -1165,6 +1383,10 @@ main > section header.custom h2 {
   margin-right: 16px;
   transition: all 0.3s;
 }
+#contact_me .container .info .item .text {
+  /* Styles for contact item titles */
+  /* Styles for contact links */
+}
 #contact_me .container .info .item .text .title {
   color: #B6B7BA;
 }
@@ -1174,21 +1396,31 @@ main > section header.custom h2 {
   text-decoration: none;
 }
 
+/* Media query for screens with a minimum width of 1400px */
 @media (min-width: 1400px) {
   .container {
-    max-width: 1200px;
+    max-width: 1200px; /* Set max-width for the container */
   }
 }
+/* Media query for screens with a maximum width of 1199px */
 @media (max-width: 1199px) {
+  /* Styles for the About Me section */
+  #about_me {
+    /* Adjust styles for elements within the "languages" and "key-skills" sections */
+    /* Styles for the hero section */
+  }
   #about_me .languages .key-skills .item {
     padding-right: 12px;
+  }
+  #about_me .hero {
+    /* Styles for buttons within the hero section */
   }
   #about_me .hero .info {
     padding-left: 48px;
   }
   #about_me .hero .container {
-    padding-bottom: -40px;
-    margin-bottom: -40px;
+    padding-bottom: -40px; /* Negative padding for container */
+    margin-bottom: -40px; /* Negative margin for container */
   }
   #about_me .hero .buttons a:first-child {
     margin-top: 16px;
@@ -1197,8 +1429,17 @@ main > section header.custom h2 {
     margin-top: 16px;
     margin-bottom: 0px;
   }
+  /* Styles for the My Resume section */
+  #my_resume {
+    /* Adjust margin for the .experience section */
+  }
   #my_resume .experience {
     margin-top: 100px;
+  }
+  /* Styles for the Contact Me section */
+  #contact_me .container {
+    /* Adjust padding for the .form section */
+    /* Adjust padding for the .info section */
   }
   #contact_me .container .form {
     padding-right: 12px;
@@ -1207,12 +1448,22 @@ main > section header.custom h2 {
     padding-left: 12px;
   }
 }
+/* Media query for screens with a maximum width of 991px */
 @media (max-width: 991px) {
+  /* Styles for the Home section */
+  #home {
+    /* Adjust styles for the .image section */
+  }
   #home .image {
     justify-content: flex-start;
     height: unset;
     margin-top: 40px;
     margin-bottom: 40px;
+  }
+  /* Styles for the About Me section */
+  #about_me .hero {
+    /* Adjust styles for the .image section */
+    /* Adjust padding for the .info section */
   }
   #about_me .hero .image img {
     margin-left: -10px;
@@ -1220,8 +1471,14 @@ main > section header.custom h2 {
   #about_me .hero .info {
     padding-left: 0px;
   }
+  /* Styles for the My Resume section */
   #my_resume .experience {
     padding-left: 12px;
+  }
+  /* Styles for the work modal */
+  .modal#workModal .modal-dialog .modal-content .modal-body {
+    /* Adjust padding for the .right section */
+    /* Adjust position for the close button in the modal */
   }
   .modal#workModal .modal-dialog .modal-content .modal-body .right {
     padding-left: 0px;
@@ -1230,6 +1487,7 @@ main > section header.custom h2 {
     right: 10px;
     top: 10px;
   }
+  /* Styles for the Contact Me section */
   #contact_me .container .info {
     margin-top: 80px;
     margin-bottom: 100px;
@@ -1247,12 +1505,17 @@ main > section header.custom h2 {
     display: none;
   }
 }
+/* Media query for screens with a maximum width of 767px */
 @media (max-width: 767px) {
+  /* Styles for the Sidebar section */
   #sidebar {
     background: black;
     padding-right: 60px;
     transform: translateX(-100%);
     transition: all 0.3s;
+    /* Styles for the sidebar when it's open */
+    /* Styles for the toggle-sidebar section */
+    /* Styles for the logo section */
   }
   #sidebar.open {
     transform: translateX(0);
@@ -1275,6 +1538,7 @@ main > section header.custom h2 {
   #sidebar nav ul li > span {
     display: none;
   }
+  /* Styles for heading elements */
   h1 {
     font-size: 36px;
   }
@@ -1283,22 +1547,29 @@ main > section header.custom h2 {
   }
   main {
     padding-left: 0;
+    /* Adjust styles for the header image within a section with a background */
   }
   main > section header.has-bg img {
     left: -65px;
     top: 2px;
   }
+  /* Styles for the Home section */
   #home {
     background-image: unset;
   }
   #home .info {
     padding-top: 80px;
+    /* Adjust styles for the .socials section */
   }
   #home .info .socials {
     margin-top: 70px;
   }
   #home .info .socials ul {
     justify-content: space-between;
+  }
+  /* Styles for the About Me section */
+  #about_me {
+    /* Adjust styles for the .key-skills and .languages sections */
   }
   #about_me .hero .info .buttons {
     flex-direction: column;
@@ -1312,6 +1583,10 @@ main > section header.custom h2 {
   }
   #about_me .key-skills .items .item h3, #about_me .languages .items .item h3 {
     padding-right: 16px;
+  }
+  /* Styles for the My Resume section */
+  #my_resume {
+    /* Adjust padding for the .education and .experience sections */
   }
   #my_resume .items .item {
     position: relative;
@@ -1336,6 +1611,12 @@ main > section header.custom h2 {
     padding-right: 12px;
     padding-left: 12px;
   }
+  /* Styles for the work modal with id "workModal" */
+  .modal#workModal .modal-dialog .modal-content .modal-body {
+    /* Adjust height for images within the modal */
+    /* Adjust padding for the left content within the modal */
+    /* Adjust padding and margin for the right content within the modal */
+  }
   .modal#workModal .modal-dialog .modal-content .modal-body img {
     height: unset;
   }
@@ -1347,6 +1628,8 @@ main > section header.custom h2 {
     padding-top: 32px;
   }
 }
+/* CSS Animations using Keyframes */
+/* Animation for the "meteor" effect */
 @keyframes meteor {
   0% {
     transform: translate(300px, -300px);
@@ -1357,6 +1640,7 @@ main > section header.custom h2 {
     opacity: 0;
   }
 }
+/* Animation for the "slideIn" effect */
 @keyframes slideIn {
   0% {
     transform: translateX(-50%);
@@ -1367,6 +1651,7 @@ main > section header.custom h2 {
     opacity: 1;
   }
 }
+/* Animation for the "scaleUp" effect */
 @keyframes scaleUp {
   0% {
     transform: scale(0) rotate(20deg);
@@ -1375,10 +1660,12 @@ main > section header.custom h2 {
     transform: scale(1) rotate(0deg);
   }
 }
+/* CSS class to apply the "slideIn" animation */
 .slide-in {
   animation: slideIn 0.5s ease-in-out forwards;
 }
 
+/* CSS class to apply the "scaleUp" animation */
 .scaleUp {
   animation: slideIn 1s ease-in-out forwards;
 }/*# sourceMappingURL=Main.css.map */

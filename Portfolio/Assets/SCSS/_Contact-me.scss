@@ -1,21 +1,29 @@
+/* Styles for the Contact Me section */
+
 #contact_me {
+    /* Set a background image with specific properties */
     background-image: url(../Images/Graphics/Background-shape.png);
     background-repeat: no-repeat;
     background-position: 53vw 574px;
     min-height: 100vh;
 
+    /* Styles for the container within Contact Me */
     .container {
+        /* Center-align text content */
         .text-center {
             padding-bottom: 100px;
         }
 
+        /* Styles for the contact form */
         .form {
             padding-right: 69px;
 
+            /* Styles for form items */
             .form-item {
                 position: relative;
                 margin-bottom: 32px;
 
+                /* Focus state styles */
                 &.focus {
                     label {
                         top: -3px;
@@ -27,6 +35,7 @@
                     }
                 }
 
+                /* Styles for form item lines */
                 &:before {
                     content: "";
                     position: absolute;
@@ -37,6 +46,7 @@
                     left: 0;
                 }
 
+                /* Styles for form item lines (on focus) */
                 &:after {
                     content: "";
                     position: absolute;
@@ -45,16 +55,18 @@
                     background: #fff;
                     bottom: 0;
                     left: 0;
-                    transition:all 0.3s;
+                    transition: all 0.3s;
                 }
 
+                /* Styles for form item labels */
                 label {
                     position: absolute;
                     top: 17px;
                     color: $secondaryGrayColor;
-                    transition:all 0.3s;
+                    transition: all 0.3s;
                 }
 
+                /* Styles for input and textarea elements */
                 input,
                 textarea {
                     width: 100%;
@@ -64,6 +76,7 @@
                     padding: 16px 0;
                 }
 
+                /* Styles for textarea */
                 textarea {
                     resize: none;
                     min-height: 171px;
@@ -71,21 +84,25 @@
             }
         }
 
+        /* Styles for contact information */
         .info {
             padding-top: 32px;
             padding-left: 69px;
 
+            /* Styles for individual contact items */
             .item {
                 display: flex;
                 align-items: center;
                 margin-bottom: 32px;
 
+                /* Hover effect for contact items */
                 &:hover {
                     i {
                         background: $primaryColor;
                     }
                 }
 
+                /* Styles for contact icons */
                 i {
                     display: flex;
                     justify-content: center;
@@ -100,11 +117,14 @@
                     transition: all 0.3s;
                 }
 
+                /* Styles for contact text content */
                 .text {
+                    /* Styles for contact item titles */
                     .title {
                         color: $grayColor;
                     }
 
+                    /* Styles for contact links */
                     a {
                         display: block;
                         color: #fff;

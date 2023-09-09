@@ -1,3 +1,4 @@
+/* Styles for the Sidebar */
 #sidebar {
     position: fixed;
     height: 100vh;
@@ -7,10 +8,12 @@
     flex-direction: column;
     z-index: 10;
 
+    /* Apply a blur filter when the sidebar has the "blur" class */
     &.blur {
         filter: blur(2px);
     }
 
+    /* Styles for the toggle sidebar button */
     .toggle-sidebar {
         position: absolute;
         font-size: 30px;
@@ -23,12 +26,14 @@
         right: -45px;
     }
 
+    /* Styles for the logo section within the sidebar */
     .logo {
         height: 20%;
         padding-top: 62px;
         text-align: center;
     }
 
+    /* Styles for the navigation section within the sidebar */
     nav {
         height: 60%;
         display: flex;
@@ -44,9 +49,11 @@
                 position: relative;
                 margin-bottom: 35px;
 
+                /* Styles for navigation links */
                 a {
                     position: relative;
 
+                    /* Hover effect on navigation links */
                     &:hover {
                         i {
                             color: #fff;
@@ -58,6 +65,7 @@
                         }
                     }
 
+                    /* Styles for the "before" pseudo-element */
                     &:before {
                         content: "";
                         position: absolute;
@@ -72,6 +80,7 @@
                         transition: all 0.3s;
                     }
 
+                    /* Styles for active navigation links */
                     &.active {
                         &:before {
                             opacity: 0.15;
@@ -109,18 +118,21 @@
         }
     }
 
+    /* Styles for the toggle mode section within the sidebar */
     .toggle-mode {
         height: 20%;
         display: flex;
         align-items: flex-end;
         padding-bottom: 62px;
 
+        /* Styles for the outer mode toggle button */
         .outer {
             width: 24px;
             height: 35px;
             background: $secondaryColor;
             border-radius: 24px;
 
+            /* Styles for the inner mode toggle button */
             .inner {
                 position: relative;
                 width: 14px;
@@ -131,6 +143,7 @@
                 margin-left: auto;
                 margin-top: 16px;
 
+                /* Styles for the before pseudo-element of the inner button */
                 &:before {
                     position: absolute;
                     content: "";
