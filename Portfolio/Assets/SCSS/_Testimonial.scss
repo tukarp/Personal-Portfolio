@@ -5,6 +5,7 @@
     background-position: 60vw 40vh;
     min-height: 100vh;
 
+
     /* Styles for the main section within the Testimonial section */
     .main-section {
         /* Styles for the images of individuals */
@@ -53,6 +54,7 @@
 
                 /* Styles for active comment items */
                 &.active {
+                    margin-bottom: 100px;
                     display: inline-block;
 
                     /* Styles for the comment box */

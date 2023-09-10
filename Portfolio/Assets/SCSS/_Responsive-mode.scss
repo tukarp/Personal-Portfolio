@@ -73,8 +73,16 @@
         .image {
             justify-content: flex-start;
             height: unset;
-            margin-top: 40px;
+            margin-top: 20px;
             margin-bottom: 40px;
+        }
+
+        /* Adjust styles for the .info section */
+        .info {
+            /* Adjust margin for the .socials section */
+            .socials {
+                margin-top: 100px
+            }
         }
     }
 
@@ -91,6 +99,37 @@
             /* Adjust padding for the .info section */
             .info {
                 padding-left: 0px;
+            }
+        }
+
+        /* Adjust margin for the .key-skills and .languages sections */
+        .container {
+            /* Adjust margin for the row section */
+            .row {
+                margin-bottom: 0px;
+
+                /* Adjust margin for the .skills section */
+                .skills {
+                    /* Adjust margin for the .key-skills section */
+                    .key-skills {
+                        margin-top: 40px;
+                        margin-bottom: 0px;
+                    }
+                }
+
+                /* Adjust margin for the .languages-outer section */
+                .languages-outer {
+                    /* Adjust margin for the .languages section */
+                    .languages {
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            /* Adjust margin for the .tech-stack section */
+            .row {
+                margin-top: 0px;
             }
         }
     }
