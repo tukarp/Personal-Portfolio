@@ -201,7 +201,7 @@
 @media (max-width: 767px) {
     /* Styles for the Sidebar section */
     #sidebar {
-        background: darken($secondaryColor, 30%);
+        background: $backgroundColor;
         padding-right: 60px;
         transform: translateX(-100%);
         transition: all 0.3s;
