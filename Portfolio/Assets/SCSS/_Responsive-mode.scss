@@ -211,6 +211,12 @@
                 align-items: center;
                 text-decoration: none;
 
+                &.active {
+                    &:before {
+                        opacity: 0;
+                    }
+                }
+
                 span {
                     display: block;
                     padding-left: 8px;

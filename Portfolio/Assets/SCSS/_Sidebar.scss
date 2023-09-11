@@ -17,9 +17,10 @@
     .toggle-sidebar {
         position: absolute;
         font-size: 30px;
+        border-radius: 8px;
         width: 45px;
         height: 45px;
-        background: darken($secondaryColor, 30%);
+        background: rgba($secondaryColor, 0.75);
         display: none;
         justify-content: center;
         align-items: center;
