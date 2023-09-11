@@ -154,9 +154,21 @@
             top: 10px;
         }
     }
+    
+    /* Styles for the Testimonial section */
+    #testimonial .main-section .comments .item.active {
+        /* Adjust styles for the .box section */
+        .box {
+            /* Adjust styles for the p section */
+            p {
+                font-size: 20px;
+            }
+        }
 
-    #testimonial .main-section .comments .item.active .box p {
-        font-size: 20px;
+        /* Adjust styles for the .writer section */
+        .writer {
+            font-size: 16px;
+        }
     }
 
     /* Styles for the Contact Me section */
@@ -331,8 +343,30 @@
         }
     }
 
+    /* Styles for the Testimonial section */
+    #testimonial .main-section .comments .item.active {
+        /* Adjust styles for the .box section */
+        .box {
+            /* Adjust styles for the p section */
+            p {
+                font-size: 18px;
+
+                /* Adjust styles for the span section */
+                span {
+                    font-size: 70px;
+                }
+            }
+        }
+
+        /* Adjust styles for the .writer section */
+        .writer {
+            font-size: 14px;
+        }
+    }
+
     /* Styles for the work modal with id "workModal" */
     .modal#workModal {
+        /* Adjust styles for the .modal-dialog section */
         .modal-dialog .modal-content .modal-body {
             /* Adjust height for images within the modal */
             img {
@@ -353,8 +387,26 @@
     }
 }
 
+/* Media query for screens with a maximum width of 575px */
 @media (max-width: 575px) {
-    #testimonial .main-section .comments .item.active .box p {
-        font-size: 16px;
+    /* Styles for the Testimonial section */
+    #testimonial .main-section .comments .item.active {
+        /* Adjust styles for the .box section */
+        .box {
+            /* Adjust styles for the p section */
+            p {
+                font-size: 16px;
+
+                /* Adjust styles for the span section */
+                span {
+                    font-size: 60px;
+                }
+            }
+        }
+
+        /* Adjust styles for the .writer section */
+        .writer {
+            font-size: 12px;
+        }
     }
 }

@@ -442,10 +442,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 38vh;
-  left: 10vw;
-  animation: meteor 3726ms linear infinite;
-  animation-delay: 3359ms;
+  top: 20vh;
+  left: 22vw;
+  animation: meteor 4947ms linear infinite;
+  animation-delay: 2827ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -453,10 +453,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 58vh;
-  left: 5vw;
-  animation: meteor 6192ms linear infinite;
-  animation-delay: 4340ms;
+  top: 16vh;
+  left: 64vw;
+  animation: meteor 4165ms linear infinite;
+  animation-delay: 2708ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -464,10 +464,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 66vh;
-  left: 1vw;
-  animation: meteor 7639ms linear infinite;
-  animation-delay: 1371ms;
+  top: 37vh;
+  left: 48vw;
+  animation: meteor 7728ms linear infinite;
+  animation-delay: 2514ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -475,10 +475,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 50vh;
-  left: 37vw;
-  animation: meteor 6012ms linear infinite;
-  animation-delay: 915ms;
+  top: 5vh;
+  left: 76vw;
+  animation: meteor 6880ms linear infinite;
+  animation-delay: 321ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -486,10 +486,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 77vh;
-  left: 78vw;
-  animation: meteor 4870ms linear infinite;
-  animation-delay: 2516ms;
+  top: 51vh;
+  left: 33vw;
+  animation: meteor 4771ms linear infinite;
+  animation-delay: 4616ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -497,10 +497,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 74vh;
-  left: 3vw;
-  animation: meteor 3553ms linear infinite;
-  animation-delay: 3452ms;
+  top: 20vh;
+  left: 19vw;
+  animation: meteor 5398ms linear infinite;
+  animation-delay: 573ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -508,10 +508,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 62vh;
-  left: 50vw;
-  animation: meteor 7837ms linear infinite;
-  animation-delay: 1748ms;
+  top: 20vh;
+  left: 74vw;
+  animation: meteor 6561ms linear infinite;
+  animation-delay: 3406ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -519,10 +519,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 74vh;
-  left: 21vw;
-  animation: meteor 6861ms linear infinite;
-  animation-delay: 2459ms;
+  top: 66vh;
+  left: 33vw;
+  animation: meteor 6994ms linear infinite;
+  animation-delay: 1161ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -530,10 +530,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 2vh;
-  left: 2vw;
-  animation: meteor 3564ms linear infinite;
-  animation-delay: 4774ms;
+  top: 76vh;
+  left: 48vw;
+  animation: meteor 6870ms linear infinite;
+  animation-delay: 133ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -541,10 +541,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 78vh;
-  left: 48vw;
-  animation: meteor 5455ms linear infinite;
-  animation-delay: 1355ms;
+  top: 14vh;
+  left: 53vw;
+  animation: meteor 6263ms linear infinite;
+  animation-delay: 3586ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -552,10 +552,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 26vh;
-  left: 24vw;
-  animation: meteor 7383ms linear infinite;
-  animation-delay: 1267ms;
+  top: 66vh;
+  left: 47vw;
+  animation: meteor 3963ms linear infinite;
+  animation-delay: 605ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -563,10 +563,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 48vh;
-  left: 9vw;
-  animation: meteor 4438ms linear infinite;
-  animation-delay: 3601ms;
+  top: 76vh;
+  left: 46vw;
+  animation: meteor 7579ms linear infinite;
+  animation-delay: 4662ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -574,10 +574,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 12vh;
-  left: 7vw;
-  animation: meteor 5340ms linear infinite;
-  animation-delay: 3536ms;
+  top: 38vh;
+  left: 59vw;
+  animation: meteor 7723ms linear infinite;
+  animation-delay: 2441ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -585,10 +585,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 49vh;
-  left: 7vw;
-  animation: meteor 4107ms linear infinite;
-  animation-delay: 1992ms;
+  top: 72vh;
+  left: 66vw;
+  animation: meteor 5121ms linear infinite;
+  animation-delay: 294ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -596,10 +596,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 22vh;
-  left: 28vw;
-  animation: meteor 6280ms linear infinite;
-  animation-delay: 3676ms;
+  top: 80vh;
+  left: 10vw;
+  animation: meteor 4629ms linear infinite;
+  animation-delay: 236ms;
 }
 
 /* Styles for the About Me section */
@@ -1525,8 +1525,19 @@ main > section.active header.custom h2 {
     right: 10px;
     top: 10px;
   }
+  /* Styles for the Testimonial section */
+  #testimonial .main-section .comments .item.active {
+    /* Adjust styles for the .box section */
+    /* Adjust styles for the .writer section */
+  }
+  #testimonial .main-section .comments .item.active .box {
+    /* Adjust styles for the p section */
+  }
   #testimonial .main-section .comments .item.active .box p {
     font-size: 20px;
+  }
+  #testimonial .main-section .comments .item.active .writer {
+    font-size: 16px;
   }
   /* Styles for the Contact Me section */
   #contact_me .container .info {
@@ -1655,7 +1666,28 @@ main > section.active header.custom h2 {
     padding-right: 12px;
     padding-left: 12px;
   }
+  /* Styles for the Testimonial section */
+  #testimonial .main-section .comments .item.active {
+    /* Adjust styles for the .box section */
+    /* Adjust styles for the .writer section */
+  }
+  #testimonial .main-section .comments .item.active .box {
+    /* Adjust styles for the p section */
+  }
+  #testimonial .main-section .comments .item.active .box p {
+    font-size: 18px;
+    /* Adjust styles for the span section */
+  }
+  #testimonial .main-section .comments .item.active .box p span {
+    font-size: 70px;
+  }
+  #testimonial .main-section .comments .item.active .writer {
+    font-size: 14px;
+  }
   /* Styles for the work modal with id "workModal" */
+  .modal#workModal {
+    /* Adjust styles for the .modal-dialog section */
+  }
   .modal#workModal .modal-dialog .modal-content .modal-body {
     /* Adjust height for images within the modal */
     /* Adjust padding for the left content within the modal */
@@ -1672,9 +1704,25 @@ main > section.active header.custom h2 {
     padding-top: 32px;
   }
 }
+/* Media query for screens with a maximum width of 575px */
 @media (max-width: 575px) {
+  /* Styles for the Testimonial section */
+  #testimonial .main-section .comments .item.active {
+    /* Adjust styles for the .box section */
+    /* Adjust styles for the .writer section */
+  }
+  #testimonial .main-section .comments .item.active .box {
+    /* Adjust styles for the p section */
+  }
   #testimonial .main-section .comments .item.active .box p {
     font-size: 16px;
+    /* Adjust styles for the span section */
+  }
+  #testimonial .main-section .comments .item.active .box p span {
+    font-size: 60px;
+  }
+  #testimonial .main-section .comments .item.active .writer {
+    font-size: 12px;
   }
 }
 /* CSS Animations using Keyframes */
