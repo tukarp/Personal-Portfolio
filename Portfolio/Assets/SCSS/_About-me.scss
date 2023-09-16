@@ -15,7 +15,7 @@
     /* Styles for various subsections within About Me */
 
     /* Styles for elements with class .custom within certain sections */
-    .key-skills, .languages, .programming-skills, .tech-stack, .operating-systems, .tools, .code-editors, .certificates {
+    .key-skills, .languages, .programming-skills, .tech-stack, .operating-systems, .tools, .code-editors, .devops, .certificates {
         .custom {
             h2 {
                 i {
@@ -241,7 +241,7 @@
     }
 
     /* Styles for programming skills, operating systems, tools, and code editors sections */
-    .programming-skills, .operating-systems, .tools, .code-editors, .back-end, .front-end {
+    .programming-skills, .operating-systems, .tools, .code-editors, .devops, .back-end, .front-end {
         .items {
             /* Negative margins to create spacing between items */
             margin-left: -20px;

@@ -442,10 +442,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 37vh;
-  left: 52vw;
-  animation: meteor 5291ms linear infinite;
-  animation-delay: 3878ms;
+  top: 80vh;
+  left: 16vw;
+  animation: meteor 3237ms linear infinite;
+  animation-delay: 3338ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -453,10 +453,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 27vh;
-  left: 3vw;
-  animation: meteor 7722ms linear infinite;
-  animation-delay: 3513ms;
+  top: 11vh;
+  left: 67vw;
+  animation: meteor 4772ms linear infinite;
+  animation-delay: 1548ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -464,10 +464,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 5vh;
-  left: 39vw;
-  animation: meteor 5591ms linear infinite;
-  animation-delay: 2964ms;
+  top: 79vh;
+  left: 74vw;
+  animation: meteor 4545ms linear infinite;
+  animation-delay: 490ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -475,10 +475,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 58vh;
-  left: 53vw;
-  animation: meteor 7532ms linear infinite;
-  animation-delay: 1570ms;
+  top: 16vh;
+  left: 45vw;
+  animation: meteor 6315ms linear infinite;
+  animation-delay: 1389ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -486,10 +486,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 31vh;
-  left: 69vw;
-  animation: meteor 5351ms linear infinite;
-  animation-delay: 924ms;
+  top: 54vh;
+  left: 37vw;
+  animation: meteor 4655ms linear infinite;
+  animation-delay: 398ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -497,10 +497,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 21vh;
-  left: 12vw;
-  animation: meteor 5630ms linear infinite;
-  animation-delay: 1197ms;
+  top: 79vh;
+  left: 66vw;
+  animation: meteor 4659ms linear infinite;
+  animation-delay: 931ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -508,10 +508,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 16vh;
-  left: 34vw;
-  animation: meteor 5818ms linear infinite;
-  animation-delay: 4033ms;
+  top: 39vh;
+  left: 16vw;
+  animation: meteor 4613ms linear infinite;
+  animation-delay: 4941ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -519,10 +519,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 47vh;
-  left: 60vw;
-  animation: meteor 5844ms linear infinite;
-  animation-delay: 2249ms;
+  top: 76vh;
+  left: 16vw;
+  animation: meteor 7088ms linear infinite;
+  animation-delay: 1172ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -530,10 +530,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 45vh;
-  left: 43vw;
-  animation: meteor 5557ms linear infinite;
-  animation-delay: 1493ms;
+  top: 41vh;
+  left: 39vw;
+  animation: meteor 3915ms linear infinite;
+  animation-delay: 1107ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -541,10 +541,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 70vh;
-  left: 2vw;
-  animation: meteor 3897ms linear infinite;
-  animation-delay: 4297ms;
+  top: 44vh;
+  left: 41vw;
+  animation: meteor 6540ms linear infinite;
+  animation-delay: 2226ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -552,10 +552,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 19vh;
-  left: 49vw;
-  animation: meteor 3697ms linear infinite;
-  animation-delay: 1688ms;
+  top: 7vh;
+  left: 28vw;
+  animation: meteor 7622ms linear infinite;
+  animation-delay: 3721ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -563,10 +563,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 56vh;
-  left: 3vw;
-  animation: meteor 7742ms linear infinite;
-  animation-delay: 2151ms;
+  top: 23vh;
+  left: 55vw;
+  animation: meteor 4482ms linear infinite;
+  animation-delay: 704ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -574,10 +574,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 22vh;
-  left: 19vw;
-  animation: meteor 6359ms linear infinite;
-  animation-delay: 688ms;
+  top: 75vh;
+  left: 45vw;
+  animation: meteor 6164ms linear infinite;
+  animation-delay: 2260ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -585,10 +585,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 54vh;
-  left: 42vw;
-  animation: meteor 4437ms linear infinite;
-  animation-delay: 73ms;
+  top: 60vh;
+  left: 64vw;
+  animation: meteor 3264ms linear infinite;
+  animation-delay: 665ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -596,10 +596,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 16vh;
-  left: 52vw;
-  animation: meteor 7885ms linear infinite;
-  animation-delay: 4404ms;
+  top: 7vh;
+  left: 8vw;
+  animation: meteor 4376ms linear infinite;
+  animation-delay: 4840ms;
 }
 
 /* Styles for the About Me section */
@@ -621,7 +621,7 @@ main > section.active header.custom h2 {
   /* Styles for programming skills, operating systems, tools, and code editors sections */
   /* Styles for the certificates section */
 }
-#about_me .key-skills .custom h2 i, #about_me .languages .custom h2 i, #about_me .programming-skills .custom h2 i, #about_me .tech-stack .custom h2 i, #about_me .operating-systems .custom h2 i, #about_me .tools .custom h2 i, #about_me .code-editors .custom h2 i, #about_me .certificates .custom h2 i {
+#about_me .key-skills .custom h2 i, #about_me .languages .custom h2 i, #about_me .programming-skills .custom h2 i, #about_me .tech-stack .custom h2 i, #about_me .operating-systems .custom h2 i, #about_me .tools .custom h2 i, #about_me .code-editors .custom h2 i, #about_me .devops .custom h2 i, #about_me .certificates .custom h2 i {
   /* Adjust margins and font size for nested icons */
   margin-left: 20px;
   margin-right: -5px;
@@ -788,13 +788,13 @@ main > section.active header.custom h2 {
 #about_me .row .skills .key-skills .items .item .info .level, #about_me .row .skills .languages .items .item .info .level, #about_me .row .languages-outer .key-skills .items .item .info .level, #about_me .row .languages-outer .languages .items .item .info .level {
   color: #B6B7BA;
 }
-#about_me .programming-skills .items, #about_me .operating-systems .items, #about_me .tools .items, #about_me .code-editors .items, #about_me .back-end .items, #about_me .front-end .items {
+#about_me .programming-skills .items, #about_me .operating-systems .items, #about_me .tools .items, #about_me .code-editors .items, #about_me .devops .items, #about_me .back-end .items, #about_me .front-end .items {
   /* Negative margins to create spacing between items */
   margin-left: -20px;
   margin-right: -20px;
   /* Styles for individual items */
 }
-#about_me .programming-skills .items .item, #about_me .operating-systems .items .item, #about_me .tools .items .item, #about_me .code-editors .items .item, #about_me .back-end .items .item, #about_me .front-end .items .item {
+#about_me .programming-skills .items .item, #about_me .operating-systems .items .item, #about_me .tools .items .item, #about_me .code-editors .items .item, #about_me .devops .items .item, #about_me .back-end .items .item, #about_me .front-end .items .item {
   position: relative;
   text-align: center;
   padding: 32px 8px;
@@ -807,10 +807,10 @@ main > section.active header.custom h2 {
   /* Styles for before and after pseudo-elements */
   /* Styles for images, headings, and rating elements */
 }
-#about_me .programming-skills .items .item:hover:before, #about_me .programming-skills .items .item:hover:after, #about_me .operating-systems .items .item:hover:before, #about_me .operating-systems .items .item:hover:after, #about_me .tools .items .item:hover:before, #about_me .tools .items .item:hover:after, #about_me .code-editors .items .item:hover:before, #about_me .code-editors .items .item:hover:after, #about_me .back-end .items .item:hover:before, #about_me .back-end .items .item:hover:after, #about_me .front-end .items .item:hover:before, #about_me .front-end .items .item:hover:after {
+#about_me .programming-skills .items .item:hover:before, #about_me .programming-skills .items .item:hover:after, #about_me .operating-systems .items .item:hover:before, #about_me .operating-systems .items .item:hover:after, #about_me .tools .items .item:hover:before, #about_me .tools .items .item:hover:after, #about_me .code-editors .items .item:hover:before, #about_me .code-editors .items .item:hover:after, #about_me .devops .items .item:hover:before, #about_me .devops .items .item:hover:after, #about_me .back-end .items .item:hover:before, #about_me .back-end .items .item:hover:after, #about_me .front-end .items .item:hover:before, #about_me .front-end .items .item:hover:after {
   transform: translate(0, 0);
 }
-#about_me .programming-skills .items .item:before, #about_me .operating-systems .items .item:before, #about_me .tools .items .item:before, #about_me .code-editors .items .item:before, #about_me .back-end .items .item:before, #about_me .front-end .items .item:before {
+#about_me .programming-skills .items .item:before, #about_me .operating-systems .items .item:before, #about_me .tools .items .item:before, #about_me .code-editors .items .item:before, #about_me .devops .items .item:before, #about_me .back-end .items .item:before, #about_me .front-end .items .item:before {
   position: absolute;
   content: "";
   width: 100%;
@@ -823,7 +823,7 @@ main > section.active header.custom h2 {
   transform: translate(100%, -100%);
   transition: all 0.6s;
 }
-#about_me .programming-skills .items .item:after, #about_me .operating-systems .items .item:after, #about_me .tools .items .item:after, #about_me .code-editors .items .item:after, #about_me .back-end .items .item:after, #about_me .front-end .items .item:after {
+#about_me .programming-skills .items .item:after, #about_me .operating-systems .items .item:after, #about_me .tools .items .item:after, #about_me .code-editors .items .item:after, #about_me .devops .items .item:after, #about_me .back-end .items .item:after, #about_me .front-end .items .item:after {
   position: absolute;
   content: "";
   width: 100%;
@@ -836,14 +836,14 @@ main > section.active header.custom h2 {
   transform: translate(-100%, 100%);
   transition: all 0.6s;
 }
-#about_me .programming-skills .items .item img, #about_me .operating-systems .items .item img, #about_me .tools .items .item img, #about_me .code-editors .items .item img, #about_me .back-end .items .item img, #about_me .front-end .items .item img {
+#about_me .programming-skills .items .item img, #about_me .operating-systems .items .item img, #about_me .tools .items .item img, #about_me .code-editors .items .item img, #about_me .devops .items .item img, #about_me .back-end .items .item img, #about_me .front-end .items .item img {
   margin-bottom: 21px;
 }
-#about_me .programming-skills .items .item h3, #about_me .operating-systems .items .item h3, #about_me .tools .items .item h3, #about_me .code-editors .items .item h3, #about_me .back-end .items .item h3, #about_me .front-end .items .item h3 {
+#about_me .programming-skills .items .item h3, #about_me .operating-systems .items .item h3, #about_me .tools .items .item h3, #about_me .code-editors .items .item h3, #about_me .devops .items .item h3, #about_me .back-end .items .item h3, #about_me .front-end .items .item h3 {
   margin-right: 10px;
   margin-bottom: 8px;
 }
-#about_me .programming-skills .items .item .rate, #about_me .operating-systems .items .item .rate, #about_me .tools .items .item .rate, #about_me .code-editors .items .item .rate, #about_me .back-end .items .item .rate, #about_me .front-end .items .item .rate {
+#about_me .programming-skills .items .item .rate, #about_me .operating-systems .items .item .rate, #about_me .tools .items .item .rate, #about_me .code-editors .items .item .rate, #about_me .devops .items .item .rate, #about_me .back-end .items .item .rate, #about_me .front-end .items .item .rate {
   margin-top: 16px;
   display: flex;
   justify-content: center;
@@ -1508,6 +1508,7 @@ main > section.active header.custom h2 {
     /* Adjust margin for the .key-skills section */
   }
   #about_me .container .row .skills .key-skills {
+    padding-right: 0px;
     margin-top: 40px;
     margin-bottom: 0px;
   }
@@ -1515,6 +1516,7 @@ main > section.active header.custom h2 {
     /* Adjust margin for the .languages section */
   }
   #about_me .container .row .languages-outer .languages {
+    padding-left: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
   }
