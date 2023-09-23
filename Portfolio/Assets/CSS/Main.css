@@ -442,10 +442,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 52vh;
-  left: 26vw;
-  animation: meteor 3743ms linear infinite;
-  animation-delay: 4140ms;
+  top: 44vh;
+  left: 12vw;
+  animation: meteor 3561ms linear infinite;
+  animation-delay: 1656ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -453,10 +453,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 74vh;
-  left: 29vw;
-  animation: meteor 6488ms linear infinite;
-  animation-delay: 386ms;
+  top: 1vh;
+  left: 57vw;
+  animation: meteor 4843ms linear infinite;
+  animation-delay: 2106ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -464,10 +464,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 10vh;
-  left: 16vw;
-  animation: meteor 6565ms linear infinite;
-  animation-delay: 2796ms;
+  top: 15vh;
+  left: 23vw;
+  animation: meteor 6135ms linear infinite;
+  animation-delay: 2192ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -475,10 +475,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 80vh;
-  left: 8vw;
-  animation: meteor 7967ms linear infinite;
-  animation-delay: 4807ms;
+  top: 58vh;
+  left: 9vw;
+  animation: meteor 7553ms linear infinite;
+  animation-delay: 1782ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -486,10 +486,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 70vh;
-  left: 61vw;
-  animation: meteor 3123ms linear infinite;
-  animation-delay: 3713ms;
+  top: 7vh;
+  left: 78vw;
+  animation: meteor 6615ms linear infinite;
+  animation-delay: 2217ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -497,10 +497,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 66vh;
-  left: 70vw;
-  animation: meteor 4687ms linear infinite;
-  animation-delay: 3691ms;
+  top: 46vh;
+  left: 13vw;
+  animation: meteor 6937ms linear infinite;
+  animation-delay: 2061ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -508,10 +508,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 31vh;
-  left: 27vw;
-  animation: meteor 6038ms linear infinite;
-  animation-delay: 3891ms;
+  top: 56vh;
+  left: 66vw;
+  animation: meteor 7388ms linear infinite;
+  animation-delay: 4366ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -519,10 +519,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 52vh;
-  left: 72vw;
-  animation: meteor 7771ms linear infinite;
-  animation-delay: 4539ms;
+  top: 32vh;
+  left: 49vw;
+  animation: meteor 7013ms linear infinite;
+  animation-delay: 1075ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -530,10 +530,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 78vh;
-  left: 40vw;
-  animation: meteor 3280ms linear infinite;
-  animation-delay: 3563ms;
+  top: 50vh;
+  left: 56vw;
+  animation: meteor 3249ms linear infinite;
+  animation-delay: 4637ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -541,10 +541,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 22vh;
-  left: 71vw;
-  animation: meteor 3553ms linear infinite;
-  animation-delay: 1804ms;
+  top: 16vh;
+  left: 70vw;
+  animation: meteor 4828ms linear infinite;
+  animation-delay: 4852ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -552,10 +552,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 46vh;
-  left: 30vw;
-  animation: meteor 3109ms linear infinite;
-  animation-delay: 3066ms;
+  top: 43vh;
+  left: 54vw;
+  animation: meteor 6143ms linear infinite;
+  animation-delay: 710ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -563,10 +563,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 53vh;
-  left: 55vw;
-  animation: meteor 7908ms linear infinite;
-  animation-delay: 900ms;
+  top: 15vh;
+  left: 72vw;
+  animation: meteor 5024ms linear infinite;
+  animation-delay: 553ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -574,10 +574,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 33vh;
-  left: 63vw;
-  animation: meteor 6776ms linear infinite;
-  animation-delay: 320ms;
+  top: 24vh;
+  left: 6vw;
+  animation: meteor 7501ms linear infinite;
+  animation-delay: 4935ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -585,10 +585,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 12vh;
-  left: 46vw;
-  animation: meteor 4743ms linear infinite;
-  animation-delay: 4594ms;
+  top: 80vh;
+  left: 64vw;
+  animation: meteor 4284ms linear infinite;
+  animation-delay: 1393ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -596,10 +596,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 62vh;
-  left: 67vw;
-  animation: meteor 7551ms linear infinite;
-  animation-delay: 4069ms;
+  top: 63vh;
+  left: 12vw;
+  animation: meteor 4408ms linear infinite;
+  animation-delay: 395ms;
 }
 
 /* Styles for the About Me section */
@@ -627,10 +627,10 @@ main > section.active header.custom h2 {
   /* Adjust margins and font size for nested icons */
   margin-left: 20px;
   margin-right: -5px;
-  padding-top: 6px;
+  padding-top: 9px;
   padding-left: 1px;
   padding-right: 1px;
-  font-size: 30px;
+  font-size: 24px;
   background: rgba(255, 255, 255, 0.05);
   width: 42px;
   height: 42px;
@@ -645,7 +645,10 @@ main > section.active header.custom h2 {
   /* Adjust margins and font size for nested icons */
   margin-left: 0px;
   margin-right: 15px;
-  font-size: 30px;
+  padding-top: 9px;
+  padding-left: 1px;
+  padding-right: 1px;
+  font-size: 24px;
 }
 #about_me .hero {
   /* Styles for the image within .hero */
@@ -704,6 +707,7 @@ main > section.active header.custom h2 {
   background: rgba(255, 255, 255, 0.05);
   width: 26px;
   height: 26px;
+  font-size: 16px;
   border-radius: 100%;
   flex-shrink: 0;
   transition: all 0.3s;
@@ -775,11 +779,11 @@ main > section.active header.custom h2 {
   /* Styles for all pseudo-elements */
   /* Styles for half-filled squares */
 }
-#about_me .rate span:hover:after {
+#about_me .rate span:hover:before, #about_me .rate span:hover:after {
   background: rgba(148, 176, 246, 0.75);
   animation: scaleUpAndRotate 0.3s;
 }
-#about_me .rate span:hover.half-fill:after {
+#about_me .rate span:hover.half-fill:before, #about_me .rate span:hover.half-fill:after {
   -webkit-clip-path: none;
           clip-path: none;
   background: rgba(148, 176, 246, 0.75);
@@ -804,14 +808,50 @@ main > section.active header.custom h2 {
   /* Styles for items within skills and languages sections */
 }
 #about_me .row .skills .key-skills .items, #about_me .row .skills .languages .items, #about_me .row .languages-outer .key-skills .items, #about_me .row .languages-outer .languages .items {
-  margin-bottom: 43px;
+  background: #28282b;
+  border-radius: 8px;
+  position: relative;
+  padding: 24px;
+  z-index: 1;
+  overflow: hidden;
+  /* Hover effect to reveal pseudo-elements */
+  /* Styles for before pseudo-elements */
+  /* Styles for after pseudo-elements */
   /* Styles for individual items */
+}
+#about_me .row .skills .key-skills .items:hover:before, #about_me .row .skills .key-skills .items:hover:after, #about_me .row .skills .languages .items:hover:before, #about_me .row .skills .languages .items:hover:after, #about_me .row .languages-outer .key-skills .items:hover:before, #about_me .row .languages-outer .key-skills .items:hover:after, #about_me .row .languages-outer .languages .items:hover:before, #about_me .row .languages-outer .languages .items:hover:after {
+  transform: translate(0, 0);
+}
+#about_me .row .skills .key-skills .items:before, #about_me .row .skills .languages .items:before, #about_me .row .languages-outer .key-skills .items:before, #about_me .row .languages-outer .languages .items:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #0b2c80;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  z-index: -1;
+  transform: translate(100%, -100%);
+  transition: all 0.6s;
+}
+#about_me .row .skills .key-skills .items:after, #about_me .row .skills .languages .items:after, #about_me .row .languages-outer .key-skills .items:after, #about_me .row .languages-outer .languages .items:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #0b2c80;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  z-index: -1;
+  transform: translate(-100%, 100%);
+  transition: all 0.6s;
 }
 #about_me .row .skills .key-skills .items .item, #about_me .row .skills .languages .items .item, #about_me .row .languages-outer .key-skills .items .item, #about_me .row .languages-outer .languages .items .item {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 43px;
   /* Add margin to separate items */
   /* Styles for item information */
 }
@@ -932,10 +972,10 @@ main > section.active header.custom h2 {
   margin-left: 20px;
   margin-right: -5px;
   font-size: 30px;
-  padding-top: 6px;
+  padding-top: 9px;
   padding-left: 1px;
   padding-right: 1px;
-  font-size: 30px;
+  font-size: 24px;
   background: rgba(255, 255, 255, 0.05);
   width: 42px;
   height: 42px;
@@ -1341,6 +1381,7 @@ main > section.active header.custom h2 {
   background: rgba(11, 44, 128, 0.4);
 }
 #testimonial .main-section .comments .item.active .writer {
+  position: relative;
   margin-top: 16px;
   margin-bottom: 16px;
   padding-top: 2%;
@@ -1349,16 +1390,16 @@ main > section.active header.custom h2 {
   border-radius: 8px;
   background: #28282b;
   transition: all 0.3s;
-  animation: scaleUp 1.25s;
   /* Animation for the writer text */
+  /* Hover effect for the writer information */
   /* Styles for individual fields in the writer information */
+}
+#testimonial .main-section .comments .item.active .writer span {
+  animation: scaleUp 1.25s;
 }
 #testimonial .main-section .comments .item.active .writer:hover {
   transform: scale(1.05);
   background: rgba(11, 44, 128, 0.4);
-}
-#testimonial .main-section .comments .item.active .writer span {
-  animation: scaleUp 1.25s;
 }
 #testimonial .main-section .comments .item.active .writer span.field {
   color: #808185;
@@ -1777,6 +1818,9 @@ main > section.active header.custom h2 {
   /* Styles for the Testimonial section */
   #testimonial {
     /* Adjust font sizes for the .main-section section elements */
+  }
+  #testimonial .main-section .comments .item.active .box {
+    margin-bottom: 24px;
   }
   #testimonial .main-section .comments .item.active .box p {
     font-size: 20px;

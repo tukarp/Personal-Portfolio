@@ -19,10 +19,10 @@
                     /* Adjust margins and font size for nested icons */
                     margin-left: 20px;
                     margin-right: -5px;
-                    padding-top: 6px;
+                    padding-top: 9px;
                     padding-left: 1px;
                     padding-right: 1px;
-                    font-size: 30px;
+                    font-size: 24px;
                     background: rgba(#ffffff, 0.05);
                     width: 42px;
                     height: 42px;
@@ -49,7 +49,10 @@
                     /* Adjust margins and font size for nested icons */
                     margin-left: 0px;
                     margin-right: 15px;
-                    font-size: 30px;
+                    padding-top: 9px;
+                    padding-left: 1px;
+                    padding-right: 1px;
+                    font-size: 24px;
                 }
             }
         }
@@ -117,6 +120,7 @@
                         background: rgba(#ffffff, 0.05);
                         width: 26px;
                         height: 26px;
+                        font-size: 16px;
                         border-radius: 100%;
                         flex-shrink: 0;
                         transition: all 0.3s;
@@ -208,6 +212,7 @@
             /* Hover effect for rating squares */
             &:hover {
                 /* Styles for all pseudo-elements */
+                &:before,
                 &:after {
                     background: lighten(rgba($primaryColor, 75%), 10%);
                     animation: scaleUpAndRotate 0.3s;
@@ -215,6 +220,7 @@
 
                 /* Styles for half-filled squares */
                 &.half-fill {
+                    &:before,
                     &:after {
                         clip-path: none;
                         background: lighten(rgba($primaryColor, 75%), 10%);
@@ -248,14 +254,56 @@
 
                 /* Styles for items within skills and languages sections */
                 .items {
-                    margin-bottom: 43px;
+                    background: lighten($secondaryColor, 4%);
+                    border-radius: 8px;
+                    position: relative;
+                    padding: 24px;
+                    z-index: 1;
+                    overflow: hidden;
+
+                    /* Hover effect to reveal pseudo-elements */
+                    &:hover {
+                        &:before,
+                        &:after {
+                            transform: translate(0, 0);
+                        }
+                    }
+
+                    /* Styles for before pseudo-elements */
+                    &:before {
+                        position: absolute;
+                        content: "";
+                        width: 100%;
+                        height: 100%;
+                        background: darken($primaryColor, 40%);
+                        left: 0;
+                        top: 0;
+                        border-radius: 8px;
+                        z-index: -1;
+                        transform: translate(100%, -100%);
+                        transition: all 0.6s;
+                    }
+
+                    /* Styles for after pseudo-elements */
+                    &:after {
+                        position: absolute;
+                        content: "";
+                        width: 100%;
+                        height: 100%;
+                        background: darken($primaryColor, 40%);
+                        left: 0;
+                        top: 0;
+                        border-radius: 8px;
+                        z-index: -1;
+                        transform: translate(-100%, 100%);
+                        transition: all 0.6s;
+                    }
 
                     /* Styles for individual items */
                     .item {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-                        margin-bottom: 43px;
 
                         /* Add margin to separate items */
                         &:not(:last-child) {

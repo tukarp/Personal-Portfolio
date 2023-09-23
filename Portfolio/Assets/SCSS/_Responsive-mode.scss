@@ -361,11 +361,15 @@
     #testimonial {
         /* Adjust font sizes for the .main-section section elements */
         .main-section .comments .item.active {
-            .box p {
-                font-size: 20px;
+            .box {
+                margin-bottom: 24px;
 
-                span {
-                    font-size: 60px;
+                p {
+                    font-size: 20px;
+
+                    span {
+                        font-size: 60px;
+                    }
                 }
             }
 
