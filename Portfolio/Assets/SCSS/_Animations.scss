@@ -36,6 +36,17 @@
     }
 }
 
+/* Animation for the "scaleUpAndRotate" effect */
+@keyframes scaleUpAndRotate {
+    0% {
+        transform: scale(0) rotate(0deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(45deg);
+    }
+}
+
 /* CSS class to apply the "slideIn" animation */
 .slide-in {
     animation: slideIn 0.5s ease-in-out forwards;
@@ -44,4 +55,9 @@
 /* CSS class to apply the "scaleUp" animation */
 .scaleUp {
     animation: slideIn 1s ease-in-out forwards;
+}
+
+/* CSS class to apply the "scaleUpAndRotate" animation */
+.scaleUpAndRotate {
+    animation: scauleUpAndRotate 1s ease-in-out forwards;
 }

@@ -208,17 +208,17 @@
             /* Hover effect for rating squares */
             &:hover {
                 /* Styles for all pseudo-elements */
-                &:before,
                 &:after {
                     background: lighten(rgba($primaryColor, 75%), 10%);
+                    animation: scaleUpAndRotate 0.3s;
                 }
 
                 /* Styles for half-filled squares */
                 &.half-fill {
-                    &:before,
                     &:after {
                         clip-path: none;
                         background: lighten(rgba($primaryColor, 75%), 10%);
+                        animation: scaleUpAndRotate 0.3s;
                     }
                 }
             }

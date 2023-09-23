@@ -85,7 +85,6 @@
                             max-width: 710px;
                             animation: scaleUp 1.25s;
 
-
                             /* Styles for a special span within the comment text */
                             span {
                                 font-size: 86px;
@@ -108,14 +107,19 @@
                         padding-top: 2%;
                         padding-bottom: 2%;
                         flex-shrink: 0;
-                        transition: all 0.3s;
-                        animation: scaleUp 1.25s;
                         border-radius: 8px;
                         background: lighten($secondaryColor, 4%);
+                        transition: all 0.3s;
+                        animation: scaleUp 1.25s;
 
                         &:hover {
                             transform: scale(1.05);
                             background: rgba(darken($primaryColor, 40%), 0.4);
+                        }
+
+                        /* Animation for the writer text */
+                        span {
+                            animation: scaleUp 1.25s;
                         }
 
                         /* Styles for individual fields in the writer information */
