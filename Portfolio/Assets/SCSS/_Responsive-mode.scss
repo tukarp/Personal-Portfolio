@@ -22,6 +22,7 @@
                 padding-left: 48px;
             }
 
+            /* Styles for the container section */
             .container {
                 padding-bottom: -40px; /* Negative padding for container */
                 margin-bottom: -40px; /* Negative margin for container */
@@ -207,6 +208,7 @@
             text-align: left;
         }
 
+        /* Styles for the nav section */
         nav ul li {
             a {
                 display: flex;
@@ -231,11 +233,12 @@
         }
     }
 
-    /* Styles for heading elements */
+    /* Styles for h1 heading elements */
     h1 {
         font-size: 36px;
     }
 
+    /* Styles for h2 heading elements */
     h2 {
         font-size: 20px;
     }
@@ -347,6 +350,27 @@
             .right {
                 padding-left: 0;
                 padding-top: 32px;
+            }
+        }
+    }
+}
+
+/* Media query for screens with a maximum width of 575px */
+@media (max-width: 575px) {
+    /* Styles for the Testimonial section */
+    #testimonial {
+        /* Adjust font sizes for the .main-section section elements */
+        .main-section .comments .item.active {
+            .box p {
+                font-size: 20px;
+
+                span {
+                    font-size: 60px;
+                }
+            }
+
+            .writer {
+                font-size: 14px;
             }
         }
     }

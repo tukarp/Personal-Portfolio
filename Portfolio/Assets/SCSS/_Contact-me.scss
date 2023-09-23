@@ -1,5 +1,4 @@
 /* Styles for the Contact Me section */
-
 #contact_me {
     /* Set a background image with specific properties */
     background-image: url(../Images/Graphics/Background-shape.png);
@@ -41,7 +40,7 @@
                     position: absolute;
                     height: 2px;
                     width: 100%;
-                    background: $secondaryGrayColor;
+                    background: rgba($whiteColor, 0.75);
                     bottom: 0;
                     left: 0;
                 }
@@ -52,7 +51,7 @@
                     position: absolute;
                     height: 2px;
                     width: 0;
-                    background: #fff;
+                    background: $primaryColor;
                     bottom: 0;
                     left: 0;
                     transition: all 0.3s;
@@ -62,7 +61,7 @@
                 label {
                     position: absolute;
                     top: 17px;
-                    color: $secondaryGrayColor;
+                    color: rgba($whiteColor, 0.75);
                     transition: all 0.3s;
                 }
 

@@ -1,5 +1,4 @@
 /* Styles for the Home section */
-
 #home {
     /* Set a background image with specific properties */
     background-image: url(../Images/Graphics/Background-shape.png);
@@ -82,7 +81,7 @@
 
                         /* Hover styles for social media links */
                         &:hover {
-                            background: $secondaryColor;
+                            background: rgba($primaryColor, 0.8);
                             border-radius: 6px;
 
                             /* Color changes on hover */

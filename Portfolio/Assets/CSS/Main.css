@@ -392,7 +392,7 @@ main > section.active header.custom h2 {
   /* Styles for the social media link text */
 }
 #home .info .socials ul li a:hover {
-  background: #1E1E20;
+  background: rgba(101, 141, 242, 0.8);
   border-radius: 6px;
   /* Color changes on hover */
 }
@@ -442,10 +442,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 80vh;
-  left: 16vw;
-  animation: meteor 3237ms linear infinite;
-  animation-delay: 3338ms;
+  top: 29vh;
+  left: 35vw;
+  animation: meteor 6947ms linear infinite;
+  animation-delay: 2986ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -453,10 +453,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 11vh;
-  left: 67vw;
-  animation: meteor 4772ms linear infinite;
-  animation-delay: 1548ms;
+  top: 1vh;
+  left: 59vw;
+  animation: meteor 4533ms linear infinite;
+  animation-delay: 4008ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -464,10 +464,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 79vh;
-  left: 74vw;
-  animation: meteor 4545ms linear infinite;
-  animation-delay: 490ms;
+  top: 44vh;
+  left: 56vw;
+  animation: meteor 7550ms linear infinite;
+  animation-delay: 2078ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -475,10 +475,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 16vh;
-  left: 45vw;
-  animation: meteor 6315ms linear infinite;
-  animation-delay: 1389ms;
+  top: 19vh;
+  left: 9vw;
+  animation: meteor 3453ms linear infinite;
+  animation-delay: 4873ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -486,10 +486,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 54vh;
-  left: 37vw;
-  animation: meteor 4655ms linear infinite;
-  animation-delay: 398ms;
+  top: 67vh;
+  left: 34vw;
+  animation: meteor 5449ms linear infinite;
+  animation-delay: 350ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -497,10 +497,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 79vh;
-  left: 66vw;
-  animation: meteor 4659ms linear infinite;
-  animation-delay: 931ms;
+  top: 39vh;
+  left: 15vw;
+  animation: meteor 5677ms linear infinite;
+  animation-delay: 3673ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -508,10 +508,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 39vh;
-  left: 16vw;
-  animation: meteor 4613ms linear infinite;
-  animation-delay: 4941ms;
+  top: 51vh;
+  left: 1vw;
+  animation: meteor 5084ms linear infinite;
+  animation-delay: 1776ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -519,10 +519,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 76vh;
-  left: 16vw;
-  animation: meteor 7088ms linear infinite;
-  animation-delay: 1172ms;
+  top: 66vh;
+  left: 45vw;
+  animation: meteor 5359ms linear infinite;
+  animation-delay: 4503ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -530,10 +530,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 41vh;
-  left: 39vw;
-  animation: meteor 3915ms linear infinite;
-  animation-delay: 1107ms;
+  top: 75vh;
+  left: 26vw;
+  animation: meteor 3902ms linear infinite;
+  animation-delay: 4025ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -541,10 +541,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 44vh;
-  left: 41vw;
-  animation: meteor 6540ms linear infinite;
-  animation-delay: 2226ms;
+  top: 7vh;
+  left: 1vw;
+  animation: meteor 5725ms linear infinite;
+  animation-delay: 3137ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -552,10 +552,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 7vh;
-  left: 28vw;
-  animation: meteor 7622ms linear infinite;
-  animation-delay: 3721ms;
+  top: 31vh;
+  left: 75vw;
+  animation: meteor 6984ms linear infinite;
+  animation-delay: 4186ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -563,10 +563,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 23vh;
-  left: 55vw;
-  animation: meteor 4482ms linear infinite;
-  animation-delay: 704ms;
+  top: 45vh;
+  left: 5vw;
+  animation: meteor 7694ms linear infinite;
+  animation-delay: 3903ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -574,10 +574,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 75vh;
-  left: 45vw;
-  animation: meteor 6164ms linear infinite;
-  animation-delay: 2260ms;
+  top: 28vh;
+  left: 51vw;
+  animation: meteor 7425ms linear infinite;
+  animation-delay: 1031ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -585,10 +585,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 60vh;
-  left: 64vw;
-  animation: meteor 3264ms linear infinite;
-  animation-delay: 665ms;
+  top: 13vh;
+  left: 51vw;
+  animation: meteor 5804ms linear infinite;
+  animation-delay: 781ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -596,10 +596,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 7vh;
-  left: 8vw;
-  animation: meteor 4376ms linear infinite;
-  animation-delay: 4840ms;
+  top: 35vh;
+  left: 19vw;
+  animation: meteor 5291ms linear infinite;
+  animation-delay: 3738ms;
 }
 
 /* Styles for the About Me section */
@@ -612,20 +612,34 @@ main > section.active header.custom h2 {
   background-position: 68vw 63vh;
   /* Ensure a minimum height to fill the viewport */
   min-height: 100vh;
-  /* Styles for various subsections within About Me */
   /* Styles for elements with class .custom within certain sections */
   /* Styles for elements with class .custom within .back-end and .front-end sections */
   /* Styles for the .hero section */
-  /* Styles for the rating stars section */
+  /* Styles for the rating squares section */
   /* Styles for rows within the About Me section */
   /* Styles for programming skills, operating systems, tools, and code editors sections */
   /* Styles for the certificates section */
+}
+#about_me .key-skills .custom h2, #about_me .languages .custom h2, #about_me .programming-skills .custom h2, #about_me .tech-stack .custom h2, #about_me .operating-systems .custom h2, #about_me .tools .custom h2, #about_me .code-editors .custom h2, #about_me .devops .custom h2, #about_me .certificates .custom h2 {
+  /* Hover effect for section icons */
 }
 #about_me .key-skills .custom h2 i, #about_me .languages .custom h2 i, #about_me .programming-skills .custom h2 i, #about_me .tech-stack .custom h2 i, #about_me .operating-systems .custom h2 i, #about_me .tools .custom h2 i, #about_me .code-editors .custom h2 i, #about_me .devops .custom h2 i, #about_me .certificates .custom h2 i {
   /* Adjust margins and font size for nested icons */
   margin-left: 20px;
   margin-right: -5px;
+  padding-top: 6px;
+  padding-left: 1px;
+  padding-right: 1px;
   font-size: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  flex-shrink: 0;
+  transition: all 0.3s;
+}
+#about_me .key-skills .custom h2:hover i, #about_me .languages .custom h2:hover i, #about_me .programming-skills .custom h2:hover i, #about_me .tech-stack .custom h2:hover i, #about_me .operating-systems .custom h2:hover i, #about_me .tools .custom h2:hover i, #about_me .code-editors .custom h2:hover i, #about_me .devops .custom h2:hover i, #about_me .certificates .custom h2:hover i {
+  background: #658DF2;
 }
 #about_me .back-end .custom h2 i, #about_me .front-end .custom h2 i {
   /* Adjust margins and font size for nested icons */
@@ -707,17 +721,19 @@ main > section.active header.custom h2 {
 }
 #about_me .rate {
   display: flex;
-  /* Styles for individual star elements */
+  /* Styles for individual square elements */
 }
 #about_me .rate span {
   position: relative;
   display: flex;
   width: 15px;
   height: 15px;
-  /* Add right margin to separate stars */
+  /* Add right margin to separate squares */
   /* Star shapes with before and after pseudo-elements */
-  /* Styles for half-filled stars */
-  /* Styles for fully-filled stars */
+  /* Styles for half-filled squares */
+  /* Styles for half-filled squares */
+  /* Styles for fully-filled squares */
+  /* Hover effect for rating squares */
 }
 #about_me .rate span:not(:last-child) {
   margin-right: 12px;
@@ -730,6 +746,12 @@ main > section.active header.custom h2 {
   border-radius: 4px;
   background: #1E1E20;
   transform: rotate(40deg);
+  padding-top: 6px;
+  padding-left: 1px;
+  padding-right: 1px;
+  font-size: 30px;
+  flex-shrink: 0;
+  transition: all 0.3s;
 }
 #about_me .rate span:after {
   position: absolute;
@@ -748,6 +770,18 @@ main > section.active header.custom h2 {
 }
 #about_me .rate span.fill:before, #about_me .rate span.fill:after {
   background: #658DF2;
+}
+#about_me .rate span:hover {
+  /* Styles for all pseudo-elements */
+  /* Styles for half-filled squares */
+}
+#about_me .rate span:hover:before, #about_me .rate span:hover:after {
+  background: rgba(148, 176, 246, 0.75);
+}
+#about_me .rate span:hover.half-fill:before, #about_me .rate span:hover.half-fill:after {
+  -webkit-clip-path: none;
+          clip-path: none;
+  background: rgba(148, 176, 246, 0.75);
 }
 #about_me .row {
   /* Add spacing to the top and bottom of rows */
@@ -804,7 +838,8 @@ main > section.active header.custom h2 {
   z-index: 1;
   overflow: hidden;
   /* Hover effect to reveal pseudo-elements */
-  /* Styles for before and after pseudo-elements */
+  /* Styles for before pseudo-elements */
+  /* Styles for after pseudo-elements */
   /* Styles for images, headings, and rating elements */
 }
 #about_me .programming-skills .items .item:hover:before, #about_me .programming-skills .items .item:hover:after, #about_me .operating-systems .items .item:hover:before, #about_me .operating-systems .items .item:hover:after, #about_me .tools .items .item:hover:before, #about_me .tools .items .item:hover:after, #about_me .code-editors .items .item:hover:before, #about_me .code-editors .items .item:hover:after, #about_me .devops .items .item:hover:before, #about_me .devops .items .item:hover:after, #about_me .back-end .items .item:hover:before, #about_me .back-end .items .item:hover:after, #about_me .front-end .items .item:hover:before, #about_me .front-end .items .item:hover:after {
@@ -889,11 +924,25 @@ main > section.active header.custom h2 {
 }
 #my_resume .education .custom h2, #my_resume .experience .custom h2 {
   /* Styles for the "i" element within "h2" */
+  /* Hover effect for section icons */
 }
 #my_resume .education .custom h2 i, #my_resume .experience .custom h2 i {
   margin-left: 20px;
   margin-right: -5px;
   font-size: 30px;
+  padding-top: 6px;
+  padding-left: 1px;
+  padding-right: 1px;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  flex-shrink: 0;
+  transition: all 0.3s;
+}
+#my_resume .education .custom h2:hover i, #my_resume .experience .custom h2:hover i {
+  background: #658DF2;
 }
 #my_resume .items {
   /* Styles for individual item elements */
@@ -1037,7 +1086,7 @@ main > section.active header.custom h2 {
 }
 #my_work .filters button.active {
   color: #fff;
-  background: #1E1E20;
+  background: rgba(101, 141, 242, 0.8);
   border-radius: 8px;
 }
 #my_work .work-items {
@@ -1161,8 +1210,18 @@ main > section.active header.custom h2 {
   /* Styles for project links */
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right i {
+  width: 24px;
+  height: 24px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 100%;
+  flex-shrink: 0;
+  transition: all 0.3s;
   font-size: 18px;
   margin-right: 2px;
+  background: rgba(255, 255, 255, 0.05);
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .value {
   color: #B6B7BA;
@@ -1174,11 +1233,14 @@ main > section.active header.custom h2 {
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a,
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link i {
-  color: #658DF2;
+  color: #FFFFFF;
   text-decoration: none;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link a:hover {
   text-decoration: underline;
+}
+.modal#workModal .modal-dialog .modal-content .modal-body .right .client:hover i, .modal#workModal .modal-dialog .modal-content .modal-body .right .completed:hover i, .modal#workModal .modal-dialog .modal-content .modal-body .right .skills:hover i, .modal#workModal .modal-dialog .modal-content .modal-body .right .project-link:hover i {
+  background: #658DF2;
 }
 
 /* Styles for the Testimonial section */
@@ -1243,6 +1305,7 @@ main > section.active header.custom h2 {
   background: #28282b;
   padding: 32px;
   border-radius: 8px;
+  transition: all 0.3s;
   /* Styles for the triangle shape above the comment box */
   /* Styles for the comment text */
 }
@@ -1271,11 +1334,25 @@ main > section.active header.custom h2 {
   line-height: 0;
   vertical-align: -33px;
 }
+#testimonial .main-section .comments .item.active .box:hover {
+  transform: scale(1.05);
+  background: rgba(11, 44, 128, 0.4);
+}
 #testimonial .main-section .comments .item.active .writer {
-  margin-top: 32px;
+  margin-top: 16px;
   margin-bottom: 16px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  flex-shrink: 0;
+  transition: all 0.3s;
   animation: scaleUp 1.25s;
+  border-radius: 8px;
+  background: #28282b;
   /* Styles for individual fields in the writer information */
+}
+#testimonial .main-section .comments .item.active .writer:hover {
+  transform: scale(1.05);
+  background: rgba(11, 44, 128, 0.4);
 }
 #testimonial .main-section .comments .item.active .writer span.field {
   color: #808185;
@@ -1336,7 +1413,7 @@ main > section.active header.custom h2 {
   position: absolute;
   height: 2px;
   width: 100%;
-  background: #808185;
+  background: rgba(255, 255, 255, 0.75);
   bottom: 0;
   left: 0;
 }
@@ -1345,7 +1422,7 @@ main > section.active header.custom h2 {
   position: absolute;
   height: 2px;
   width: 0;
-  background: #fff;
+  background: #658DF2;
   bottom: 0;
   left: 0;
   transition: all 0.3s;
@@ -1353,7 +1430,7 @@ main > section.active header.custom h2 {
 #contact_me .container .form .form-item label {
   position: absolute;
   top: 17px;
-  color: #808185;
+  color: rgba(255, 255, 255, 0.75);
   transition: all 0.3s;
 }
 #contact_me .container .form .form-item input,
@@ -1427,6 +1504,7 @@ main > section.active header.custom h2 {
     padding-right: 12px;
   }
   #about_me .hero {
+    /* Styles for the container section */
     /* Styles for buttons within the hero section */
   }
   #about_me .hero .info {
@@ -1568,6 +1646,7 @@ main > section.active header.custom h2 {
     /* Styles for the sidebar when it's open */
     /* Styles for the toggle-sidebar section */
     /* Styles for the logo section */
+    /* Styles for the nav section */
   }
   #sidebar.open {
     transform: translateX(0);
@@ -1593,10 +1672,11 @@ main > section.active header.custom h2 {
   #sidebar nav ul li > span {
     display: none;
   }
-  /* Styles for heading elements */
+  /* Styles for h1 heading elements */
   h1 {
     font-size: 36px;
   }
+  /* Styles for h2 heading elements */
   h2 {
     font-size: 20px;
   }
@@ -1684,6 +1764,22 @@ main > section.active header.custom h2 {
   .modal#workModal .modal-dialog .modal-content .modal-body .right {
     padding-left: 0;
     padding-top: 32px;
+  }
+}
+/* Media query for screens with a maximum width of 575px */
+@media (max-width: 575px) {
+  /* Styles for the Testimonial section */
+  #testimonial {
+    /* Adjust font sizes for the .main-section section elements */
+  }
+  #testimonial .main-section .comments .item.active .box p {
+    font-size: 20px;
+  }
+  #testimonial .main-section .comments .item.active .box p span {
+    font-size: 60px;
+  }
+  #testimonial .main-section .comments .item.active .writer {
+    font-size: 14px;
   }
 }
 /* CSS Animations using Keyframes */

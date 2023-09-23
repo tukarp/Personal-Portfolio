@@ -1,5 +1,4 @@
 /* Styles for the About Me section */
-
 #about_me {
     /* Add a bottom margin to create space between sections */
     margin-bottom: 175px;
@@ -11,8 +10,6 @@
     
     /* Ensure a minimum height to fill the viewport */
     min-height: 100vh;
-    
-    /* Styles for various subsections within About Me */
 
     /* Styles for elements with class .custom within certain sections */
     .key-skills, .languages, .programming-skills, .tech-stack, .operating-systems, .tools, .code-editors, .devops, .certificates {
@@ -22,7 +19,23 @@
                     /* Adjust margins and font size for nested icons */
                     margin-left: 20px;
                     margin-right: -5px;
+                    padding-top: 6px;
+                    padding-left: 1px;
+                    padding-right: 1px;
                     font-size: 30px;
+                    background: rgba(#ffffff, 0.05);
+                    width: 42px;
+                    height: 42px;
+                    border-radius: 100%;
+                    flex-shrink: 0;
+                    transition: all 0.3s;
+                }
+
+                /* Hover effect for section icons */
+                &:hover {
+                    i {
+                        background: $primaryColor;
+                    }
                 }
             }
         }
@@ -131,18 +144,18 @@
         }
     }
 
-    /* Styles for the rating stars section */
+    /* Styles for the rating squares section */
     .rate {
         display: flex;
 
-        /* Styles for individual star elements */
+        /* Styles for individual square elements */
         span {
             position: relative;
             display: flex;
             width: 15px;
             height: 15px;
 
-            /* Add right margin to separate stars */
+            /* Add right margin to separate squares */
             &:not(:last-child) {
                 margin-right: 12px;
             }
@@ -156,8 +169,15 @@
                 border-radius: 4px;
                 background: $secondaryColor;
                 transform: rotate(40deg);
+                padding-top: 6px;
+                padding-left: 1px;
+                padding-right: 1px;
+                font-size: 30px;
+                flex-shrink: 0;
+                transition: all 0.3s;
             }
 
+            /* Styles for half-filled squares */
             &:after {
                 position: absolute;
                 content: "";
@@ -168,7 +188,7 @@
                 transform: rotate(50deg);
             }
 
-            /* Styles for half-filled stars */
+            /* Styles for half-filled squares */
             &.half-fill {
                 &:after {
                     clip-path: polygon(0 0, 50% 50%, 100% 100%, 0 100%);
@@ -177,11 +197,29 @@
                 }
             }
 
-            /* Styles for fully-filled stars */
+            /* Styles for fully-filled squares */
             &.fill {
                 &:before,
                 &:after {
                     background: $primaryColor;
+                }
+            }
+
+            /* Hover effect for rating squares */
+            &:hover {
+                /* Styles for all pseudo-elements */
+                &:before,
+                &:after {
+                    background: lighten(rgba($primaryColor, 75%), 10%);
+                }
+
+                /* Styles for half-filled squares */
+                &.half-fill {
+                    &:before,
+                    &:after {
+                        clip-path: none;
+                        background: lighten(rgba($primaryColor, 75%), 10%);
+                    }
                 }
             }
         }
@@ -266,7 +304,7 @@
                     }
                 }
 
-                /* Styles for before and after pseudo-elements */
+                /* Styles for before pseudo-elements */
                 &:before {
                     position: absolute;
                     content: "";
@@ -281,6 +319,7 @@
                     transition: all 0.6s;
                 }
 
+                /* Styles for after pseudo-elements */
                 &:after {
                     position: absolute;
                     content: "";

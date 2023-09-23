@@ -1,5 +1,4 @@
 /* Styles for the My Resume section */
-
 #my_resume {
     margin-bottom: 125px;
     /* Set a background image with specific properties */
@@ -23,6 +22,23 @@
                     margin-left: 20px;
                     margin-right: -5px;
                     font-size: 30px;
+                    padding-top: 6px;
+                    padding-left: 1px;
+                    padding-right: 1px;
+                    font-size: 30px;
+                    background: rgba(#ffffff, 0.05);
+                    width: 42px;
+                    height: 42px;
+                    border-radius: 100%;
+                    flex-shrink: 0;
+                    transition: all 0.3s;
+                }
+
+                /* Hover effect for section icons */
+                &:hover {
+                    i {
+                        background: $primaryColor;
+                    }
                 }
             }
         }
