@@ -26,7 +26,7 @@
             /* Styles for the active filter button */
             &.active {
                 color: #fff;
-                background: rgba($primaryColor, 0.8);
+                background: $secondaryColor;
                 border-radius: 8px;
             }
         }
@@ -167,6 +167,7 @@
                     i {
                         width: 24px;
                         height: 24px;
+                        margin-right: 5px;
                         padding-top: 3px;
                         padding-bottom: 3px;
                         padding-left: 3px;
@@ -175,7 +176,6 @@
                         flex-shrink: 0;
                         transition: all 0.3s;
                         font-size: 18px;
-                        margin-right: 2px;
                         background: rgba(#ffffff, 0.05);
                     }
 

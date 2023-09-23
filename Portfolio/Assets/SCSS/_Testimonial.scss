@@ -109,13 +109,7 @@
                         padding-bottom: 2%;
                         flex-shrink: 0;
                         border-radius: 8px;
-                        background: lighten($secondaryColor, 4%);
                         transition: all 0.3s;
-
-                        /* Animation for the writer text */
-                        span {
-                            animation: scaleUp 1.25s;
-                        }
 
                         /* Hover effect for the writer information */
                         &:hover {
