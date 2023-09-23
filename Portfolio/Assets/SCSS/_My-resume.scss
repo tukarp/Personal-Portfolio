@@ -17,6 +17,8 @@
         .custom {
             /* Styles for the "h2" element within "custom" */
             h2 {
+                transition: all 0.3s;
+
                 /* Styles for the "i" element within "h2" */
                 i {
                     margin-left: 20px;
@@ -33,12 +35,26 @@
                     flex-shrink: 0;
                     transition: all 0.3s;
                 }
+            }
 
-                /* Hover effect for section icons */
-                &:hover {
-                    i {
-                        background: $primaryColor;
-                    }
+            /* Hover effect for section before */
+            &:before {
+                transition: all 0.3s;
+            }
+
+            /* Hover effect for section after */
+            &:after {
+                transition: all 0.3s;
+            }
+
+            /* Hover effect for section icons */
+            &:hover {
+                h2 {
+                    color: $primaryColor;
+                }
+
+                &:before, &:after, i {
+                    background: $primaryColor;
                 }
             }
         }

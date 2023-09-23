@@ -442,10 +442,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 44vh;
-  left: 12vw;
-  animation: meteor 3561ms linear infinite;
-  animation-delay: 1656ms;
+  top: 52vh;
+  left: 28vw;
+  animation: meteor 7064ms linear infinite;
+  animation-delay: 199ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -453,10 +453,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 1vh;
-  left: 57vw;
-  animation: meteor 4843ms linear infinite;
-  animation-delay: 2106ms;
+  top: 67vh;
+  left: 29vw;
+  animation: meteor 7489ms linear infinite;
+  animation-delay: 2804ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -464,10 +464,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 15vh;
-  left: 23vw;
-  animation: meteor 6135ms linear infinite;
-  animation-delay: 2192ms;
+  top: 32vh;
+  left: 57vw;
+  animation: meteor 6009ms linear infinite;
+  animation-delay: 3920ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -475,10 +475,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 58vh;
-  left: 9vw;
-  animation: meteor 7553ms linear infinite;
-  animation-delay: 1782ms;
+  top: 3vh;
+  left: 13vw;
+  animation: meteor 7534ms linear infinite;
+  animation-delay: 2468ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -486,10 +486,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 7vh;
-  left: 78vw;
-  animation: meteor 6615ms linear infinite;
-  animation-delay: 2217ms;
+  top: 29vh;
+  left: 60vw;
+  animation: meteor 5752ms linear infinite;
+  animation-delay: 3198ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -497,10 +497,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 46vh;
-  left: 13vw;
-  animation: meteor 6937ms linear infinite;
-  animation-delay: 2061ms;
+  top: 30vh;
+  left: 9vw;
+  animation: meteor 4152ms linear infinite;
+  animation-delay: 4149ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -508,10 +508,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 56vh;
-  left: 66vw;
-  animation: meteor 7388ms linear infinite;
-  animation-delay: 4366ms;
+  top: 22vh;
+  left: 60vw;
+  animation: meteor 4460ms linear infinite;
+  animation-delay: 835ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -519,10 +519,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 32vh;
-  left: 49vw;
-  animation: meteor 7013ms linear infinite;
-  animation-delay: 1075ms;
+  top: 12vh;
+  left: 19vw;
+  animation: meteor 6596ms linear infinite;
+  animation-delay: 24ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -530,10 +530,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 50vh;
-  left: 56vw;
-  animation: meteor 3249ms linear infinite;
-  animation-delay: 4637ms;
+  top: 6vh;
+  left: 40vw;
+  animation: meteor 6491ms linear infinite;
+  animation-delay: 3861ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -541,10 +541,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 16vh;
-  left: 70vw;
-  animation: meteor 4828ms linear infinite;
-  animation-delay: 4852ms;
+  top: 11vh;
+  left: 46vw;
+  animation: meteor 6863ms linear infinite;
+  animation-delay: 1611ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -552,10 +552,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 43vh;
-  left: 54vw;
-  animation: meteor 6143ms linear infinite;
-  animation-delay: 710ms;
+  top: 69vh;
+  left: 38vw;
+  animation: meteor 6144ms linear infinite;
+  animation-delay: 776ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -563,10 +563,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 15vh;
-  left: 72vw;
-  animation: meteor 5024ms linear infinite;
-  animation-delay: 553ms;
+  top: 36vh;
+  left: 4vw;
+  animation: meteor 5830ms linear infinite;
+  animation-delay: 4920ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -574,10 +574,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 24vh;
-  left: 6vw;
-  animation: meteor 7501ms linear infinite;
-  animation-delay: 4935ms;
+  top: 60vh;
+  left: 3vw;
+  animation: meteor 6469ms linear infinite;
+  animation-delay: 2763ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -585,10 +585,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 80vh;
-  left: 64vw;
-  animation: meteor 4284ms linear infinite;
-  animation-delay: 1393ms;
+  top: 51vh;
+  left: 31vw;
+  animation: meteor 4970ms linear infinite;
+  animation-delay: 3866ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -596,10 +596,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 63vh;
-  left: 12vw;
-  animation: meteor 4408ms linear infinite;
-  animation-delay: 395ms;
+  top: 53vh;
+  left: 41vw;
+  animation: meteor 6759ms linear infinite;
+  animation-delay: 4292ms;
 }
 
 /* Styles for the About Me section */
@@ -620,11 +620,17 @@ main > section.active header.custom h2 {
   /* Styles for programming skills, operating systems, tools, and code editors sections */
   /* Styles for the certificates section */
 }
-#about_me .key-skills .custom h2, #about_me .languages .custom h2, #about_me .programming-skills .custom h2, #about_me .tech-stack .custom h2, #about_me .operating-systems .custom h2, #about_me .tools .custom h2, #about_me .code-editors .custom h2, #about_me .devops .custom h2, #about_me .certificates .custom h2 {
+#about_me .key-skills .custom, #about_me .languages .custom, #about_me .programming-skills .custom, #about_me .tech-stack .custom, #about_me .operating-systems .custom, #about_me .tools .custom, #about_me .code-editors .custom, #about_me .devops .custom, #about_me .certificates .custom {
+  /* Styles for the "h2" element within "custom" */
+  /* Hover effect for section before */
+  /* Hover effect for section after */
   /* Hover effect for section icons */
 }
-#about_me .key-skills .custom h2 i, #about_me .languages .custom h2 i, #about_me .programming-skills .custom h2 i, #about_me .tech-stack .custom h2 i, #about_me .operating-systems .custom h2 i, #about_me .tools .custom h2 i, #about_me .code-editors .custom h2 i, #about_me .devops .custom h2 i, #about_me .certificates .custom h2 i {
+#about_me .key-skills .custom h2, #about_me .languages .custom h2, #about_me .programming-skills .custom h2, #about_me .tech-stack .custom h2, #about_me .operating-systems .custom h2, #about_me .tools .custom h2, #about_me .code-editors .custom h2, #about_me .devops .custom h2, #about_me .certificates .custom h2 {
+  transition: all 0.3s;
   /* Adjust margins and font size for nested icons */
+}
+#about_me .key-skills .custom h2 i, #about_me .languages .custom h2 i, #about_me .programming-skills .custom h2 i, #about_me .tech-stack .custom h2 i, #about_me .operating-systems .custom h2 i, #about_me .tools .custom h2 i, #about_me .code-editors .custom h2 i, #about_me .devops .custom h2 i, #about_me .certificates .custom h2 i {
   margin-left: 20px;
   margin-right: -5px;
   padding-top: 9px;
@@ -638,11 +644,22 @@ main > section.active header.custom h2 {
   flex-shrink: 0;
   transition: all 0.3s;
 }
-#about_me .key-skills .custom h2:hover i, #about_me .languages .custom h2:hover i, #about_me .programming-skills .custom h2:hover i, #about_me .tech-stack .custom h2:hover i, #about_me .operating-systems .custom h2:hover i, #about_me .tools .custom h2:hover i, #about_me .code-editors .custom h2:hover i, #about_me .devops .custom h2:hover i, #about_me .certificates .custom h2:hover i {
+#about_me .key-skills .custom:before, #about_me .languages .custom:before, #about_me .programming-skills .custom:before, #about_me .tech-stack .custom:before, #about_me .operating-systems .custom:before, #about_me .tools .custom:before, #about_me .code-editors .custom:before, #about_me .devops .custom:before, #about_me .certificates .custom:before {
+  transition: all 0.3s;
+}
+#about_me .key-skills .custom:after, #about_me .languages .custom:after, #about_me .programming-skills .custom:after, #about_me .tech-stack .custom:after, #about_me .operating-systems .custom:after, #about_me .tools .custom:after, #about_me .code-editors .custom:after, #about_me .devops .custom:after, #about_me .certificates .custom:after {
+  transition: all 0.3s;
+}
+#about_me .key-skills .custom:hover h2, #about_me .languages .custom:hover h2, #about_me .programming-skills .custom:hover h2, #about_me .tech-stack .custom:hover h2, #about_me .operating-systems .custom:hover h2, #about_me .tools .custom:hover h2, #about_me .code-editors .custom:hover h2, #about_me .devops .custom:hover h2, #about_me .certificates .custom:hover h2 {
+  color: #658DF2;
+}
+#about_me .key-skills .custom:hover:before, #about_me .key-skills .custom:hover:after, #about_me .key-skills .custom:hover i, #about_me .languages .custom:hover:before, #about_me .languages .custom:hover:after, #about_me .languages .custom:hover i, #about_me .programming-skills .custom:hover:before, #about_me .programming-skills .custom:hover:after, #about_me .programming-skills .custom:hover i, #about_me .tech-stack .custom:hover:before, #about_me .tech-stack .custom:hover:after, #about_me .tech-stack .custom:hover i, #about_me .operating-systems .custom:hover:before, #about_me .operating-systems .custom:hover:after, #about_me .operating-systems .custom:hover i, #about_me .tools .custom:hover:before, #about_me .tools .custom:hover:after, #about_me .tools .custom:hover i, #about_me .code-editors .custom:hover:before, #about_me .code-editors .custom:hover:after, #about_me .code-editors .custom:hover i, #about_me .devops .custom:hover:before, #about_me .devops .custom:hover:after, #about_me .devops .custom:hover i, #about_me .certificates .custom:hover:before, #about_me .certificates .custom:hover:after, #about_me .certificates .custom:hover i {
   background: #658DF2;
 }
-#about_me .back-end .custom h2 i, #about_me .front-end .custom h2 i {
+#about_me .back-end .custom h2, #about_me .front-end .custom h2 {
   /* Adjust margins and font size for nested icons */
+}
+#about_me .back-end .custom h2 i, #about_me .front-end .custom h2 i {
   margin-left: 0px;
   margin-right: 15px;
   padding-top: 9px;
@@ -963,10 +980,13 @@ main > section.active header.custom h2 {
 }
 #my_resume .education .custom, #my_resume .experience .custom {
   /* Styles for the "h2" element within "custom" */
+  /* Hover effect for section before */
+  /* Hover effect for section after */
+  /* Hover effect for section icons */
 }
 #my_resume .education .custom h2, #my_resume .experience .custom h2 {
+  transition: all 0.3s;
   /* Styles for the "i" element within "h2" */
-  /* Hover effect for section icons */
 }
 #my_resume .education .custom h2 i, #my_resume .experience .custom h2 i {
   margin-left: 20px;
@@ -983,7 +1003,16 @@ main > section.active header.custom h2 {
   flex-shrink: 0;
   transition: all 0.3s;
 }
-#my_resume .education .custom h2:hover i, #my_resume .experience .custom h2:hover i {
+#my_resume .education .custom:before, #my_resume .experience .custom:before {
+  transition: all 0.3s;
+}
+#my_resume .education .custom:after, #my_resume .experience .custom:after {
+  transition: all 0.3s;
+}
+#my_resume .education .custom:hover h2, #my_resume .experience .custom:hover h2 {
+  color: #658DF2;
+}
+#my_resume .education .custom:hover:before, #my_resume .education .custom:hover:after, #my_resume .education .custom:hover i, #my_resume .experience .custom:hover:before, #my_resume .experience .custom:hover:after, #my_resume .experience .custom:hover i {
   background: #658DF2;
 }
 #my_resume .items {
