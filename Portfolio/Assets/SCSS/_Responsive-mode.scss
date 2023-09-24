@@ -357,15 +357,23 @@
 
 /* Media query for screens with a maximum width of 575px */
 @media (max-width: 575px) {
+    #home {
+        .info .socials ul li {
+            margin-right: 8px;
+            margin-top: 8px;
+        }
+    }
+
     /* Styles for the Testimonial section */
     #testimonial {
         /* Adjust font sizes for the .main-section section elements */
         .main-section .comments .item.active {
             .box {
+                margin-top: 20px;
                 margin-bottom: 24px;
 
                 p {
-                    font-size: 20px;
+                    font-size: 18px;
 
                     span {
                         font-size: 60px;

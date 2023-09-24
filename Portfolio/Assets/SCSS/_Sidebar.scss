@@ -32,6 +32,13 @@
         height: 20%;
         padding-top: 62px;
         text-align: center;
+        
+        img {
+            transition: all 0.3s;
+            &:hover {
+                transform: scale(1.15);
+            }
+        }
     }
 
     /* Styles for the navigation section within the sidebar */
@@ -55,9 +62,9 @@
                     position: relative;
 
                     /* Hover effect on navigation links */
-                    &:hover {
+                    &:hover {               
                         i {
-                            color: #fff;
+                            color: $whiteColor;
                         }
 
                         +span {

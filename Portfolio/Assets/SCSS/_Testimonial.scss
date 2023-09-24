@@ -2,7 +2,7 @@
 #testimonial {
     background-image: url(../Images/Graphics/Background-shape.png);
     background-repeat: no-repeat;
-    background-position: 60vw 40vh;
+    background-position: 60vw 45vh;
     min-height: 100vh;
 
     /* Styles for the main section within the Testimonial section */
@@ -26,11 +26,12 @@
                 border-radius: 50%;
                 cursor: pointer;
                 margin-bottom: 16px;
-                transition: opacity 0.3s, filter 0.3s;
+                transition: all 0.3s;
 
                 /* Hover effect for images */
                 &:hover {
                     opacity: 1;
+                    transform: scale(1.15);
                     filter: saturate(150%) sepia(0.5);
                 }
 
@@ -58,6 +59,7 @@
 
                     /* Styles for the comment box */
                     .box {
+                        margin-top: 20px;
                         position: relative;
                         background: lighten($secondaryColor, 4%);
                         padding: 32px;
@@ -97,6 +99,10 @@
                         &:hover {
                             transform: scale(1.05);
                             background: rgba(darken($primaryColor, 40%), 0.4);
+
+                            &:before {
+                                border-bottom: 9px solid rgba(darken($primaryColor, 40%), 0.4);
+                            }
                         }
                     }
 

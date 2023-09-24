@@ -87,6 +87,7 @@
 
                 /* Apply a filter effect on hover */
                 &:hover {
+                    transform: scale(1.03);
                     filter: saturate(200%) sepia(1);
                 }
             }

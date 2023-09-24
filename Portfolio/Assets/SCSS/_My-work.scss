@@ -22,6 +22,13 @@
             margin-right: 8px;
             margin-left: 8px;
             margin-bottom: 16px;
+            transition: all 0.3s;
+
+            &:hover {
+                color: rgba($whiteColor, 0.6);
+                background: rgba($secondaryColor, 0.6);
+                border-radius: 8px;
+            }
 
             /* Styles for the active filter button */
             &.active {
