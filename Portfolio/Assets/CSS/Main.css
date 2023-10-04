@@ -460,10 +460,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 75vh;
-  left: 1vw;
-  animation: meteor 6604ms linear infinite;
-  animation-delay: 3460ms;
+  top: 2vh;
+  left: 43vw;
+  animation: meteor 7169ms linear infinite;
+  animation-delay: 4681ms;
 }
 #home .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -471,10 +471,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 61vh;
-  left: 58vw;
-  animation: meteor 3209ms linear infinite;
-  animation-delay: 2429ms;
+  top: 6vh;
+  left: 11vw;
+  animation: meteor 5881ms linear infinite;
+  animation-delay: 29ms;
 }
 #home .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -482,10 +482,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 30vh;
-  left: 60vw;
-  animation: meteor 3644ms linear infinite;
-  animation-delay: 1477ms;
+  top: 38vh;
+  left: 62vw;
+  animation: meteor 4743ms linear infinite;
+  animation-delay: 3617ms;
 }
 #home .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -493,10 +493,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 61vh;
-  left: 28vw;
-  animation: meteor 5812ms linear infinite;
-  animation-delay: 945ms;
+  top: 78vh;
+  left: 42vw;
+  animation: meteor 4340ms linear infinite;
+  animation-delay: 4579ms;
 }
 #home .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -504,10 +504,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 28vh;
-  left: 27vw;
-  animation: meteor 7442ms linear infinite;
-  animation-delay: 2972ms;
+  top: 52vh;
+  left: 71vw;
+  animation: meteor 6429ms linear infinite;
+  animation-delay: 4705ms;
 }
 #home .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -515,10 +515,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 56vh;
-  left: 43vw;
-  animation: meteor 4195ms linear infinite;
-  animation-delay: 3599ms;
+  top: 52vh;
+  left: 22vw;
+  animation: meteor 6150ms linear infinite;
+  animation-delay: 1926ms;
 }
 #home .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -526,10 +526,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 49vh;
-  left: 46vw;
-  animation: meteor 5570ms linear infinite;
-  animation-delay: 563ms;
+  top: 65vh;
+  left: 60vw;
+  animation: meteor 6178ms linear infinite;
+  animation-delay: 3939ms;
 }
 #home .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -537,10 +537,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 46vh;
-  left: 39vw;
-  animation: meteor 5767ms linear infinite;
-  animation-delay: 1989ms;
+  top: 78vh;
+  left: 44vw;
+  animation: meteor 6456ms linear infinite;
+  animation-delay: 574ms;
 }
 #home .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -548,10 +548,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 11vh;
-  left: 31vw;
-  animation: meteor 5138ms linear infinite;
-  animation-delay: 4719ms;
+  top: 35vh;
+  left: 61vw;
+  animation: meteor 6346ms linear infinite;
+  animation-delay: 4618ms;
 }
 #home .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -559,10 +559,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 28vh;
-  left: 5vw;
-  animation: meteor 5706ms linear infinite;
-  animation-delay: 3996ms;
+  top: 14vh;
+  left: 48vw;
+  animation: meteor 3792ms linear infinite;
+  animation-delay: 1298ms;
 }
 #home .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -570,10 +570,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 35vh;
-  left: 31vw;
-  animation: meteor 6567ms linear infinite;
-  animation-delay: 526ms;
+  top: 29vh;
+  left: 7vw;
+  animation: meteor 5282ms linear infinite;
+  animation-delay: 4276ms;
 }
 #home .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -581,10 +581,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 66vh;
-  left: 18vw;
-  animation: meteor 3736ms linear infinite;
-  animation-delay: 4246ms;
+  top: 33vh;
+  left: 2vw;
+  animation: meteor 7042ms linear infinite;
+  animation-delay: 2851ms;
 }
 #home .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -592,10 +592,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 40vh;
-  left: 72vw;
-  animation: meteor 7977ms linear infinite;
-  animation-delay: 3574ms;
+  top: 67vh;
+  left: 23vw;
+  animation: meteor 4789ms linear infinite;
+  animation-delay: 1978ms;
 }
 #home .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -603,10 +603,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 49vh;
-  left: 17vw;
-  animation: meteor 7212ms linear infinite;
-  animation-delay: 4050ms;
+  top: 52vh;
+  left: 55vw;
+  animation: meteor 4850ms linear infinite;
+  animation-delay: 1615ms;
 }
 #home .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -614,10 +614,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 51vh;
-  left: 65vw;
-  animation: meteor 5828ms linear infinite;
-  animation-delay: 4003ms;
+  top: 53vh;
+  left: 36vw;
+  animation: meteor 7003ms linear infinite;
+  animation-delay: 1323ms;
 }
 
 /* Styles for the About Me section */
@@ -1294,6 +1294,10 @@ main > section.active header.custom h2 {
 .modal#workModal .modal-dialog .modal-content .modal-body .left h2 {
   margin-top: 32px;
   margin-bottom: 16px;
+  transition: all 0.3s;
+}
+.modal#workModal .modal-dialog .modal-content .modal-body .left h2:hover {
+  color: #658DF2;
 }
 .modal#workModal .modal-dialog .modal-content .modal-body .left p {
   color: #B6B7BA;
