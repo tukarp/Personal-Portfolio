@@ -19,10 +19,8 @@ document.querySelector("#sidebar .toggle-sidebar").addEventListener("click", fun
 // Typed.js for the Home section header
 new Typed(".field h2", { // Creating a new Typed.js instance for the Home section field h2 header
     strings: // Defining the strings to be typed
-        ["Junior Software Tester",
-            "Aspiring Software Engineer",
-            "Aspiring Full Stack Developer",
-            "Student at UMCS, Lublin"],
+        ["Junior Software Tester", "Aspiring Software Engineer",
+         "Aspiring Full Stack Developer", "Student at UMCS, Lublin"],
     typeSpeed: 80, // Defining typing speed
     backSpeed: 50, // Defining backspacing speed
     loop: true, // Defining looping the strings
@@ -32,7 +30,7 @@ new Typed(".field h2", { // Creating a new Typed.js instance for the Home sectio
 for (let i = 0; i < 15; i++) { // Looping 15 times
     let meteor = document.createElement("span"); // Creating a new span element
     meteor.classList = "meteor"; // Adding meteor class to the span element
-    document.querySelector("#home .meteor-shower").appendChild(meteor); // Appending the span element to the meteor shower container
+    document.querySelector("main > section.active .meteor-shower").appendChild(meteor); // Appending the span element to the meteor shower container
 }
 
 // Shuffle.js filter buttons
