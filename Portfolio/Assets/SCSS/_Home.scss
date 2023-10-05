@@ -130,30 +130,4 @@
             }
         }
     }
-
-    /* Styles for the meteor shower animation */
-    .meteor-shower {
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        right: 0;
-        top: 0;
-        overflow: hidden;
-        z-index: -1;
-
-        /* Loop to create multiple meteor elements with random properties */
-        @for $i from 1 through 15 {
-            .meteor:nth-child(#{$i}) {
-                position: absolute;
-                background-image: url('../Images/Graphics/Meteor.png');
-                width: 60px;
-                height: 49px;
-                opacity: 0;
-                top: #{random(80) + 'vh'};
-                left: #{random(80) + 'vw'};
-                animation: meteor #{random(5000) + 3000 + 'ms'} linear infinite;
-                animation-delay: #{random(5000) + 'ms'};
-            }
-        }
-    }
 }

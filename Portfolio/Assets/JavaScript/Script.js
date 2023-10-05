@@ -30,7 +30,7 @@ new Typed(".field h2", { // Creating a new Typed.js instance for the Home sectio
 for (let i = 0; i < 15; i++) { // Looping 15 times
     let meteor = document.createElement("span"); // Creating a new span element
     meteor.classList = "meteor"; // Adding meteor class to the span element
-    document.querySelector("main > section.active .meteor-shower").appendChild(meteor); // Appending the span element to the meteor shower container
+    document.querySelector("#home .meteor-shower").appendChild(meteor); // Appending the span element to the meteor shower container
 }
 
 // Shuffle.js filter buttons

@@ -81,6 +81,7 @@ body {
 main {
   /* Add left padding to the main content */
   padding-left: 102px;
+  /* Styles for the meteor shower animation */
 }
 main > section {
   /* Initially hide all sections */
@@ -138,6 +139,181 @@ main > section.active header.custom h2 {
   display: inline-block;
   padding: 0 24px;
   background: #0f0f0f;
+}
+main .meteor-shower {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: -1;
+  /* Loop to create multiple meteor elements with random properties */
+}
+main .meteor-shower .meteor:nth-child(1) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 3vh;
+  left: 2vw;
+  animation: meteor 3210ms linear infinite;
+  animation-delay: 264ms;
+}
+main .meteor-shower .meteor:nth-child(2) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 39vh;
+  left: 48vw;
+  animation: meteor 4435ms linear infinite;
+  animation-delay: 816ms;
+}
+main .meteor-shower .meteor:nth-child(3) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 49vh;
+  left: 39vw;
+  animation: meteor 4139ms linear infinite;
+  animation-delay: 1809ms;
+}
+main .meteor-shower .meteor:nth-child(4) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 43vh;
+  left: 72vw;
+  animation: meteor 7594ms linear infinite;
+  animation-delay: 2825ms;
+}
+main .meteor-shower .meteor:nth-child(5) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 17vh;
+  left: 27vw;
+  animation: meteor 5464ms linear infinite;
+  animation-delay: 1548ms;
+}
+main .meteor-shower .meteor:nth-child(6) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 23vh;
+  left: 8vw;
+  animation: meteor 7506ms linear infinite;
+  animation-delay: 2485ms;
+}
+main .meteor-shower .meteor:nth-child(7) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 41vh;
+  left: 24vw;
+  animation: meteor 7788ms linear infinite;
+  animation-delay: 3662ms;
+}
+main .meteor-shower .meteor:nth-child(8) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 35vh;
+  left: 71vw;
+  animation: meteor 6848ms linear infinite;
+  animation-delay: 3060ms;
+}
+main .meteor-shower .meteor:nth-child(9) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 10vh;
+  left: 7vw;
+  animation: meteor 7170ms linear infinite;
+  animation-delay: 1074ms;
+}
+main .meteor-shower .meteor:nth-child(10) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 31vh;
+  left: 43vw;
+  animation: meteor 4947ms linear infinite;
+  animation-delay: 1262ms;
+}
+main .meteor-shower .meteor:nth-child(11) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 25vh;
+  left: 74vw;
+  animation: meteor 7688ms linear infinite;
+  animation-delay: 1992ms;
+}
+main .meteor-shower .meteor:nth-child(12) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 71vh;
+  left: 79vw;
+  animation: meteor 6519ms linear infinite;
+  animation-delay: 4748ms;
+}
+main .meteor-shower .meteor:nth-child(13) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 26vh;
+  left: 29vw;
+  animation: meteor 5974ms linear infinite;
+  animation-delay: 3341ms;
+}
+main .meteor-shower .meteor:nth-child(14) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 56vh;
+  left: 42vw;
+  animation: meteor 4345ms linear infinite;
+  animation-delay: 4793ms;
+}
+main .meteor-shower .meteor:nth-child(15) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Meteor.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 28vh;
+  left: 40vw;
+  animation: meteor 6644ms linear infinite;
+  animation-delay: 2919ms;
 }
 
 /* Styles for custom buttons */
@@ -339,7 +515,6 @@ main > section.active header.custom h2 {
   /* Styles for the header with class 'has-bg' */
   /* Styles for the information section */
   /* Styles for the image section */
-  /* Styles for the meteor shower animation */
 }
 #home header.has-bg {
   margin-bottom: 32px;
@@ -444,190 +619,13 @@ main > section.active header.custom h2 {
   transform: scale(1.03);
   filter: saturate(200%) sepia(1);
 }
-#home .meteor-shower {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  right: 0;
-  top: 0;
-  overflow: hidden;
-  z-index: -1;
-  /* Loop to create multiple meteor elements with random properties */
-}
-#home .meteor-shower .meteor:nth-child(1) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 53vh;
-  left: 28vw;
-  animation: meteor 4649ms linear infinite;
-  animation-delay: 3399ms;
-}
-#home .meteor-shower .meteor:nth-child(2) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 80vh;
-  left: 8vw;
-  animation: meteor 4470ms linear infinite;
-  animation-delay: 1356ms;
-}
-#home .meteor-shower .meteor:nth-child(3) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 43vh;
-  left: 78vw;
-  animation: meteor 3536ms linear infinite;
-  animation-delay: 268ms;
-}
-#home .meteor-shower .meteor:nth-child(4) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 69vh;
-  left: 78vw;
-  animation: meteor 6417ms linear infinite;
-  animation-delay: 3652ms;
-}
-#home .meteor-shower .meteor:nth-child(5) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 79vh;
-  left: 40vw;
-  animation: meteor 7900ms linear infinite;
-  animation-delay: 3240ms;
-}
-#home .meteor-shower .meteor:nth-child(6) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 58vh;
-  left: 32vw;
-  animation: meteor 6814ms linear infinite;
-  animation-delay: 4155ms;
-}
-#home .meteor-shower .meteor:nth-child(7) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 55vh;
-  left: 61vw;
-  animation: meteor 6142ms linear infinite;
-  animation-delay: 4258ms;
-}
-#home .meteor-shower .meteor:nth-child(8) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 16vh;
-  left: 67vw;
-  animation: meteor 3498ms linear infinite;
-  animation-delay: 3857ms;
-}
-#home .meteor-shower .meteor:nth-child(9) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 50vh;
-  left: 19vw;
-  animation: meteor 3844ms linear infinite;
-  animation-delay: 849ms;
-}
-#home .meteor-shower .meteor:nth-child(10) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 3vh;
-  left: 16vw;
-  animation: meteor 3518ms linear infinite;
-  animation-delay: 3260ms;
-}
-#home .meteor-shower .meteor:nth-child(11) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 76vh;
-  left: 56vw;
-  animation: meteor 5032ms linear infinite;
-  animation-delay: 4718ms;
-}
-#home .meteor-shower .meteor:nth-child(12) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 18vh;
-  left: 1vw;
-  animation: meteor 7338ms linear infinite;
-  animation-delay: 2149ms;
-}
-#home .meteor-shower .meteor:nth-child(13) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 31vh;
-  left: 27vw;
-  animation: meteor 4006ms linear infinite;
-  animation-delay: 1148ms;
-}
-#home .meteor-shower .meteor:nth-child(14) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 3vh;
-  left: 7vw;
-  animation: meteor 6304ms linear infinite;
-  animation-delay: 1551ms;
-}
-#home .meteor-shower .meteor:nth-child(15) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 70vh;
-  left: 15vw;
-  animation: meteor 6155ms linear infinite;
-  animation-delay: 4288ms;
-}
 
 /* Styles for the About Me section */
 #about_me {
   /* Add a bottom margin to create space between sections */
   margin-bottom: 175px;
   /* Set a background image and configure its properties */
-  background-image: url(../Images/Graphics/Background-shape.png);
-  background-repeat: no-repeat;
-  background-position: 68vw 63vh;
+  background: url("../Images/Graphics/Background-shape.png") no-repeat 68vw 63vh, url("../Images/Graphics/Background-shape.png") no-repeat 95vh 350vh;
   /* Ensure a minimum height to fill the viewport */
   min-height: 100vh;
   /* Styles for elements with class .custom within certain sections */
