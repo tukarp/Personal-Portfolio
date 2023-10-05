@@ -6,6 +6,7 @@
     /* Set a background image and configure its properties */
     background:
         url("../Images/Graphics/Background-shape.png") no-repeat 68vw 63vh,
+        url("../Images/Graphics/Background-shape-mirrored.png") no-repeat 9vh 252vh,
         url("../Images/Graphics/Background-shape.png") no-repeat 95vh 350vh;
 
     /* Ensure a minimum height to fill the viewport */
@@ -272,7 +273,7 @@
 
                 /* Styles for items within skills and languages sections */
                 .items {
-                    background: lighten($secondaryColor, 4%);
+                    background-color: rgba(lighten($secondaryColor, 4%), 0.6);
                     border-radius: 8px;
                     position: relative;
                     padding: 24px;
@@ -293,7 +294,7 @@
                         content: "";
                         width: 100%;
                         height: 100%;
-                        background: darken($primaryColor, 40%);
+                        background: rgba(darken($primaryColor, 40%), 0.6);
                         left: 0;
                         top: 0;
                         border-radius: 8px;
@@ -308,7 +309,7 @@
                         content: "";
                         width: 100%;
                         height: 100%;
-                        background: darken($primaryColor, 40%);
+                        background: rgba(darken($primaryColor, 40%), 0.6);
                         left: 0;
                         top: 0;
                         border-radius: 8px;

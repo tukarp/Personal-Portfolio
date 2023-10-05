@@ -156,10 +156,10 @@ main .meteor-shower .meteor:nth-child(1) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 3vh;
-  left: 2vw;
-  animation: meteor 3210ms linear infinite;
-  animation-delay: 264ms;
+  top: 39vh;
+  left: 71vw;
+  animation: meteor 3409ms linear infinite;
+  animation-delay: 3196ms;
 }
 main .meteor-shower .meteor:nth-child(2) {
   position: absolute;
@@ -167,10 +167,10 @@ main .meteor-shower .meteor:nth-child(2) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 39vh;
-  left: 48vw;
-  animation: meteor 4435ms linear infinite;
-  animation-delay: 816ms;
+  top: 62vh;
+  left: 74vw;
+  animation: meteor 4876ms linear infinite;
+  animation-delay: 1679ms;
 }
 main .meteor-shower .meteor:nth-child(3) {
   position: absolute;
@@ -178,10 +178,10 @@ main .meteor-shower .meteor:nth-child(3) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 49vh;
-  left: 39vw;
-  animation: meteor 4139ms linear infinite;
-  animation-delay: 1809ms;
+  top: 68vh;
+  left: 54vw;
+  animation: meteor 7084ms linear infinite;
+  animation-delay: 2544ms;
 }
 main .meteor-shower .meteor:nth-child(4) {
   position: absolute;
@@ -189,10 +189,10 @@ main .meteor-shower .meteor:nth-child(4) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 43vh;
-  left: 72vw;
-  animation: meteor 7594ms linear infinite;
-  animation-delay: 2825ms;
+  top: 74vh;
+  left: 38vw;
+  animation: meteor 5321ms linear infinite;
+  animation-delay: 2816ms;
 }
 main .meteor-shower .meteor:nth-child(5) {
   position: absolute;
@@ -200,10 +200,10 @@ main .meteor-shower .meteor:nth-child(5) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 17vh;
-  left: 27vw;
-  animation: meteor 5464ms linear infinite;
-  animation-delay: 1548ms;
+  top: 8vh;
+  left: 13vw;
+  animation: meteor 5810ms linear infinite;
+  animation-delay: 3340ms;
 }
 main .meteor-shower .meteor:nth-child(6) {
   position: absolute;
@@ -211,10 +211,10 @@ main .meteor-shower .meteor:nth-child(6) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 23vh;
-  left: 8vw;
-  animation: meteor 7506ms linear infinite;
-  animation-delay: 2485ms;
+  top: 1vh;
+  left: 76vw;
+  animation: meteor 6817ms linear infinite;
+  animation-delay: 3847ms;
 }
 main .meteor-shower .meteor:nth-child(7) {
   position: absolute;
@@ -222,10 +222,10 @@ main .meteor-shower .meteor:nth-child(7) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 41vh;
-  left: 24vw;
-  animation: meteor 7788ms linear infinite;
-  animation-delay: 3662ms;
+  top: 6vh;
+  left: 48vw;
+  animation: meteor 4890ms linear infinite;
+  animation-delay: 1778ms;
 }
 main .meteor-shower .meteor:nth-child(8) {
   position: absolute;
@@ -233,10 +233,10 @@ main .meteor-shower .meteor:nth-child(8) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 35vh;
-  left: 71vw;
-  animation: meteor 6848ms linear infinite;
-  animation-delay: 3060ms;
+  top: 36vh;
+  left: 61vw;
+  animation: meteor 3167ms linear infinite;
+  animation-delay: 2079ms;
 }
 main .meteor-shower .meteor:nth-child(9) {
   position: absolute;
@@ -244,10 +244,10 @@ main .meteor-shower .meteor:nth-child(9) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 10vh;
-  left: 7vw;
-  animation: meteor 7170ms linear infinite;
-  animation-delay: 1074ms;
+  top: 45vh;
+  left: 79vw;
+  animation: meteor 6822ms linear infinite;
+  animation-delay: 3037ms;
 }
 main .meteor-shower .meteor:nth-child(10) {
   position: absolute;
@@ -255,10 +255,10 @@ main .meteor-shower .meteor:nth-child(10) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 31vh;
-  left: 43vw;
-  animation: meteor 4947ms linear infinite;
-  animation-delay: 1262ms;
+  top: 27vh;
+  left: 18vw;
+  animation: meteor 3271ms linear infinite;
+  animation-delay: 4755ms;
 }
 main .meteor-shower .meteor:nth-child(11) {
   position: absolute;
@@ -266,10 +266,10 @@ main .meteor-shower .meteor:nth-child(11) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 25vh;
-  left: 74vw;
-  animation: meteor 7688ms linear infinite;
-  animation-delay: 1992ms;
+  top: 37vh;
+  left: 1vw;
+  animation: meteor 4057ms linear infinite;
+  animation-delay: 951ms;
 }
 main .meteor-shower .meteor:nth-child(12) {
   position: absolute;
@@ -277,10 +277,10 @@ main .meteor-shower .meteor:nth-child(12) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 71vh;
-  left: 79vw;
-  animation: meteor 6519ms linear infinite;
-  animation-delay: 4748ms;
+  top: 47vh;
+  left: 25vw;
+  animation: meteor 4304ms linear infinite;
+  animation-delay: 1559ms;
 }
 main .meteor-shower .meteor:nth-child(13) {
   position: absolute;
@@ -288,10 +288,10 @@ main .meteor-shower .meteor:nth-child(13) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 26vh;
-  left: 29vw;
-  animation: meteor 5974ms linear infinite;
-  animation-delay: 3341ms;
+  top: 11vh;
+  left: 55vw;
+  animation: meteor 7830ms linear infinite;
+  animation-delay: 297ms;
 }
 main .meteor-shower .meteor:nth-child(14) {
   position: absolute;
@@ -299,10 +299,10 @@ main .meteor-shower .meteor:nth-child(14) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 56vh;
-  left: 42vw;
-  animation: meteor 4345ms linear infinite;
-  animation-delay: 4793ms;
+  top: 26vh;
+  left: 7vw;
+  animation: meteor 4385ms linear infinite;
+  animation-delay: 2767ms;
 }
 main .meteor-shower .meteor:nth-child(15) {
   position: absolute;
@@ -310,10 +310,10 @@ main .meteor-shower .meteor:nth-child(15) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 28vh;
-  left: 40vw;
-  animation: meteor 6644ms linear infinite;
-  animation-delay: 2919ms;
+  top: 55vh;
+  left: 3vw;
+  animation: meteor 6837ms linear infinite;
+  animation-delay: 2802ms;
 }
 
 /* Styles for custom buttons */
@@ -625,7 +625,7 @@ main .meteor-shower .meteor:nth-child(15) {
   /* Add a bottom margin to create space between sections */
   margin-bottom: 175px;
   /* Set a background image and configure its properties */
-  background: url("../Images/Graphics/Background-shape.png") no-repeat 68vw 63vh, url("../Images/Graphics/Background-shape.png") no-repeat 95vh 350vh;
+  background: url("../Images/Graphics/Background-shape.png") no-repeat 68vw 63vh, url("../Images/Graphics/Background-shape-mirrored.png") no-repeat 9vh 252vh, url("../Images/Graphics/Background-shape.png") no-repeat 95vh 350vh;
   /* Ensure a minimum height to fill the viewport */
   min-height: 100vh;
   /* Styles for elements with class .custom within certain sections */
@@ -842,7 +842,7 @@ main .meteor-shower .meteor:nth-child(15) {
   /* Styles for items within skills and languages sections */
 }
 #about_me .row .skills .key-skills .items, #about_me .row .skills .languages .items, #about_me .row .languages-outer .key-skills .items, #about_me .row .languages-outer .languages .items {
-  background: #28282b;
+  background-color: rgba(40, 40, 43, 0.6);
   border-radius: 8px;
   position: relative;
   padding: 24px;
@@ -861,7 +861,7 @@ main .meteor-shower .meteor:nth-child(15) {
   content: "";
   width: 100%;
   height: 100%;
-  background: #0b2c80;
+  background: rgba(11, 44, 128, 0.6);
   left: 0;
   top: 0;
   border-radius: 8px;
@@ -874,7 +874,7 @@ main .meteor-shower .meteor:nth-child(15) {
   content: "";
   width: 100%;
   height: 100%;
-  background: #0b2c80;
+  background: rgba(11, 44, 128, 0.6);
   left: 0;
   top: 0;
   border-radius: 8px;
@@ -980,9 +980,7 @@ main .meteor-shower .meteor:nth-child(15) {
 #my_resume {
   margin-bottom: 125px;
   /* Set a background image with specific properties */
-  background-image: url(../Images/Graphics/Background-shape.png);
-  background-repeat: no-repeat;
-  background-position: 42vw 31vh;
+  background: url("../Images/Graphics/Background-shape.png") no-repeat 42vw 31vh;
   /* Styles for the header with class 'has-bg' */
   /* Styles for the education and experience sections */
   /* Styles for the items within education and experience */
@@ -1174,7 +1172,7 @@ main .meteor-shower .meteor:nth-child(15) {
   /* Styles for the active filter button */
 }
 #my_work .filters button:hover {
-  color: rgba(255, 255, 255, 0.6);
+  color: #658DF2;
   background: rgba(30, 30, 32, 0.6);
   border-radius: 8px;
 }
