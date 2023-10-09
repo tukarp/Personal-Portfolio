@@ -4,7 +4,8 @@
 
     /* Set a background image and configure its properties */
     background:
-        url("../Images/Graphics/Background-clouds-3.png") no-repeat 40vw 55vh;
+        url("../Images/Graphics/Background-clouds-1.png") no-repeat 70vw -20vh,
+        url("../Images/Graphics/Background-clouds-4.png") no-repeat 40vw 55vh;
 
     /* Styles for the header with class 'has-bg' */
     header.has-bg {
