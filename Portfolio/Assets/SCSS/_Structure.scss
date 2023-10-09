@@ -3,6 +3,14 @@ main {
     /* Add left padding to the main content */
     padding-left: 102px;
 
+    section:not(#home, #my_resume, #testimonial, .main-section) {
+        /* Set a background image and configure its properties */
+        background:
+            url("../Images/Graphics/Background-clouds-1.png") no-repeat 60vw -20vh,
+            url("../Images/Graphics/Background-clouds-2.png") no-repeat 110vh 80vh,
+            url("../Images/Graphics/Background-clouds-3.png") no-repeat 70vh 325vh;
+    }
+
     > section {
         /* Initially hide all sections */
         display: none;
@@ -70,8 +78,8 @@ main {
         }
     }
 
-    /* Styles for the meteor shower animation */
-    .meteor-shower {
+    /* Styles for the rain animation */
+    .rain {
         position: absolute;
         width: 100%;
         height: 100vh;
@@ -80,17 +88,17 @@ main {
         overflow: hidden;
         z-index: -1;
 
-        /* Loop to create multiple meteor elements with random properties */
+        /* Loop to create multiple rain elements with random properties */
         @for $i from 1 through 15 {
-            .meteor:nth-child(#{$i}) {
+            .raindrop:nth-child(#{$i}) {
                 position: absolute;
-                background-image: url('../Images/Graphics/Meteor.png');
+                background-image: url('../Images/Graphics/Raindrop.png');
                 width: 60px;
                 height: 49px;
                 opacity: 0;
                 top: #{random(80) + 'vh'};
                 left: #{random(80) + 'vw'};
-                animation: meteor #{random(5000) + 3000 + 'ms'} linear infinite;
+                animation: rain #{random(1000) + 3000 + 'ms'} linear infinite;
                 animation-delay: #{random(5000) + 'ms'};
             }
         }

@@ -26,11 +26,11 @@ new Typed(".field h2", { // Creating a new Typed.js instance for the Home sectio
     loop: true, // Defining looping the strings
 });
 
-// Meteor shower animation
+// Rain shower animation
 for (let i = 0; i < 15; i++) { // Looping 15 times
-    let meteor = document.createElement("span"); // Creating a new span element
-    meteor.classList = "meteor"; // Adding meteor class to the span element
-    document.querySelector("#home .meteor-shower").appendChild(meteor); // Appending the span element to the meteor shower container
+    let raindrop = document.createElement("span"); // Creating a new span element
+    raindrop.classList = "raindrop"; // Adding rain class to the span element
+    document.querySelector("#home .rain").appendChild(raindrop); // Appending the span element to the rain container
 }
 
 // Shuffle.js filter buttons

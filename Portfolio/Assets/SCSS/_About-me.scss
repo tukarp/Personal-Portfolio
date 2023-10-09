@@ -2,11 +2,6 @@
 #about_me {
     /* Add a bottom margin to create space between sections */
     margin-bottom: 175px;
-    
-    /* Set a background image and configure its properties */
-    background:
-        url("../Images/Graphics/Background-shape.png") no-repeat 68vw 63vh,
-        url("../Images/Graphics/Background-shape.png") no-repeat 95vh 350vh;
 
     /* Ensure a minimum height to fill the viewport */
     min-height: 100vh;

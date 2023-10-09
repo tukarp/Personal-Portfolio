@@ -81,7 +81,11 @@ body {
 main {
   /* Add left padding to the main content */
   padding-left: 102px;
-  /* Styles for the meteor shower animation */
+  /* Styles for the rain animation */
+}
+main section:not(#home, #my_resume, #testimonial, .main-section) {
+  /* Set a background image and configure its properties */
+  background: url("../Images/Graphics/Background-clouds-1.png") no-repeat 60vw -20vh, url("../Images/Graphics/Background-clouds-2.png") no-repeat 110vh 80vh, url("../Images/Graphics/Background-clouds-3.png") no-repeat 70vh 325vh;
 }
 main > section {
   /* Initially hide all sections */
@@ -140,7 +144,7 @@ main > section.active header.custom h2 {
   padding: 0 24px;
   background: #0f0f0f;
 }
-main .meteor-shower {
+main .rain {
   position: absolute;
   width: 100%;
   height: 100vh;
@@ -148,172 +152,172 @@ main .meteor-shower {
   top: 0;
   overflow: hidden;
   z-index: -1;
-  /* Loop to create multiple meteor elements with random properties */
+  /* Loop to create multiple rain elements with random properties */
 }
-main .meteor-shower .meteor:nth-child(1) {
+main .rain .raindrop:nth-child(1) {
   position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
+  background-image: url("../Images/Graphics/Raindrop.png");
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 25vh;
-  left: 79vw;
-  animation: meteor 7637ms linear infinite;
-  animation-delay: 2900ms;
+  top: 30vh;
+  left: 44vw;
+  animation: rain 3516ms linear infinite;
+  animation-delay: 1497ms;
 }
-main .meteor-shower .meteor:nth-child(2) {
+main .rain .raindrop:nth-child(2) {
   position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
+  background-image: url("../Images/Graphics/Raindrop.png");
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 28vh;
-  left: 74vw;
-  animation: meteor 6313ms linear infinite;
-  animation-delay: 4975ms;
+  top: 56vh;
+  left: 33vw;
+  animation: rain 3552ms linear infinite;
+  animation-delay: 1235ms;
 }
-main .meteor-shower .meteor:nth-child(3) {
+main .rain .raindrop:nth-child(3) {
   position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 1vh;
-  left: 34vw;
-  animation: meteor 4141ms linear infinite;
-  animation-delay: 4058ms;
-}
-main .meteor-shower .meteor:nth-child(4) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
+  background-image: url("../Images/Graphics/Raindrop.png");
   width: 60px;
   height: 49px;
   opacity: 0;
   top: 63vh;
-  left: 18vw;
-  animation: meteor 5710ms linear infinite;
-  animation-delay: 1620ms;
+  left: 21vw;
+  animation: rain 3637ms linear infinite;
+  animation-delay: 4384ms;
 }
-main .meteor-shower .meteor:nth-child(5) {
+main .rain .raindrop:nth-child(4) {
   position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
+  background-image: url("../Images/Graphics/Raindrop.png");
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 10vh;
-  left: 71vw;
-  animation: meteor 3075ms linear infinite;
-  animation-delay: 106ms;
+  top: 62vh;
+  left: 30vw;
+  animation: rain 3617ms linear infinite;
+  animation-delay: 4324ms;
 }
-main .meteor-shower .meteor:nth-child(6) {
+main .rain .raindrop:nth-child(5) {
   position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
+  background-image: url("../Images/Graphics/Raindrop.png");
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 19vh;
-  left: 45vw;
-  animation: meteor 6894ms linear infinite;
-  animation-delay: 2994ms;
+  top: 41vh;
+  left: 69vw;
+  animation: rain 3676ms linear infinite;
+  animation-delay: 3786ms;
 }
-main .meteor-shower .meteor:nth-child(7) {
+main .rain .raindrop:nth-child(6) {
   position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
+  background-image: url("../Images/Graphics/Raindrop.png");
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 74vh;
-  left: 72vw;
-  animation: meteor 7048ms linear infinite;
-  animation-delay: 599ms;
+  top: 68vh;
+  left: 49vw;
+  animation: rain 3585ms linear infinite;
+  animation-delay: 4471ms;
 }
-main .meteor-shower .meteor:nth-child(8) {
+main .rain .raindrop:nth-child(7) {
   position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
+  background-image: url("../Images/Graphics/Raindrop.png");
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 35vh;
-  left: 16vw;
-  animation: meteor 7437ms linear infinite;
-  animation-delay: 4850ms;
+  top: 46vh;
+  left: 51vw;
+  animation: rain 3231ms linear infinite;
+  animation-delay: 597ms;
 }
-main .meteor-shower .meteor:nth-child(9) {
+main .rain .raindrop:nth-child(8) {
   position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 11vh;
-  left: 47vw;
-  animation: meteor 3676ms linear infinite;
-  animation-delay: 2936ms;
-}
-main .meteor-shower .meteor:nth-child(10) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
+  background-image: url("../Images/Graphics/Raindrop.png");
   width: 60px;
   height: 49px;
   opacity: 0;
   top: 80vh;
-  left: 31vw;
-  animation: meteor 7729ms linear infinite;
-  animation-delay: 1671ms;
-}
-main .meteor-shower .meteor:nth-child(11) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 69vh;
-  left: 41vw;
-  animation: meteor 4110ms linear infinite;
-  animation-delay: 148ms;
-}
-main .meteor-shower .meteor:nth-child(12) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 79vh;
-  left: 48vw;
-  animation: meteor 4198ms linear infinite;
-  animation-delay: 3932ms;
-}
-main .meteor-shower .meteor:nth-child(13) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 28vh;
-  left: 49vw;
-  animation: meteor 4031ms linear infinite;
-  animation-delay: 4481ms;
-}
-main .meteor-shower .meteor:nth-child(14) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 55vh;
-  left: 37vw;
-  animation: meteor 7341ms linear infinite;
-  animation-delay: 3750ms;
-}
-main .meteor-shower .meteor:nth-child(15) {
-  position: absolute;
-  background-image: url("../Images/Graphics/Meteor.png");
-  width: 60px;
-  height: 49px;
-  opacity: 0;
-  top: 15vh;
   left: 40vw;
-  animation: meteor 7440ms linear infinite;
-  animation-delay: 2116ms;
+  animation: rain 3745ms linear infinite;
+  animation-delay: 412ms;
+}
+main .rain .raindrop:nth-child(9) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Raindrop.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 53vh;
+  left: 33vw;
+  animation: rain 3044ms linear infinite;
+  animation-delay: 3674ms;
+}
+main .rain .raindrop:nth-child(10) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Raindrop.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 32vh;
+  left: 56vw;
+  animation: rain 3610ms linear infinite;
+  animation-delay: 4152ms;
+}
+main .rain .raindrop:nth-child(11) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Raindrop.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 32vh;
+  left: 7vw;
+  animation: rain 3593ms linear infinite;
+  animation-delay: 360ms;
+}
+main .rain .raindrop:nth-child(12) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Raindrop.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 3vh;
+  left: 80vw;
+  animation: rain 3819ms linear infinite;
+  animation-delay: 4387ms;
+}
+main .rain .raindrop:nth-child(13) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Raindrop.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 47vh;
+  left: 40vw;
+  animation: rain 3146ms linear infinite;
+  animation-delay: 3362ms;
+}
+main .rain .raindrop:nth-child(14) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Raindrop.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 45vh;
+  left: 74vw;
+  animation: rain 3272ms linear infinite;
+  animation-delay: 4534ms;
+}
+main .rain .raindrop:nth-child(15) {
+  position: absolute;
+  background-image: url("../Images/Graphics/Raindrop.png");
+  width: 60px;
+  height: 49px;
+  opacity: 0;
+  top: 7vh;
+  left: 33vw;
+  animation: rain 3409ms linear infinite;
+  animation-delay: 736ms;
 }
 
 /* Styles for custom buttons */
@@ -509,9 +513,9 @@ main .meteor-shower .meteor:nth-child(15) {
 /* Styles for the Home section */
 #home {
   /* Set a background image with specific properties */
-  background-image: url(../Images/Graphics/Background-shape.png);
+  background-image: url(../Images/Graphics/Background-clouds-1.png);
   background-repeat: no-repeat;
-  background-position: 30vw 50px;
+  background-position: 10vw -15vh;
   /* Styles for the header with class 'has-bg' */
   /* Styles for the information section */
   /* Styles for the image section */
@@ -624,8 +628,6 @@ main .meteor-shower .meteor:nth-child(15) {
 #about_me {
   /* Add a bottom margin to create space between sections */
   margin-bottom: 175px;
-  /* Set a background image and configure its properties */
-  background: url("../Images/Graphics/Background-shape.png") no-repeat 68vw 63vh, url("../Images/Graphics/Background-shape.png") no-repeat 95vh 350vh;
   /* Ensure a minimum height to fill the viewport */
   min-height: 100vh;
   /* Styles for elements with class .custom within certain sections */
@@ -992,8 +994,8 @@ main .meteor-shower .meteor:nth-child(15) {
 /* Styles for the My Resume section */
 #my_resume {
   margin-bottom: 125px;
-  /* Set a background image with specific properties */
-  background: url("../Images/Graphics/Background-shape.png") no-repeat 42vw 31vh;
+  /* Set a background image and configure its properties */
+  background: url("../Images/Graphics/Background-clouds-3.png") no-repeat 40vw 55vh;
   /* Styles for the header with class 'has-bg' */
   /* Styles for the education and experience sections */
   /* Styles for the items within education and experience */
@@ -1354,10 +1356,8 @@ main .meteor-shower .meteor:nth-child(15) {
 
 /* Styles for the Testimonial section */
 #testimonial {
-  background-image: url(../Images/Graphics/Background-shape.png);
-  background-repeat: no-repeat;
-  background-position: 60vw 45vh;
-  min-height: 100vh;
+  /* Set a background image and configure its properties */
+  background: url("../Images/Graphics/Background-clouds-1.png") no-repeat 60vw -20vh;
   /* Styles for the main section within the Testimonial section */
 }
 #testimonial .main-section {
@@ -1486,11 +1486,6 @@ main .meteor-shower .meteor:nth-child(15) {
 
 /* Styles for the Contact Me section */
 #contact_me {
-  /* Set a background image with specific properties */
-  background-image: url(../Images/Graphics/Background-shape.png);
-  background-repeat: no-repeat;
-  background-position: 53vw 574px;
-  min-height: 100vh;
   /* Styles for the container within Contact Me */
 }
 #contact_me .container {
@@ -1905,8 +1900,8 @@ main .meteor-shower .meteor:nth-child(15) {
   }
 }
 /* CSS Animations using Keyframes */
-/* Animation for the "meteor" effect */
-@keyframes meteor {
+/* Animation for the "rain" effect */
+@keyframes rain {
   0% {
     transform: translate(300px, -300px);
     opacity: 1;

@@ -1,9 +1,8 @@
 /* Styles for the Testimonial section */
 #testimonial {
-    background-image: url(../Images/Graphics/Background-shape.png);
-    background-repeat: no-repeat;
-    background-position: 60vw 45vh;
-    min-height: 100vh;
+    /* Set a background image and configure its properties */
+    background:
+        url("../Images/Graphics/Background-clouds-1.png") no-repeat 60vw -20vh;
 
     /* Styles for the main section within the Testimonial section */
     .main-section {
