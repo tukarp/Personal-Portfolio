@@ -363,7 +363,7 @@
                 position: relative;
                 text-align: center;
                 padding: 32px 8px;
-                background: lighten($secondaryColor, 4%);
+                background: rgba(lighten($secondaryColor, 4%), 0.6);
                 margin-bottom: 16px;
                 border-radius: 8px;
                 z-index: 1;
