@@ -4,12 +4,12 @@ main {
     padding-left: 102px;
 
     /* Set a background image and configure its properties */
-    section:not(#home, #my_resume, #testimonial, .main-section) {
+    section:not(#home, #my_resume,  .main-section) {
         background:
-            url("../Images/Graphics/Background-clouds-1.png") no-repeat 60vw -20vh,
-            url("../Images/Graphics/Background-clouds-2.png") no-repeat 110vh 80vh,
-            url("../Images/Graphics/Background-clouds-3.png") no-repeat 15vh 225vh,
-            url("../Images/Graphics/Background-clouds-4.png") no-repeat 70vh 325vh;
+            url("../Images/Graphics/Background-clouds-1.png") no-repeat 20% -25vh,
+            url("../Images/Graphics/Background-clouds-2.png") no-repeat 20% 90vh,
+            url("../Images/Graphics/Background-clouds-3.png") no-repeat -5% 165vh,
+            url("../Images/Graphics/Background-clouds-4.png") no-repeat 50% 325vh;
     }
 
     > section {
@@ -72,8 +72,9 @@ main {
                 /* Styles for the section title */
                 h2 {
                     display: inline-block;
-                    padding: 0 24px;
+                    padding: 8px 24px;
                     background: $backgroundColor;
+                    border-radius: 8px;
                 }
             }
         }

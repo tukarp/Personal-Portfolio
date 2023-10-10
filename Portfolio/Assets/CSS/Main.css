@@ -84,8 +84,8 @@ main {
   /* Set a background image and configure its properties */
   /* Styles for the rain animation */
 }
-main section:not(#home, #my_resume, #testimonial, .main-section) {
-  background: url("../Images/Graphics/Background-clouds-1.png") no-repeat 60vw -20vh, url("../Images/Graphics/Background-clouds-2.png") no-repeat 110vh 80vh, url("../Images/Graphics/Background-clouds-3.png") no-repeat 15vh 225vh, url("../Images/Graphics/Background-clouds-4.png") no-repeat 70vh 325vh;
+main section:not(#home, #my_resume, .main-section) {
+  background: url("../Images/Graphics/Background-clouds-1.png") no-repeat 20% -25vh, url("../Images/Graphics/Background-clouds-2.png") no-repeat 20% 90vh, url("../Images/Graphics/Background-clouds-3.png") no-repeat -5% 165vh, url("../Images/Graphics/Background-clouds-4.png") no-repeat 50% 325vh;
 }
 main > section {
   /* Initially hide all sections */
@@ -141,8 +141,9 @@ main > section.active header.custom:before {
 }
 main > section.active header.custom h2 {
   display: inline-block;
-  padding: 0 24px;
+  padding: 8px 24px;
   background: #0f0f0f;
+  border-radius: 8px;
 }
 main .rain {
   position: absolute;
@@ -160,10 +161,10 @@ main .rain .raindrop:nth-child(1) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 77vh;
-  left: 8vw;
-  animation: rain 3100ms linear infinite;
-  animation-delay: 3172ms;
+  top: 13vh;
+  left: 61vw;
+  animation: rain 3182ms linear infinite;
+  animation-delay: 2196ms;
 }
 main .rain .raindrop:nth-child(2) {
   position: absolute;
@@ -171,10 +172,10 @@ main .rain .raindrop:nth-child(2) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 5vh;
-  left: 18vw;
-  animation: rain 3307ms linear infinite;
-  animation-delay: 3194ms;
+  top: 22vh;
+  left: 6vw;
+  animation: rain 3408ms linear infinite;
+  animation-delay: 2367ms;
 }
 main .rain .raindrop:nth-child(3) {
   position: absolute;
@@ -182,10 +183,10 @@ main .rain .raindrop:nth-child(3) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 17vh;
-  left: 69vw;
-  animation: rain 3270ms linear infinite;
-  animation-delay: 2808ms;
+  top: 4vh;
+  left: 2vw;
+  animation: rain 3118ms linear infinite;
+  animation-delay: 1197ms;
 }
 main .rain .raindrop:nth-child(4) {
   position: absolute;
@@ -193,10 +194,10 @@ main .rain .raindrop:nth-child(4) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 7vh;
-  left: 15vw;
-  animation: rain 3745ms linear infinite;
-  animation-delay: 252ms;
+  top: 48vh;
+  left: 11vw;
+  animation: rain 3989ms linear infinite;
+  animation-delay: 2252ms;
 }
 main .rain .raindrop:nth-child(5) {
   position: absolute;
@@ -204,10 +205,10 @@ main .rain .raindrop:nth-child(5) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 47vh;
-  left: 71vw;
-  animation: rain 3905ms linear infinite;
-  animation-delay: 4827ms;
+  top: 29vh;
+  left: 16vw;
+  animation: rain 3233ms linear infinite;
+  animation-delay: 1740ms;
 }
 main .rain .raindrop:nth-child(6) {
   position: absolute;
@@ -215,10 +216,10 @@ main .rain .raindrop:nth-child(6) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 7vh;
-  left: 55vw;
-  animation: rain 3655ms linear infinite;
-  animation-delay: 2473ms;
+  top: 26vh;
+  left: 26vw;
+  animation: rain 3532ms linear infinite;
+  animation-delay: 4702ms;
 }
 main .rain .raindrop:nth-child(7) {
   position: absolute;
@@ -226,10 +227,10 @@ main .rain .raindrop:nth-child(7) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 77vh;
-  left: 34vw;
-  animation: rain 3778ms linear infinite;
-  animation-delay: 1092ms;
+  top: 61vh;
+  left: 23vw;
+  animation: rain 3479ms linear infinite;
+  animation-delay: 3043ms;
 }
 main .rain .raindrop:nth-child(8) {
   position: absolute;
@@ -237,10 +238,10 @@ main .rain .raindrop:nth-child(8) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 51vh;
-  left: 49vw;
-  animation: rain 3741ms linear infinite;
-  animation-delay: 3495ms;
+  top: 67vh;
+  left: 5vw;
+  animation: rain 3247ms linear infinite;
+  animation-delay: 276ms;
 }
 main .rain .raindrop:nth-child(9) {
   position: absolute;
@@ -248,10 +249,10 @@ main .rain .raindrop:nth-child(9) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 26vh;
-  left: 41vw;
-  animation: rain 3382ms linear infinite;
-  animation-delay: 1295ms;
+  top: 47vh;
+  left: 5vw;
+  animation: rain 3768ms linear infinite;
+  animation-delay: 783ms;
 }
 main .rain .raindrop:nth-child(10) {
   position: absolute;
@@ -259,10 +260,10 @@ main .rain .raindrop:nth-child(10) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 11vh;
-  left: 67vw;
-  animation: rain 3476ms linear infinite;
-  animation-delay: 163ms;
+  top: 44vh;
+  left: 5vw;
+  animation: rain 3329ms linear infinite;
+  animation-delay: 15ms;
 }
 main .rain .raindrop:nth-child(11) {
   position: absolute;
@@ -270,10 +271,10 @@ main .rain .raindrop:nth-child(11) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 14vh;
-  left: 5vw;
-  animation: rain 3384ms linear infinite;
-  animation-delay: 1500ms;
+  top: 6vh;
+  left: 36vw;
+  animation: rain 3150ms linear infinite;
+  animation-delay: 355ms;
 }
 main .rain .raindrop:nth-child(12) {
   position: absolute;
@@ -281,10 +282,10 @@ main .rain .raindrop:nth-child(12) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 52vh;
-  left: 7vw;
-  animation: rain 3054ms linear infinite;
-  animation-delay: 677ms;
+  top: 66vh;
+  left: 37vw;
+  animation: rain 3094ms linear infinite;
+  animation-delay: 1383ms;
 }
 main .rain .raindrop:nth-child(13) {
   position: absolute;
@@ -292,10 +293,10 @@ main .rain .raindrop:nth-child(13) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 1vh;
-  left: 66vw;
-  animation: rain 4000ms linear infinite;
-  animation-delay: 2931ms;
+  top: 64vh;
+  left: 74vw;
+  animation: rain 3315ms linear infinite;
+  animation-delay: 3627ms;
 }
 main .rain .raindrop:nth-child(14) {
   position: absolute;
@@ -303,10 +304,10 @@ main .rain .raindrop:nth-child(14) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 63vh;
-  left: 42vw;
-  animation: rain 3516ms linear infinite;
-  animation-delay: 4048ms;
+  top: 57vh;
+  left: 43vw;
+  animation: rain 3714ms linear infinite;
+  animation-delay: 117ms;
 }
 main .rain .raindrop:nth-child(15) {
   position: absolute;
@@ -314,10 +315,10 @@ main .rain .raindrop:nth-child(15) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 78vh;
-  left: 25vw;
-  animation: rain 3130ms linear infinite;
-  animation-delay: 298ms;
+  top: 10vh;
+  left: 33vw;
+  animation: rain 3766ms linear infinite;
+  animation-delay: 690ms;
 }
 
 /* Styles for custom buttons */
@@ -993,7 +994,7 @@ main .rain .raindrop:nth-child(15) {
 #my_resume {
   margin-bottom: 125px;
   /* Set a background image and configure its properties */
-  background: url("../Images/Graphics/Background-clouds-1.png") no-repeat 70vw -20vh, url("../Images/Graphics/Background-clouds-4.png") no-repeat 40vw 55vh;
+  background: url("../Images/Graphics/Background-clouds-1.png") no-repeat 20% -25vh, url("../Images/Graphics/Background-clouds-4.png") no-repeat 40vw 55vh;
   /* Styles for the header with class 'has-bg' */
   /* Styles for the education and experience sections */
   /* Styles for the items within education and experience */
@@ -1354,8 +1355,6 @@ main .rain .raindrop:nth-child(15) {
 
 /* Styles for the Testimonial section */
 #testimonial {
-  /* Set a background image and configure its properties */
-  background: url("../Images/Graphics/Background-clouds-1.png") no-repeat 60vw -20vh;
   /* Styles for the main section within the Testimonial section */
 }
 #testimonial .main-section {
@@ -1649,12 +1648,6 @@ main .rain .raindrop:nth-child(15) {
 }
 /* Media query for screens with a maximum width of 991px */
 @media (max-width: 991px) {
-  main {
-    /* Set a background image and configure its properties */
-  }
-  main section:not(#home, #testimonial, .main-section) {
-    background: url("../Images/Graphics/Background-clouds-1.png") no-repeat 60vw -20vh, url("../Images/Graphics/Background-clouds-2.png") no-repeat 40vh 70vh, url("../Images/Graphics/Background-clouds-3.png") no-repeat 30vh 165vh, url("../Images/Graphics/Background-clouds-4.png") no-repeat 20vh 565vh;
-  }
   /* Styles for the Home section */
   #home {
     /* Adjust styles for the .image section */

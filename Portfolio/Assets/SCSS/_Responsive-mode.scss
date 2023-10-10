@@ -68,17 +68,6 @@
 
 /* Media query for screens with a maximum width of 991px */
 @media (max-width: 991px) {
-    main {
-        /* Set a background image and configure its properties */
-        section:not(#home, #testimonial, .main-section) {
-            background:
-                url("../Images/Graphics/Background-clouds-1.png") no-repeat 60vw -20vh,
-                url("../Images/Graphics/Background-clouds-2.png") no-repeat 40vh 70vh,
-                url("../Images/Graphics/Background-clouds-3.png") no-repeat 30vh 165vh,
-                url("../Images/Graphics/Background-clouds-4.png") no-repeat 20vh 565vh;
-        }
-    }
-
     /* Styles for the Home section */
     #home {
         /* Adjust styles for the .image section */
