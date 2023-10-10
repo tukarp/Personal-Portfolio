@@ -1,12 +1,5 @@
 /* Styles for the My Resume section */
 #my_resume {
-    margin-bottom: 125px;
-
-    /* Set a background image and configure its properties */
-    background:
-        url("../Images/Graphics/Background-clouds-1.png") no-repeat 20% -25vh,
-        url("../Images/Graphics/Background-clouds-4.png") no-repeat 40vw 55vh;
-
     /* Styles for the header with class 'has-bg' */
     header.has-bg {
         margin-bottom: 64px;
@@ -72,13 +65,18 @@
                 margin-bottom: 42px;
             }
 
-            /* Styles for the last item */
-            &.last {
+            /* Styles for the first item */
+            &:first-child {
                 /* Color changes for specific elements */
                 .icon i,
                 .box .title {
                     color: $primaryColor;
                 }
+            }
+
+            /* Styles for the last item */
+            &:last-child {
+                margin-bottom: 100px;
             }
 
             /* Hover styles for items */
