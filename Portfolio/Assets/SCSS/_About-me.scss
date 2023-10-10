@@ -196,7 +196,7 @@
                 width: 15px;
                 height: 15px;
                 border-radius: 4px;
-                background: $secondaryColor;
+                background: lighten($secondaryColor, 6%);
                 transform: rotate(40deg);
                 padding-top: 6px;
                 padding-left: 1px;
@@ -213,7 +213,7 @@
                 width: 15px;
                 height: 15px;
                 border-radius: 4px;
-                background: $secondaryColor;
+                background: lighten($secondaryColor, 6%);
                 transform: rotate(50deg);
             }
 

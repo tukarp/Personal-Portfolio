@@ -17,6 +17,7 @@
         button {
             background: transparent;
             color: $grayColor;
+            text-shadow: 0 0 2px $blackColor;
             border: none;
             padding: 8px 16px;
             margin-right: 8px;
@@ -26,6 +27,7 @@
 
             &:hover {
                 color: $primaryColor;
+                text-shadow: 0 0 0px;
                 background: rgba($secondaryColor, 0.6);
                 border-radius: 8px;
             }
