@@ -90,21 +90,25 @@
 
         /* Styles for the information within .hero */
         .info {
+            /* Add margins for the header */
             header {
-                /* Add margins to the header for spacing */
                 margin-bottom: 48px;
                 margin-top: 32px;
             }
 
+            /* Set margin for h2 elements */
             h2 {
-                /* Set margin for h2 elements */
                 margin-bottom: 16px;
-            }
-
-            h2, i {
                 color: $grayColor;
                 transition: all 0.3s;
+            }
 
+            i {
+                color: $grayColor;
+                transition: all 0.3s;
+            }
+
+            h2 {
                 &:hover {
                     color: $primaryColor;
 

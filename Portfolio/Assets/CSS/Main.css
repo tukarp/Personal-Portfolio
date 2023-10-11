@@ -164,10 +164,10 @@ main .rain .raindrop:nth-child(1) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 16vh;
-  left: 66vw;
-  animation: rain 3560ms linear infinite;
-  animation-delay: 2922ms;
+  top: 18vh;
+  left: 59vw;
+  animation: rain 3996ms linear infinite;
+  animation-delay: 1352ms;
 }
 main .rain .raindrop:nth-child(2) {
   position: absolute;
@@ -175,10 +175,10 @@ main .rain .raindrop:nth-child(2) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 73vh;
-  left: 79vw;
-  animation: rain 3146ms linear infinite;
-  animation-delay: 4413ms;
+  top: 49vh;
+  left: 30vw;
+  animation: rain 3142ms linear infinite;
+  animation-delay: 4765ms;
 }
 main .rain .raindrop:nth-child(3) {
   position: absolute;
@@ -186,10 +186,10 @@ main .rain .raindrop:nth-child(3) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 5vh;
-  left: 22vw;
-  animation: rain 3618ms linear infinite;
-  animation-delay: 1902ms;
+  top: 73vh;
+  left: 6vw;
+  animation: rain 3976ms linear infinite;
+  animation-delay: 2334ms;
 }
 main .rain .raindrop:nth-child(4) {
   position: absolute;
@@ -197,10 +197,10 @@ main .rain .raindrop:nth-child(4) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 39vh;
-  left: 61vw;
-  animation: rain 3866ms linear infinite;
-  animation-delay: 2147ms;
+  top: 52vh;
+  left: 13vw;
+  animation: rain 3113ms linear infinite;
+  animation-delay: 1358ms;
 }
 main .rain .raindrop:nth-child(5) {
   position: absolute;
@@ -208,10 +208,10 @@ main .rain .raindrop:nth-child(5) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 55vh;
-  left: 13vw;
-  animation: rain 3959ms linear infinite;
-  animation-delay: 2924ms;
+  top: 8vh;
+  left: 36vw;
+  animation: rain 3745ms linear infinite;
+  animation-delay: 2815ms;
 }
 main .rain .raindrop:nth-child(6) {
   position: absolute;
@@ -219,10 +219,10 @@ main .rain .raindrop:nth-child(6) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 79vh;
-  left: 25vw;
-  animation: rain 3395ms linear infinite;
-  animation-delay: 4649ms;
+  top: 75vh;
+  left: 34vw;
+  animation: rain 3138ms linear infinite;
+  animation-delay: 4627ms;
 }
 main .rain .raindrop:nth-child(7) {
   position: absolute;
@@ -230,10 +230,10 @@ main .rain .raindrop:nth-child(7) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 31vh;
-  left: 51vw;
-  animation: rain 3735ms linear infinite;
-  animation-delay: 2245ms;
+  top: 61vh;
+  left: 9vw;
+  animation: rain 3219ms linear infinite;
+  animation-delay: 2334ms;
 }
 main .rain .raindrop:nth-child(8) {
   position: absolute;
@@ -241,10 +241,10 @@ main .rain .raindrop:nth-child(8) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 79vh;
-  left: 71vw;
-  animation: rain 3946ms linear infinite;
-  animation-delay: 3621ms;
+  top: 56vh;
+  left: 56vw;
+  animation: rain 3607ms linear infinite;
+  animation-delay: 3945ms;
 }
 main .rain .raindrop:nth-child(9) {
   position: absolute;
@@ -252,10 +252,10 @@ main .rain .raindrop:nth-child(9) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 33vh;
-  left: 16vw;
-  animation: rain 3675ms linear infinite;
-  animation-delay: 3209ms;
+  top: 38vh;
+  left: 61vw;
+  animation: rain 3998ms linear infinite;
+  animation-delay: 3069ms;
 }
 main .rain .raindrop:nth-child(10) {
   position: absolute;
@@ -263,10 +263,10 @@ main .rain .raindrop:nth-child(10) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 60vh;
-  left: 8vw;
-  animation: rain 3520ms linear infinite;
-  animation-delay: 2738ms;
+  top: 25vh;
+  left: 31vw;
+  animation: rain 3600ms linear infinite;
+  animation-delay: 3208ms;
 }
 main .rain .raindrop:nth-child(11) {
   position: absolute;
@@ -274,10 +274,10 @@ main .rain .raindrop:nth-child(11) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 4vh;
-  left: 3vw;
-  animation: rain 3003ms linear infinite;
-  animation-delay: 3709ms;
+  top: 59vh;
+  left: 40vw;
+  animation: rain 3141ms linear infinite;
+  animation-delay: 3423ms;
 }
 main .rain .raindrop:nth-child(12) {
   position: absolute;
@@ -285,10 +285,10 @@ main .rain .raindrop:nth-child(12) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 52vh;
-  left: 16vw;
-  animation: rain 3721ms linear infinite;
-  animation-delay: 4933ms;
+  top: 38vh;
+  left: 3vw;
+  animation: rain 3527ms linear infinite;
+  animation-delay: 3143ms;
 }
 main .rain .raindrop:nth-child(13) {
   position: absolute;
@@ -296,10 +296,10 @@ main .rain .raindrop:nth-child(13) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 33vh;
-  left: 62vw;
-  animation: rain 3571ms linear infinite;
-  animation-delay: 751ms;
+  top: 6vh;
+  left: 20vw;
+  animation: rain 3800ms linear infinite;
+  animation-delay: 162ms;
 }
 main .rain .raindrop:nth-child(14) {
   position: absolute;
@@ -307,10 +307,10 @@ main .rain .raindrop:nth-child(14) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 68vh;
-  left: 9vw;
-  animation: rain 3017ms linear infinite;
-  animation-delay: 3555ms;
+  top: 25vh;
+  left: 60vw;
+  animation: rain 3911ms linear infinite;
+  animation-delay: 401ms;
 }
 main .rain .raindrop:nth-child(15) {
   position: absolute;
@@ -318,10 +318,10 @@ main .rain .raindrop:nth-child(15) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 4vh;
-  left: 26vw;
-  animation: rain 3535ms linear infinite;
-  animation-delay: 1883ms;
+  top: 32vh;
+  left: 51vw;
+  animation: rain 3579ms linear infinite;
+  animation-delay: 2050ms;
 }
 
 /* Styles for custom buttons */
@@ -703,26 +703,28 @@ main .rain .raindrop:nth-child(15) {
   filter: saturate(200%) sepia(1);
 }
 #about_me .hero .info {
+  /* Add margins for the header */
+  /* Set margin for h2 elements */
   /* Styles for items within .items */
   /* Styles for buttons within .buttons */
 }
 #about_me .hero .info header {
-  /* Add margins to the header for spacing */
   margin-bottom: 48px;
   margin-top: 32px;
 }
 #about_me .hero .info h2 {
-  /* Set margin for h2 elements */
   margin-bottom: 16px;
-}
-#about_me .hero .info h2, #about_me .hero .info i {
   color: #B6B7BA;
   transition: all 0.3s;
 }
-#about_me .hero .info h2:hover, #about_me .hero .info i:hover {
+#about_me .hero .info i {
+  color: #B6B7BA;
+  transition: all 0.3s;
+}
+#about_me .hero .info h2:hover {
   color: #658DF2;
 }
-#about_me .hero .info h2:hover i, #about_me .hero .info i:hover i {
+#about_me .hero .info h2:hover i {
   color: #658DF2;
 }
 #about_me .hero .info p {
