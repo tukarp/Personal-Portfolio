@@ -1,5 +1,11 @@
 /* Styles for the About Me section */
 #about_me {
+    /* Set a background image and configure its properties */
+    background:
+        url("../Images/Graphics/Background-clouds-1.png") no-repeat 20% -20vh,
+        url("../Images/Graphics/Background-clouds-2.png") no-repeat 0% 90vh,
+        url("../Images/Graphics/Background-clouds-3.png") no-repeat 50% 320vh;
+
     /* Add a bottom margin to create space between sections */
     margin-bottom: 175px;
 

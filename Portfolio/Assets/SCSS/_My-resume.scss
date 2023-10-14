@@ -1,19 +1,22 @@
 /* Styles for the My Resume section */
 #my_resume {
-    /* Styles for the header with class 'has-bg' */
-    header.has-bg {
+    /* Styles for the header with class 'has-background' */
+    header.has-background {
         margin-bottom: 64px;
     }
 
     /* Styles for the education and experience sections */
     .education, .experience {
-        /* Styles for the "custom" class within education and experience */
-        .custom {
-            /* Styles for the "h2" element within "custom" */
-            h2 {
-                transition: all 0.3s;
+        /* Styles for the "has-background" class within education and experience */
+        .has-background {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-left: 92px;
+            margin-bottom: 60px;
 
-                /* Styles for the "i" element within "h2" */
+            /* Styles for the "h2" element within "has-background" */
+            h2 {
                 i {
                     margin-left: 20px;
                     margin-right: -5px;
@@ -31,23 +34,9 @@
                 }
             }
 
-            /* Hover effect for section before */
-            &:before {
-                transition: all 0.3s;
-            }
-
-            /* Hover effect for section after */
-            &:after {
-                transition: all 0.3s;
-            }
-
             /* Hover effect for section icons */
             &:hover {
-                h2 {
-                    color: $primaryColor;
-                }
-
-                &:before, &:after, i {
+                i {
                     background: $primaryColor;
                 }
             }

@@ -4,11 +4,11 @@ main {
     padding-left: 102px;
 
     /* Set a background image and configure its properties */
-    section:not(#home, .main-section) {
+    section:not(#home, #about_me, .main-section) {
         background:
-            url("../Images/Graphics/Background-clouds-1.png") no-repeat 20% -20vh,
+            url("../Images/Graphics/Background-clouds-1.png") no-repeat 46% -20vh,
             url("../Images/Graphics/Background-clouds-2.png") no-repeat 0% 90vh,
-            url("../Images/Graphics/Background-clouds-3.png") no-repeat 50% 320vh,
+            url("../Images/Graphics/Background-clouds-3.png") no-repeat 50% 320vh;
     }
 
     > section {
@@ -27,14 +27,13 @@ main {
             display: block;
 
             /* Styles for sections with a background image header */
-            header.has-bg {
+            header.has-background {
                 position: relative;
                 display: inline-flex;
                 transition: all 0.3s;
-                text-shadow: 0 0 2px $blackColor;
+                text-shadow: 0 0 8px $blackColor;
 
                 &:hover {
-                    text-shadow: 0 0 0px;
                     color: $primaryColor;
                 }
 

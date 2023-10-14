@@ -160,7 +160,17 @@ function updateTimer() {
     var years = Math.floor(months / 12);
     months %= 12;
 
-    document.getElementById("timer").innerHTML = `${months} months`;
+    var yearText = years === 1 ? 'year' : 'years';
+    var monthText = months === 1 ? 'month' : 'months';
+
+    const timerText = 
+      years > 0
+        ? `${years} ${yearText} and ${months} ${monthText}`
+            : months > 0
+        ? `${months} ${monthText}`
+            : 'Less than a month';
+
+    document.getElementById("timer").innerHTML = timerText;
 }
 
 // Initial call to set the timer
