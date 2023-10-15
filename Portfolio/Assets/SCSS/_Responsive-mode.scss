@@ -298,6 +298,14 @@
 
     /* Styles for the My Resume section */
     #my_resume {
+        .education, .experience {
+            .has-background {
+                margin-left: 0px;
+            }
+        }
+    }
+
+    #my_resume {
         .items {
             .item {
                 position: relative;
