@@ -16,8 +16,8 @@
         /* Styles for filter buttons */
         button {
             background: transparent;
-            color: $grayColor;
-            text-shadow: 0 10px 10px $blackColor;
+            color: rgba($whiteColor, 0.9);
+            text-shadow: 0 0 10px $blackColor;
             border: none;
             padding: 8px 16px;
             margin-right: 8px;
@@ -33,7 +33,7 @@
 
             /* Styles for the active filter button */
             &.active {
-                color: #fff;
+                color: $whiteColor;
                 background: $secondaryColor;
                 border-radius: 8px;
             }
