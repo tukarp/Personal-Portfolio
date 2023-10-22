@@ -163,10 +163,10 @@ main .rain .raindrop:nth-child(1) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 75vh;
-  left: 20vw;
-  animation: rain 3922ms linear infinite;
-  animation-delay: 2637ms;
+  top: 4vh;
+  left: 36vw;
+  animation: rain 3749ms linear infinite;
+  animation-delay: 2861ms;
 }
 main .rain .raindrop:nth-child(2) {
   position: absolute;
@@ -174,10 +174,10 @@ main .rain .raindrop:nth-child(2) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 69vh;
-  left: 20vw;
-  animation: rain 3587ms linear infinite;
-  animation-delay: 361ms;
+  top: 11vh;
+  left: 76vw;
+  animation: rain 3518ms linear infinite;
+  animation-delay: 3583ms;
 }
 main .rain .raindrop:nth-child(3) {
   position: absolute;
@@ -185,10 +185,10 @@ main .rain .raindrop:nth-child(3) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 11vh;
-  left: 80vw;
-  animation: rain 3985ms linear infinite;
-  animation-delay: 178ms;
+  top: 48vh;
+  left: 55vw;
+  animation: rain 3775ms linear infinite;
+  animation-delay: 175ms;
 }
 main .rain .raindrop:nth-child(4) {
   position: absolute;
@@ -196,10 +196,10 @@ main .rain .raindrop:nth-child(4) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 50vh;
-  left: 3vw;
-  animation: rain 3739ms linear infinite;
-  animation-delay: 1033ms;
+  top: 62vh;
+  left: 65vw;
+  animation: rain 3483ms linear infinite;
+  animation-delay: 2882ms;
 }
 main .rain .raindrop:nth-child(5) {
   position: absolute;
@@ -207,10 +207,10 @@ main .rain .raindrop:nth-child(5) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 41vh;
-  left: 57vw;
-  animation: rain 3316ms linear infinite;
-  animation-delay: 2573ms;
+  top: 48vh;
+  left: 39vw;
+  animation: rain 3645ms linear infinite;
+  animation-delay: 580ms;
 }
 main .rain .raindrop:nth-child(6) {
   position: absolute;
@@ -218,10 +218,10 @@ main .rain .raindrop:nth-child(6) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 1vh;
-  left: 80vw;
-  animation: rain 3203ms linear infinite;
-  animation-delay: 1289ms;
+  top: 2vh;
+  left: 8vw;
+  animation: rain 3337ms linear infinite;
+  animation-delay: 446ms;
 }
 main .rain .raindrop:nth-child(7) {
   position: absolute;
@@ -229,10 +229,10 @@ main .rain .raindrop:nth-child(7) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 26vh;
-  left: 64vw;
-  animation: rain 3303ms linear infinite;
-  animation-delay: 4503ms;
+  top: 30vh;
+  left: 11vw;
+  animation: rain 3010ms linear infinite;
+  animation-delay: 1376ms;
 }
 main .rain .raindrop:nth-child(8) {
   position: absolute;
@@ -240,10 +240,10 @@ main .rain .raindrop:nth-child(8) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 20vh;
-  left: 47vw;
-  animation: rain 3410ms linear infinite;
-  animation-delay: 1409ms;
+  top: 57vh;
+  left: 15vw;
+  animation: rain 3966ms linear infinite;
+  animation-delay: 915ms;
 }
 main .rain .raindrop:nth-child(9) {
   position: absolute;
@@ -251,10 +251,10 @@ main .rain .raindrop:nth-child(9) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 74vh;
-  left: 66vw;
-  animation: rain 3023ms linear infinite;
-  animation-delay: 2342ms;
+  top: 3vh;
+  left: 54vw;
+  animation: rain 3942ms linear infinite;
+  animation-delay: 807ms;
 }
 main .rain .raindrop:nth-child(10) {
   position: absolute;
@@ -262,10 +262,10 @@ main .rain .raindrop:nth-child(10) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 14vh;
-  left: 72vw;
-  animation: rain 3171ms linear infinite;
-  animation-delay: 2313ms;
+  top: 11vh;
+  left: 76vw;
+  animation: rain 3557ms linear infinite;
+  animation-delay: 112ms;
 }
 main .rain .raindrop:nth-child(11) {
   position: absolute;
@@ -273,10 +273,10 @@ main .rain .raindrop:nth-child(11) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 71vh;
-  left: 13vw;
-  animation: rain 3776ms linear infinite;
-  animation-delay: 638ms;
+  top: 55vh;
+  left: 44vw;
+  animation: rain 3130ms linear infinite;
+  animation-delay: 686ms;
 }
 main .rain .raindrop:nth-child(12) {
   position: absolute;
@@ -284,10 +284,10 @@ main .rain .raindrop:nth-child(12) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 46vh;
-  left: 45vw;
-  animation: rain 3824ms linear infinite;
-  animation-delay: 2541ms;
+  top: 17vh;
+  left: 68vw;
+  animation: rain 3415ms linear infinite;
+  animation-delay: 361ms;
 }
 main .rain .raindrop:nth-child(13) {
   position: absolute;
@@ -295,10 +295,10 @@ main .rain .raindrop:nth-child(13) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 57vh;
-  left: 73vw;
-  animation: rain 3091ms linear infinite;
-  animation-delay: 2963ms;
+  top: 35vh;
+  left: 21vw;
+  animation: rain 3633ms linear infinite;
+  animation-delay: 4396ms;
 }
 main .rain .raindrop:nth-child(14) {
   position: absolute;
@@ -306,10 +306,10 @@ main .rain .raindrop:nth-child(14) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 25vh;
-  left: 72vw;
-  animation: rain 3022ms linear infinite;
-  animation-delay: 1863ms;
+  top: 30vh;
+  left: 21vw;
+  animation: rain 3834ms linear infinite;
+  animation-delay: 2851ms;
 }
 main .rain .raindrop:nth-child(15) {
   position: absolute;
@@ -317,10 +317,10 @@ main .rain .raindrop:nth-child(15) {
   width: 60px;
   height: 49px;
   opacity: 0;
-  top: 10vh;
-  left: 4vw;
-  animation: rain 3279ms linear infinite;
-  animation-delay: 3838ms;
+  top: 44vh;
+  left: 78vw;
+  animation: rain 3041ms linear infinite;
+  animation-delay: 2552ms;
 }
 
 /* Styles for custom buttons */
@@ -1624,6 +1624,10 @@ main .rain .raindrop:nth-child(15) {
     margin-top: 16px;
     margin-bottom: 0px;
   }
+  /* Styles for the My Resume section */
+  #my_resume .has-background {
+    margin-left: 92px;
+  }
   /* Styles for the Contact Me section */
   #contact_me .container {
     /* Adjust padding for the .form section */
@@ -1813,6 +1817,9 @@ main .rain .raindrop:nth-child(15) {
     padding-right: 16px;
   }
   /* Styles for the My Resume section */
+  #my_resume .has-background {
+    margin-left: 0px;
+  }
   #my_resume .education .has-background, #my_resume .experience .has-background {
     margin-left: 0px;
   }

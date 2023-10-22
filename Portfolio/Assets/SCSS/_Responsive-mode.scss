@@ -42,6 +42,13 @@
         }
     }
 
+    /* Styles for the My Resume section */
+    #my_resume {
+        .has-background {
+            margin-left: 92px;
+        }
+    }
+
     /* Styles for the Contact Me section */
     #contact_me {
         .container {
@@ -288,8 +295,14 @@
         }
     }
 
+
+
     /* Styles for the My Resume section */
     #my_resume {
+        .has-background {
+            margin-left: 0px;
+        }
+
         .education, .experience {
             .has-background {
                 margin-left: 0px;
