@@ -1,0 +1,27 @@
+/* Reset stylesheets for all elements */
+
+// Reset styles for all elements
+* {
+   margin: 0;                      // Reset margin
+   padding: 0;                     // Reset padding
+   box-sizing: border-box;         // Use border-box box-sizing for consistent sizing
+}
+
+// Reset styles for headings
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;                      // Reset margin
+   padding: 0;                     // Reset padding
+}
+
+// Reset styles for unordered lists
+ul {
+   margin: 0;                      // Reset margin
+   padding: 0;                     // Reset padding
+   list-style: none;               // Remove list markers
+}
+
+// Reset styles for paragraphs
+p {
+   margin: 0;                      // Reset margin
+   padding: 0;                     // Reset padding
+}

@@ -1,0 +1,189 @@
+#my_resume {
+    header.header-with-background {
+        margin-bottom: 64px;
+    }
+
+    .education, .experience {
+        .header-with-background {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-left: 92px;
+            margin-bottom: 60px;
+
+            h2 {
+                i {
+                    margin-left: 20px;
+                    margin-right: -5px;
+                    padding-top: 8px;
+                    padding-left: 1px;
+                    padding-right: 1px;
+                    font-size: 24px;
+                    background: rgba(#ffffff, 0.05);
+                    width: 42px;
+                    height: 42px;
+                    border-radius: 100%;
+                    flex-shrink: 0;
+                    transition: all 0.3s;
+                }
+            }
+
+            &:hover {
+                i {
+                    background: $primaryColor;
+                }
+            }
+        }
+    }
+
+    .items {
+        .item {
+            display: flex;
+
+            &:not(:last-child) {
+                margin-bottom: 42px;
+            }
+
+            &:first-child {
+                .icon i,
+                .box .title {
+                    color: $primaryColor;
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 100px;
+            }
+
+            &:hover {
+                .icon,
+                .icon:before {
+                    background: rgba(darken($primaryColor, 40%), 0.4);
+                }
+
+                .box {
+                    background: transparent;
+
+                    &:before {
+                        border-right-color: rgba(darken($primaryColor, 40%), 0.4);
+                    }
+
+                    &:after {
+                        width: 100%;
+                    }
+                }
+            }
+
+            .icon {
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: #FFFFFF0D;
+                width: 46px;
+                height: 46px;
+                border-radius: 50%;
+                font-size: 18px;
+                margin-right: 46px;
+                margin-top: 23px;
+                transition: all 0.3s;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 1px;
+                    height: 126px;
+                    background: $secondaryColor;
+                    top: 82px;
+                    transition: all 0.3s;
+                }
+            }
+
+            .box {
+                position: relative;
+                padding: 32px;
+                background: rgba($secondaryColor, 0.75);
+                border-radius: 8px;
+                text-align: left;
+                z-index: 1;
+                flex-grow: 1;
+                transition: all 0.3s;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    border-right: 9px solid rgba($secondaryColor, 0.75);
+                    border-top: 9px solid transparent;
+                    border-bottom: 9px solid transparent;
+                    left: -9px;
+                    top: 36px;
+                }
+
+                &:after {
+                    content: "";
+                    position: absolute;
+                    width: 0;
+                    height: 100%;
+                    left: 0;
+                    top: 0;
+                    border-radius: 8px;
+                    background: rgba(darken($primaryColor, 40%), 0.4);
+                    z-index: -1;
+                    transition: all 0.3s;
+                }
+
+                .company-logos, .education-logos {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+
+                    img {
+                        width: 64px;
+                        height: 64px;
+                        max-width: 100%;
+                        border-radius: 8px;
+                        margin-bottom: -64px;
+                        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+                        transition: all 0.3s;
+
+                        &:hover {
+                            transform: scale(1.25);
+                        }
+                    }
+                }
+
+                .year {
+                    display: inline-block;
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-bottom: 16px;
+                }
+
+                img {
+                    width: 100%;
+                    max-width: 345px;
+                    margin-bottom: 16px;
+                }
+
+                .title {
+                    margin-bottom: 16px;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-weight: 400;
+                    color: $grayColor;
+                    max-width: 345px;
+                }
+            }
+        }
+    }
+
+    .education {
+        padding-right: 34px;
+    }
+
+    .experience {
+        padding-left: 34px;
+    }
+}

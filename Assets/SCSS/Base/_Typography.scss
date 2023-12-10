@@ -1,0 +1,62 @@
+/**
+ * Typography stylesheets
+ *
+ * This file contains the typography styles for the Personal Portfolio project.
+ * It defines the styles for headings, paragraphs and body elements.
+ *
+**/
+
+// Styles for all elements
+* {
+    color: #fff;
+}
+
+// Styles for heading one elements
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+// Styles for heading two elements
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+// Styles for heading three elements
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+// Styles for heading four elements
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+// Styles for heading five elements
+h5 {
+    font-family: 'Playfair Display', serif;
+}
+
+// Styles for heading six elements
+h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+// Styles for paragraph elements
+p {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 175%;
+}
+
+// Styles for body elements
+body {
+    background: $backgroundColor;
+    font-family: 'Ubuntu', sans-serif;
+}

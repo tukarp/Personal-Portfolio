@@ -1,0 +1,35 @@
+@keyframes raindrop {
+    0% {
+        transform: translate(300px, -300px);
+        opacity: 1;
+    }
+
+    15% {
+        transform: translate(-300px, 300px);
+        opacity: 0;
+    }
+}
+
+.animation-rain {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: -1;
+
+    @for $i from 1 through 15 {
+        .raindrop:nth-child(#{$i}) {
+            position: absolute;
+            width: 60px;
+            height: 50px;
+            opacity: 0;
+            top: #{random(80) + 'vh'};
+            left: #{random(80) + 'vw'};
+            animation: raindrop #{random(1000) + 3000 + 'ms'} linear infinite;
+            animation-delay: #{random(5000) + 'ms'};
+            background-image: url('../Graphics/Images/Raindrop.png');
+        }
+    }
+}

@@ -1,0 +1,72 @@
+/* Styles for the Main content area */
+main {
+    padding-left: 102px;
+
+    section:not(#home, #about_me, .main-section) {
+        background:
+            url("../Graphics/Images/Background-clouds-1.png") no-repeat 46% -20vh,
+            url("../Graphics/Images/Background-clouds-2.png") no-repeat 0% 90vh,
+            url("../Graphics/Images/Background-clouds-3.png") no-repeat 50% 320vh;
+    }
+
+    > section {
+        display: none;
+        padding-right: 32px;
+        padding-left: 32px;
+
+        &:not(#home) {
+            padding-top: 64px;
+        }
+
+        &.active {
+            display: block;
+
+            header.header-with-background {
+                position: relative;
+                display: inline-flex;
+                transition: all 0.3s;
+                text-shadow: 0 0 8px $blackColor;
+
+                &:hover {
+                    color: $primaryColor;
+                }
+
+                img {
+                    position: absolute;
+                    top: 15px;
+                    left: -72px;
+                }
+            }
+
+            header.custom {
+                position: relative;
+                text-align: center;
+                margin-bottom: 42px;
+                transition: all 0.3s;
+
+                &:hover {
+                    color: $primaryColor;
+                }
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    width: 100%;
+                    height: 2px;
+                    background: $secondaryColor;
+                    left: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    z-index: -1;
+                }
+    
+                h2 {
+                    display: inline-block;
+                    padding: 8px 24px;
+                    background: $backgroundColor;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }
+}

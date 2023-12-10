@@ -1,0 +1,111 @@
+#home {
+    background:
+        url("../Graphics/Images/Background-clouds-1.png") no-repeat 10vh -15vh;
+
+    header.header-with-background {
+        margin-bottom: 32px;
+    }
+
+    .info {
+        padding-top: 280px;
+
+        img.person-circle {
+            margin-bottom: 24px;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+
+            span {
+                color: $grayColor;
+            }
+        }
+
+        .field {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+
+            h2 {
+                color: $grayColor;
+                margin: 0;
+            }
+
+            span {
+                font-size: 21px;
+                margin-left: 2px;
+            }
+        }
+
+        p {
+            max-width: 430px;
+            margin-bottom: 74px;
+        }
+
+        .socials {
+            margin-top: 130px;
+            margin-bottom: 24px;
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    margin-right: 8px;
+
+                    a {
+                        display: flex;
+                        align-items: center;
+                        text-decoration: none;
+                        padding: 9px 11px;
+                        transition: all 0.3s;
+
+                        &:hover {
+                            background: rgba($primaryColor, 0.8);
+                            border-radius: 6px;
+
+                            span,
+                            i {
+                                color: #fff;
+                            }
+                        }
+
+                        i {
+                            font-size: 18px;
+                            margin-right: 8px;
+                            color: $grayColor;
+                            transition: all 0.3s;
+                        }
+
+                        span {
+                            color: $secondaryGrayColor;
+                            transition: all 0.3s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .image {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        img {
+            border-radius: 8px;
+            max-width: 100%;
+            transition: all 0.3s;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+
+            &:hover {
+                transform: scale(1.03);
+                filter: saturate(200%) sepia(1);
+            }
+        }
+    }
+}

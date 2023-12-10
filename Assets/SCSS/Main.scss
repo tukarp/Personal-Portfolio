@@ -1,0 +1,78 @@
+/**
+ * This file is the main SCSS file for the Personal Portfolio project. It imports various SCSS files
+ * that define the styles for different components and sections of the portfolio website.
+ * 
+ * - Basic stylesheets:
+ *     - Reset: Resets the default styles of HTML elements.
+ *     - Fonts: Defines the fonts used on the website.
+ *     - Colors: Defines the colors pallete used on the website.
+ *     - Typography: Defines the typography styles used on the website.
+ *
+ * - Main stylesheets:
+ *     - Structure: Defines the styles for the structure of the website.
+ *
+ * - Sidebar stylesheets:
+ *     - Sidebar: Defines the styles for the sidebar component.
+ *
+ * - Sections stylesheets:
+ *     - Home: Defines the styles for the home section.
+ *     - About-me: Defines the styles for the about me section.
+ *     - My-resume: Defines the styles for the resume section.
+ *     - My-work: Defines the styles for the work section.
+ *     - Testimonial: Defines the styles for the testimonial section.
+ *     - Contact-me: Defines the styles for the contact me section.
+ *
+ * - Modals:
+ *     - Work-modal.scss: Defines the styles for the work modal component.
+ *
+ * - Buttons: Defines the styles for the buttons.
+ *     - Button-custom-blue: Defines the styles for a custom blue button.
+ *     - Button-custom-dark: Defines the styles for a custom dark button.
+ *
+ * - Animations: Defines various animation styles used throughout the website.
+ *     - Animation-rain: Defines the styles for a rain animation.
+ *     - Animation-scale-up-and-rotate: Defines the styles for a scale up and rotate animation.
+ *     - Animation-scale-up: Defines the styles for a scale up animation.
+ *     - Animation-slide-in: Defines the styles for a slide in animation.
+ *
+ * - Responsive stylesheets:
+ *     - Responsive-mode: Defines the styles for the responsive mode.
+ *
+**/
+
+// Import basic styles and variables stylesheets
+@import "./Base/Reset";                                              // Reset stylesheets
+@import "./Base/Fonts";                                              // Fonts stylesheets
+@import "./Base/Colors";                                             // Colors stylesheets
+@import "./Base/Typography";                                         // Typography stylesheets
+
+// Import structure stylesheets
+@import "./Base/Structure";                                          // Structure stylesheets
+
+// Import sidebar stylesheets
+@import "./Sidebar/Sidebar";                                            // Sidebar stylesheets
+
+// Importing sections stylesheets
+@import "./Sections/Home";
+@import "./Sections/About-me";
+@import "./Sections/My-resume";
+@import "./Sections/My-work";
+@import "./Sections/Testimonial";
+@import "./Sections/Contact-me";
+
+// Import modals stylesheets
+@import "./Modals/Work-modal.scss";                             // Work modal stylesheets
+
+// Importing buttons stylesheets
+@import "./Buttons/Button-custom-blue";
+@import "./Buttons/Button-custom-dark";
+
+// Importing animations stylesheets
+@import "./Animations/Animation-rain";                          // Rain animation stylesheets
+@import "./Animations/Animation-scale-up-and-rotate";           // Scale up and rotate animation stylesheets
+@import "./Animations/Animation-scale-up";                      // Scale up animation stylesheets
+@import "./Animations/Animation-slide-in";                      // Slide in animation stylesheets
+
+// Import responsive stylesheets
+@import "./Responsive-mode/Responsive-mode";                                    // Responsive Styles
+

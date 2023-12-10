@@ -1,0 +1,348 @@
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1199px) {
+    #about_me {
+        .languages .key-skills {
+            .item {
+                padding-right: 12px;
+            }
+        }
+
+        .hero {
+            .info {
+                padding-left: 48px;
+            }
+
+            .container {
+                padding-bottom: -40px;
+                margin-bottom: -40px;
+            }
+
+            .buttons {
+                a:first-child {
+                    margin-top: 16px;
+                }
+
+                a:last-child {
+                    margin-top: 16px;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+
+    #my_resume {
+        .header-with-background {
+            margin-left: 92px;
+        }
+    }
+
+    #contact_me {
+        .container {
+            .form {
+                padding-right: 12px;
+            }
+
+            .info {
+                padding-left: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    #home {
+        .image {
+            justify-content: flex-start;
+            height: unset;
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .info {
+            .socials {
+                margin-top: 100px
+            }
+        }
+    }
+
+    #about_me {
+        .hero {
+            .image {
+                img {
+                    margin-left: -10px;
+                }
+            }
+
+            .info {
+                padding-left: 0px;
+            }
+        }
+
+        .container {
+            .row {
+                margin-bottom: 0px;
+
+                .skills {
+                    .key-skills {
+                        padding-right: 0px;
+                        margin-top: 40px;
+                        margin-bottom: 0px;
+                    }
+                }
+
+                .languages-outer {
+                    .languages {
+                        padding-left: 0px;
+                        margin-top: 0px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+
+            .row {
+                margin-top: 0px;
+            }
+        }
+    }
+
+    #my_resume {
+        .experience {
+            padding-left: 12px;
+        }
+    }
+
+    .modal#workModal .modal-dialog .modal-content .modal-body {
+        /* Adjust padding for the .right section */
+        .right {
+            padding-left: 0px;
+        }
+
+        /* Adjust position for the close button in the modal */
+        .modal-close-button {
+            right: 10px;
+            top: 10px;
+        }
+    }
+
+    #contact_me {
+        .container {
+            .info {
+                margin-top: 80px;
+                margin-bottom: 100px;
+
+                .item {
+                    flex-direction: column;
+                    text-align: center;
+                    margin-bottom: 32px;
+
+                    i {
+                        margin-right: 0;
+                        margin-bottom: 8px;
+                    }
+
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    /* Styles for the Sidebar section */
+    #sidebar {
+        background: $backgroundColor;
+        padding-right: 60px;
+        transform: translateX(-100%);
+        transition: all 0.3s;
+
+        &.open {
+            transform: translateX(0);
+        }
+
+        .toggle-sidebar {
+            display: flex;
+        }
+
+        .logo {
+            text-align: left;
+        }
+
+        nav ul li {
+            a {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+
+                &.active {
+                    &:before {
+                        opacity: 0;
+                    }
+                }
+
+                span {
+                    display: block;
+                    padding-left: 8px;
+                }
+            }
+
+            > span {
+                display: none;
+            }
+        }
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    main {
+        padding-left: 0;
+
+        section.active header.header-with-background img {
+            left: -55px;
+            top: 2px;
+        }
+    }
+
+    #home {
+        .info {
+            padding-top: 80px;
+
+            .socials {
+                margin-top: 70px;
+
+                ul {
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+
+    #about_me {
+        .hero .info .buttons {
+            flex-direction: column;
+
+            a {
+                width: 100%;
+                text-align: center;
+
+                &:first-child {
+                    margin-bottom: 16px;
+                }
+            }
+        }
+
+        .key-skills, .languages {
+            .items {
+                .item {
+                    h3 {
+                        padding-right: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    #my_resume {
+        .header-with-background {
+            margin-left: 0px;
+        }
+
+        .education, .experience {
+            .header-with-background {
+                margin-left: 0px;
+            }
+        }
+    }
+
+    #my_resume {
+        .items {
+            .item {
+                position: relative;
+
+                .icon {
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: -23px;
+                    z-index: 2;
+                    margin-top: 0;
+                    background: rgba($secondaryColor, 0.75);
+
+                    &:before {
+                        display: none;
+                    }
+                }
+
+                .box:before {
+                    display: none;
+                }
+            }
+        }
+
+        .education,
+        .experience {
+            padding-right: 12px;
+            padding-left: 12px;
+        }
+    }
+
+    .modal#workModal {
+        .modal-dialog .modal-content .modal-body {
+            img {
+                height: unset;
+            }
+
+            .left {
+                padding-right: 0;
+            }
+
+            .right {
+                padding-left: 0;
+                padding-top: 32px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    #home {
+        .info .socials ul li {
+            margin-right: 8px;
+            margin-top: 8px;
+        }
+    }
+
+    #testimonial {
+        .main-section .comments .item.active {
+            .box {
+                margin-top: 20px;
+                margin-bottom: 24px;
+                padding: 16px;
+
+                p {
+                    font-size: 16px;
+
+                    span {
+                        font-size: 60px;
+                    }
+                }
+            }
+
+            .writer {
+                font-size: 14px;
+            }
+        }
+    }
+}

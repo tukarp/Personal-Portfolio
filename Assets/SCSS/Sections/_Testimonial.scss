@@ -1,0 +1,126 @@
+#testimonial {
+    .main-section {
+        .images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            margin-bottom: 6px;
+
+            img {
+                width: 68px;
+                height: 68px;
+                margin-right: 16px;
+                margin-left: 16px;
+                opacity: 0.5;
+                border-radius: 50%;
+                cursor: pointer;
+                margin-bottom: 16px;
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+                transition: all 0.3s;
+
+                &:hover {
+                    opacity: 1;
+                    transform: scale(1.15);
+                    filter: saturate(150%) sepia(0.5);
+                }
+
+                &.active {
+                    width: 90px;
+                    height: 90px;
+                    opacity: 1;
+                }
+            }
+        }
+
+        .comments { 
+            text-align: center;
+
+            .item {
+                display: none;
+
+                &.active {
+                    display: inline-block;
+
+                    .box {
+                        margin-top: 20px;
+                        position: relative;
+                        background: lighten($secondaryColor, 4%);
+                        padding: 32px;
+                        border-radius: 8px;
+                        transition: all 0.3s;
+
+                        &:before {
+                            content: "";
+                            position: absolute;
+                            border-bottom: 9px solid lighten($secondaryColor, 4%);
+                            border-left: 9px solid transparent;
+                            border-right: 9px solid transparent;
+                            top: -9px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                        }
+
+                        p {
+                            font-family: 'Playfair Display', serif;
+                            font-size: 24px;
+                            font-weight: 700;
+                            line-height: 42px;
+                            max-width: 710px;
+                            animation: scaleUp 1.25s;
+
+                            span {
+                                font-size: 86px;
+                                color: $primaryColor;
+                                line-height: 0;
+                                vertical-align: -33px;
+                            }
+                        }
+
+                        &:hover {
+                            transform: scale(1.05);
+                            background: rgba(darken($primaryColor, 40%), 0.4);
+
+                            &:before {
+                                border-bottom: 9px solid rgba(darken($primaryColor, 40%), 0.4);
+                            }
+                        }
+                    }
+
+                    .writer {
+                        position: relative;
+                        margin-top: 16px;
+                        margin-bottom: 16px;
+                        padding-top: 2%;
+                        padding-bottom: 2%;
+                        flex-shrink: 0;
+                        border-radius: 8px;
+                        transition: all 0.3s;
+
+                        &:hover {
+                            transform: scale(1.05);
+                            background: rgba(darken($primaryColor, 40%), 0.4);
+                        }
+
+                        span.field {
+                            color: $secondaryGrayColor;
+
+                            span.quotes {
+                                font-family: 'Playfair Display', serif;
+                                color: $primaryColor;
+                                font-size: 32px;
+                                line-height: 0;
+                                vertical-align: -6px;
+                            }
+
+                            span.company-name {
+                                color: $whiteColor;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

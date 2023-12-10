@@ -1,0 +1,83 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#                Explictly Disallowed Files               
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Ignore all files that start with a '.' or end with a '~'
+.*
+~*
+
+# Ignore log files
+*.log
+
+# Ignore build directories
+/build
+/dist
+
+# Ignore compiled files
+*.o
+*.so
+*.com
+*.dll
+*.exe
+*.class
+
+# Ignore editor files
+*.sublime-workspace
+*.sublime-project
+*.komodoproject
+
+# Ignore editor directories
+.vscode/
+.idea/
+
+# Ignore modules
+node_modules/
+
+# Ignore database files
+*.sql
+*.sqlite
+
+# Ignore sensitive files
+*.der
+*.key
+*.pem
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# Ignore components loaded via Bower
+/bower_components
+
+# Ignore composer vendor directory
+/vendor
+
+# Ignore jekyll build directory
+/_site
+
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#                  Explictly Allowed Files                
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Trakch these files, if they exist
+# Git files
+!.gitignore
+!.gitmodules
+!.gitattributes
+!.git-blame-ignore-revs
+
+# Other files
+!.nvmrc
+!.env.example
+!.editorconfig
+!.phpcs.xml.dist

@@ -1,0 +1,13 @@
+@keyframes animationScaleUp {
+    0% {
+        transform: scale(0) rotate(20deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.animation-scale-up {
+    animation: slideIn 1s ease-in-out forwards;
+}
