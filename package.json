@@ -8,5 +8,8 @@
     },
     "devDependencies": {
         "node-sass": "^9.0.0"
+    },
+    "scripts": {
+        "compile:sass": "node-sass Assets/SCSS -o Assets/CSS"
     }
 }
