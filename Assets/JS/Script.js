@@ -16,17 +16,6 @@ document.querySelector("#sidebar .toggle-sidebar").addEventListener("click", fun
     document.querySelector('#sidebar').classList.toggle("open"); // Toggling the open class on the sidebar
 });
 
-
-
-// Rain shower animation
-// for (let i = 0; i < 15; i++) { // Looping 15 times
-//     let raindrop = document.createElement("span"); // Creating a new span element
-//     raindrop.classList = "raindrop"; // Adding rain class to the span element
-//     document.querySelector("#home .animation-rain").appendChild(raindrop); // Appending the span element to the rain container
-// }
-
-
-
 // Get all the testimonial images in the testimonial section
 let testimonialImages = document.querySelectorAll('#testimonial .images img');
 
