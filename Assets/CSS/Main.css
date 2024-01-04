@@ -1352,10 +1352,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 61vh;
-  left: 79vw;
-  animation: raindrop 3716ms linear infinite;
-  animation-delay: 3936ms;
+  top: 62vh;
+  left: 58vw;
+  animation: raindrop 3592ms linear infinite;
+  animation-delay: 1622ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(2) {
@@ -1363,10 +1363,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 43vh;
-  left: 18vw;
-  animation: raindrop 3985ms linear infinite;
-  animation-delay: 3920ms;
+  top: 27vh;
+  left: 12vw;
+  animation: raindrop 3407ms linear infinite;
+  animation-delay: 2015ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(3) {
@@ -1374,10 +1374,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 41vh;
-  left: 80vw;
-  animation: raindrop 3002ms linear infinite;
-  animation-delay: 756ms;
+  top: 73vh;
+  left: 59vw;
+  animation: raindrop 3931ms linear infinite;
+  animation-delay: 3171ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(4) {
@@ -1385,10 +1385,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 76vh;
-  left: 63vw;
-  animation: raindrop 3597ms linear infinite;
-  animation-delay: 455ms;
+  top: 70vh;
+  left: 2vw;
+  animation: raindrop 3131ms linear infinite;
+  animation-delay: 3096ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(5) {
@@ -1396,10 +1396,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 61vh;
-  left: 13vw;
-  animation: raindrop 3761ms linear infinite;
-  animation-delay: 4068ms;
+  top: 66vh;
+  left: 75vw;
+  animation: raindrop 3996ms linear infinite;
+  animation-delay: 942ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(6) {
@@ -1407,10 +1407,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 36vh;
-  left: 65vw;
-  animation: raindrop 3261ms linear infinite;
-  animation-delay: 526ms;
+  top: 68vh;
+  left: 67vw;
+  animation: raindrop 3354ms linear infinite;
+  animation-delay: 4527ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(7) {
@@ -1418,10 +1418,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 16vh;
-  left: 7vw;
-  animation: raindrop 3729ms linear infinite;
-  animation-delay: 2596ms;
+  top: 18vh;
+  left: 32vw;
+  animation: raindrop 3237ms linear infinite;
+  animation-delay: 4723ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(8) {
@@ -1429,10 +1429,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 69vh;
-  left: 75vw;
-  animation: raindrop 3503ms linear infinite;
-  animation-delay: 391ms;
+  top: 5vh;
+  left: 47vw;
+  animation: raindrop 3216ms linear infinite;
+  animation-delay: 3031ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(9) {
@@ -1440,10 +1440,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 13vh;
-  left: 4vw;
-  animation: raindrop 3473ms linear infinite;
-  animation-delay: 1454ms;
+  top: 7vh;
+  left: 60vw;
+  animation: raindrop 3418ms linear infinite;
+  animation-delay: 3321ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(10) {
@@ -1451,10 +1451,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 10vh;
-  left: 68vw;
-  animation: raindrop 3164ms linear infinite;
-  animation-delay: 1111ms;
+  top: 43vh;
+  left: 60vw;
+  animation: raindrop 3099ms linear infinite;
+  animation-delay: 1215ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(11) {
@@ -1462,10 +1462,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 22vh;
-  left: 17vw;
-  animation: raindrop 3476ms linear infinite;
-  animation-delay: 3654ms;
+  top: 15vh;
+  left: 48vw;
+  animation: raindrop 3115ms linear infinite;
+  animation-delay: 3793ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(12) {
@@ -1473,10 +1473,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 80vh;
-  left: 16vw;
-  animation: raindrop 3401ms linear infinite;
-  animation-delay: 117ms;
+  top: 17vh;
+  left: 11vw;
+  animation: raindrop 3717ms linear infinite;
+  animation-delay: 4191ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(13) {
@@ -1484,10 +1484,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 63vh;
-  left: 51vw;
-  animation: raindrop 3572ms linear infinite;
-  animation-delay: 1554ms;
+  top: 35vh;
+  left: 70vw;
+  animation: raindrop 3118ms linear infinite;
+  animation-delay: 1834ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(14) {
@@ -1495,10 +1495,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 1vh;
-  left: 28vw;
-  animation: raindrop 3644ms linear infinite;
-  animation-delay: 2245ms;
+  top: 13vh;
+  left: 47vw;
+  animation: raindrop 3322ms linear infinite;
+  animation-delay: 4159ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 .animation-rain .raindrop:nth-child(15) {
@@ -1506,10 +1506,10 @@ main > section.active header.custom h2 {
   width: 60px;
   height: 50px;
   opacity: 0;
-  top: 67vh;
-  left: 8vw;
-  animation: raindrop 3589ms linear infinite;
-  animation-delay: 4476ms;
+  top: 63vh;
+  left: 50vw;
+  animation: raindrop 3739ms linear infinite;
+  animation-delay: 3075ms;
   background-image: url("../Graphics/Images/Raindrop.png");
 }
 
